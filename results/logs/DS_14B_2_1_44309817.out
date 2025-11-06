@@ -1,0 +1,6503 @@
+VLLM_CACHE_ROOT is set to /pscratch/sd/z/zax/vllm_cache
+HF_HOME is set to /pscratch/sd/z/zax/huggingface_cache
+Starting temperature 0.8 on GPU 0
+Starting temperature 1.0 on GPU 1
+INFO 10-22 22:07:53 [__init__.py:244] Automatically detected platform cuda.
+INFO 10-22 22:07:53 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+Loading VLLM model...
+Initializing VLLM Model...
+Config set
+Chat template set
+Creating tokenizer...
+Tokenizer created
+Creating model...
+Instantiating LLM...
+Loading model...
+Loading VLLM model...
+Initializing VLLM Model...
+Config set
+Chat template set
+Creating tokenizer...
+Tokenizer created
+Creating model...
+Instantiating LLM...
+INFO 10-22 22:08:17 [__init__.py:244] Automatically detected platform cuda.
+INFO 10-22 22:08:17 [__init__.py:244] Automatically detected platform cuda.
+LLM instantiated.
+Model created
+VLLM model loaded.
+Model loaded successfully.
+[1.0] [0.7, 0.8, 0.9, 0.95, 1.0]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 1.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+LLM instantiated.
+Model created
+VLLM model loaded.
+Model loaded successfully.
+[0.8] [0.7, 0.8, 0.9, 0.95, 1.0]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.8, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.8333|±  |0.0692|
+|custom:aime24:0|      1|extractive_match|0.8333|±  |0.0692|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7667|±  |0.0785|
+|custom:aime24:0|      1|extractive_match|0.7667|±  |0.0785|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 1.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime24:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 0.8, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.3333|±  |0.0875|
+|custom:aime25:0|      1|extractive_match|0.3333|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+Running evaluation for task: custom|amc23|0|0, temperature: 1.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.875|±  | 0.053|
+|custom:amc23:0|      1|extractive_match|0.875|±  | 0.053|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+Running evaluation for task: custom|amc23|0|0, temperature: 0.8, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+Running evaluation for task: custom|math_500|0|0, temperature: 1.0, top_p: 0.7, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.946|±  |0.0101|
+|custom:math_500:0|      1|extractive_match|0.946|±  |0.0101|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.942|±  |0.0105|
+|custom:math_500:0|      1|extractive_match|0.942|±  |0.0105|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.952|±  |0.0096|
+|custom:math_500:0|      1|extractive_match|0.952|±  |0.0096|
+
+Finished run for all seeds
+Running evaluation for task: custom|minerva|0|0, temperature: 1.0, top_p: 0.7, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4669|±  |0.0303|
+|custom:minerva:0|      1|extractive_match|0.4669|±  |0.0303|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+Running evaluation for task: custom|math_500|0|0, temperature: 0.8, top_p: 0.7, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4375|±  |0.0301|
+|custom:minerva:0|      1|extractive_match|0.4375|±  |0.0301|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.942|±  |0.0105|
+|custom:math_500:0|      1|extractive_match|0.942|±  |0.0105|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4191|±  |  0.03|
+|custom:minerva:0|      1|extractive_match|0.4191|±  |  0.03|
+
+Finished run for all seeds
+Running evaluation for task: custom|olympiadbench|0|0, temperature: 1.0, top_p: 0.7, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match| 0.95|±  |0.0098|
+|custom:math_500:0|      1|extractive_match| 0.95|±  |0.0098|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.942|±  |0.0105|
+|custom:math_500:0|      1|extractive_match|0.942|±  |0.0105|
+
+Finished run for all seeds
+Running evaluation for task: custom|minerva|0|0, temperature: 0.8, top_p: 0.7, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4522|±  |0.0302|
+|custom:minerva:0|      1|extractive_match|0.4522|±  |0.0302|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4632|±  |0.0303|
+|custom:minerva:0|      1|extractive_match|0.4632|±  |0.0303|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4485|±  |0.0302|
+|custom:minerva:0|      1|extractive_match|0.4485|±  |0.0302|
+
+Finished run for all seeds
+Running evaluation for task: custom|olympiadbench|0|0, temperature: 0.8, top_p: 0.7, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7319|±  |0.0171|
+|custom:olympiadbench:0|      1|extractive_match|0.7319|±  |0.0171|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7156|±  |0.0174|
+|custom:olympiadbench:0|      1|extractive_match|0.7156|±  |0.0174|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value|   |Stderr|
+|----------------------|------:|----------------|----:|---|-----:|
+|all                   |       |extractive_match| 0.72|±  |0.0173|
+|custom:olympiadbench:0|      1|extractive_match| 0.72|±  |0.0173|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7363|±  | 0.017|
+|custom:olympiadbench:0|      1|extractive_match|0.7363|±  | 0.017|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime24|0|0, temperature: 1.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7067|±  |0.0175|
+|custom:olympiadbench:0|      1|extractive_match|0.7067|±  |0.0175|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 1.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value|   |Stderr|
+|----------------------|------:|----------------|----:|---|-----:|
+|all                   |       |extractive_match|0.717|±  |0.0174|
+|custom:olympiadbench:0|      1|extractive_match|0.717|±  |0.0174|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime24|0|0, temperature: 0.8, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime24:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime24:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime24:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+Running evaluation for task: custom|amc23|0|0, temperature: 1.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 0.8, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime25:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|    1|±  |     0|
+|custom:amc23:0|      1|extractive_match|    1|±  |     0|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+Running evaluation for task: custom|math_500|0|0, temperature: 1.0, top_p: 0.8, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.956|±  |0.0092|
+|custom:math_500:0|      1|extractive_match|0.956|±  |0.0092|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.956|±  |0.0092|
+|custom:math_500:0|      1|extractive_match|0.956|±  |0.0092|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.4|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.4|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.946|±  |0.0101|
+|custom:math_500:0|      1|extractive_match|0.946|±  |0.0101|
+
+Finished run for all seeds
+Running evaluation for task: custom|minerva|0|0, temperature: 1.0, top_p: 0.8, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.3|±  |0.0851|
+|custom:aime25:0|      1|extractive_match|  0.3|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4669|±  |0.0303|
+|custom:minerva:0|      1|extractive_match|0.4669|±  |0.0303|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4596|±  |0.0303|
+|custom:minerva:0|      1|extractive_match|0.4596|±  |0.0303|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+Running evaluation for task: custom|amc23|0|0, temperature: 0.8, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4522|±  |0.0302|
+|custom:minerva:0|      1|extractive_match|0.4522|±  |0.0302|
+
+Finished run for all seeds
+Running evaluation for task: custom|olympiadbench|0|0, temperature: 1.0, top_p: 0.8, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.875|±  | 0.053|
+|custom:amc23:0|      1|extractive_match|0.875|±  | 0.053|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+Running evaluation for task: custom|math_500|0|0, temperature: 0.8, top_p: 0.8, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7259|±  |0.0172|
+|custom:olympiadbench:0|      1|extractive_match|0.7259|±  |0.0172|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.954|±  |0.0094|
+|custom:math_500:0|      1|extractive_match|0.954|±  |0.0094|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.952|±  |0.0096|
+|custom:math_500:0|      1|extractive_match|0.952|±  |0.0096|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.946|±  |0.0101|
+|custom:math_500:0|      1|extractive_match|0.946|±  |0.0101|
+
+Finished run for all seeds
+Running evaluation for task: custom|minerva|0|0, temperature: 0.8, top_p: 0.8, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4449|±  |0.0302|
+|custom:minerva:0|      1|extractive_match|0.4449|±  |0.0302|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4522|±  |0.0302|
+|custom:minerva:0|      1|extractive_match|0.4522|±  |0.0302|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7348|±  | 0.017|
+|custom:olympiadbench:0|      1|extractive_match|0.7348|±  | 0.017|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task      |Version|     Metric     |Value |   |Stderr|
+|----------------|------:|----------------|-----:|---|-----:|
+|all             |       |extractive_match|0.4522|±  |0.0302|
+|custom:minerva:0|      1|extractive_match|0.4522|±  |0.0302|
+
+Finished run for all seeds
+Running evaluation for task: custom|olympiadbench|0|0, temperature: 0.8, top_p: 0.8, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value|   |Stderr|
+|----------------------|------:|----------------|----:|---|-----:|
+|all                   |       |extractive_match| 0.72|±  |0.0173|
+|custom:olympiadbench:0|      1|extractive_match| 0.72|±  |0.0173|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime24|0|0, temperature: 1.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7141|±  |0.0174|
+|custom:olympiadbench:0|      1|extractive_match|0.7141|±  |0.0174|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7156|±  |0.0174|
+|custom:olympiadbench:0|      1|extractive_match|0.7156|±  |0.0174|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7667|±  |0.0785|
+|custom:aime24:0|      1|extractive_match|0.7667|±  |0.0785|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 1.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.7244|±  |0.0172|
+|custom:olympiadbench:0|      1|extractive_match|0.7244|±  |0.0172|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime24|0|0, temperature: 0.8, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime24:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+Running evaluation for task: custom|amc23|0|0, temperature: 1.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime24:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 0.8, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.3667|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.3667|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+Running evaluation for task: custom|math_500|0|0, temperature: 1.0, top_p: 0.9, num_seeds: 3
+
+---> Starting run: seed=0 (1/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4333|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.4333|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match| 0.95|±  |0.0098|
+|custom:math_500:0|      1|extractive_match| 0.95|±  |0.0098|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.4|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.4|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|      Task       |Version|     Metric     |Value|   |Stderr|
+|-----------------|------:|----------------|----:|---|-----:|
+|all              |       |extractive_match|0.948|±  |0.0099|
+|custom:math_500:0|      1|extractive_match|0.948|±  |0.0099|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.5|±  |0.0928|
+|custom:aime25:0|      1|extractive_match|  0.5|±  |0.0928|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Parallelism manager initialized
+Model loaded
+Logging model info
+Model initialized
+Starting task and request initialization
+1
+Expanding task groups if any...
+Processing
+2
+Pipeline initialized

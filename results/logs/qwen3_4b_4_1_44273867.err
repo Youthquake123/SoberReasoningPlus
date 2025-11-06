@@ -1,0 +1,1140 @@
+
+Lmod is automatically replacing "cudatoolkit/12.4" with "cuda/12.9".
+
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/3 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  33% Completed | 1/3 [00:00<00:00,  5.00it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/3 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/3 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:   0% Completed | 0/3 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  67% Completed | 2/3 [00:10<00:05,  5.16s/it]
+Loading safetensors checkpoint shards:  67% Completed | 2/3 [00:10<00:06,  6.22s/it]
+Loading safetensors checkpoint shards:  67% Completed | 2/3 [00:09<00:04,  4.97s/it]
+Loading safetensors checkpoint shards:  67% Completed | 2/3 [00:09<00:04,  4.79s/it]
+Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:18<00:00,  6.39s/it]
+Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:18<00:00,  6.50s/it]
+Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:19<00:00,  7.32s/it]
+Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:18<00:00,  6.61s/it]
+Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:18<00:00,  6.07s/it]
+Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:18<00:00,  6.19s/it]
+
+
+Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:18<00:00,  6.32s/it]
+Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:19<00:00,  6.43s/it]
+
+
+EngineCore failed to start.
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 577, in run_engine_core
+    engine_core = EngineCoreProc(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 404, in __init__
+    super().__init__(vllm_config, executor_class, log_stats,
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 82, in __init__
+    self._initialize_kv_caches(vllm_config)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 142, in _initialize_kv_caches
+    available_gpu_memory = self.model_executor.determine_available_memory()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 76, in determine_available_memory
+    output = self.collective_rpc("determine_available_memory")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 210, in determine_available_memory
+    self.model_runner.profile_run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2274, in profile_run
+    = self._dummy_run(self.max_num_tokens, is_profile=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2057, in _dummy_run
+    outputs = model(
+              ^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py", line 302, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 239, in __call__
+    output = self.compiled_callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.74", line 305, in forward
+    submod_2 = self.submod_2(getitem_3, s0, l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_, getitem_4, l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_3 = l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_4 = l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 112, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/vllm_cache/torch_compile_cache/07f74ec616/rank_0_0/inductor_cache/ah/cahccd7fqbun5wohzgm4ftos5psjas7s6rstn2ymjxnkmzovgpq4.py", line 641, in call
+    triton_red_fused__to_copy_add_mean_mul_pow_rsqrt_2.run(buf5, buf0, arg3_1, arg7_1, buf7, buf18, s0, 2560, stream=stream0)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 909, in run
+    self.autotune_to_one_config(*args, **kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 763, in autotune_to_one_config
+    timings = self.benchmark_all_configs(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 738, in benchmark_all_configs
+    launcher: self.bench(launcher, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 616, in bench
+    return benchmarker.benchmark_gpu(kernel_call, rep=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 39, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 240, in benchmark_gpu
+    torch.cuda.synchronize()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+EngineCore failed to start.
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 577, in run_engine_core
+    engine_core = EngineCoreProc(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 404, in __init__
+    super().__init__(vllm_config, executor_class, log_stats,
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 82, in __init__
+    self._initialize_kv_caches(vllm_config)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 142, in _initialize_kv_caches
+    available_gpu_memory = self.model_executor.determine_available_memory()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 76, in determine_available_memory
+    output = self.collective_rpc("determine_available_memory")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 210, in determine_available_memory
+    self.model_runner.profile_run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2274, in profile_run
+    = self._dummy_run(self.max_num_tokens, is_profile=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2057, in _dummy_run
+    outputs = model(
+              ^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py", line 302, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 239, in __call__
+    output = self.compiled_callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.74", line 305, in forward
+    submod_2 = self.submod_2(getitem_3, s0, l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_, getitem_4, l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_3 = l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_4 = l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 112, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/vllm_cache/torch_compile_cache/07f74ec616/rank_0_0/inductor_cache/ah/cahccd7fqbun5wohzgm4ftos5psjas7s6rstn2ymjxnkmzovgpq4.py", line 641, in call
+    triton_red_fused__to_copy_add_mean_mul_pow_rsqrt_2.run(buf5, buf0, arg3_1, arg7_1, buf7, buf18, s0, 2560, stream=stream0)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 909, in run
+    self.autotune_to_one_config(*args, **kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 763, in autotune_to_one_config
+    timings = self.benchmark_all_configs(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 738, in benchmark_all_configs
+    launcher: self.bench(launcher, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 616, in bench
+    return benchmarker.benchmark_gpu(kernel_call, rep=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 39, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 240, in benchmark_gpu
+    torch.cuda.synchronize()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Process EngineCore_0:
+Process EngineCore_0:
+EngineCore failed to start.
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 577, in run_engine_core
+    engine_core = EngineCoreProc(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 404, in __init__
+    super().__init__(vllm_config, executor_class, log_stats,
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 82, in __init__
+    self._initialize_kv_caches(vllm_config)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 142, in _initialize_kv_caches
+    available_gpu_memory = self.model_executor.determine_available_memory()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 76, in determine_available_memory
+    output = self.collective_rpc("determine_available_memory")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 210, in determine_available_memory
+    self.model_runner.profile_run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2274, in profile_run
+    = self._dummy_run(self.max_num_tokens, is_profile=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2057, in _dummy_run
+    outputs = model(
+              ^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py", line 302, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 239, in __call__
+    output = self.compiled_callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.74", line 305, in forward
+    submod_2 = self.submod_2(getitem_3, s0, l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_, getitem_4, l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_3 = l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_4 = l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 112, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/vllm_cache/torch_compile_cache/07f74ec616/rank_0_0/inductor_cache/ah/cahccd7fqbun5wohzgm4ftos5psjas7s6rstn2ymjxnkmzovgpq4.py", line 641, in call
+    triton_red_fused__to_copy_add_mean_mul_pow_rsqrt_2.run(buf5, buf0, arg3_1, arg7_1, buf7, buf18, s0, 2560, stream=stream0)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 909, in run
+    self.autotune_to_one_config(*args, **kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 763, in autotune_to_one_config
+    timings = self.benchmark_all_configs(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 738, in benchmark_all_configs
+    launcher: self.bench(launcher, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 616, in bench
+    return benchmarker.benchmark_gpu(kernel_call, rep=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 39, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 240, in benchmark_gpu
+    torch.cuda.synchronize()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Process EngineCore_0:
+EngineCore failed to start.
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 577, in run_engine_core
+    engine_core = EngineCoreProc(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 404, in __init__
+    super().__init__(vllm_config, executor_class, log_stats,
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 82, in __init__
+    self._initialize_kv_caches(vllm_config)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 142, in _initialize_kv_caches
+    available_gpu_memory = self.model_executor.determine_available_memory()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 76, in determine_available_memory
+    output = self.collective_rpc("determine_available_memory")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 210, in determine_available_memory
+    self.model_runner.profile_run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2274, in profile_run
+    = self._dummy_run(self.max_num_tokens, is_profile=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2057, in _dummy_run
+    outputs = model(
+              ^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py", line 302, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 239, in __call__
+    output = self.compiled_callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.74", line 305, in forward
+    submod_2 = self.submod_2(getitem_3, s0, l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_, getitem_4, l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_3 = l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_4 = l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 112, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/vllm_cache/torch_compile_cache/07f74ec616/rank_0_0/inductor_cache/ah/cahccd7fqbun5wohzgm4ftos5psjas7s6rstn2ymjxnkmzovgpq4.py", line 641, in call
+    triton_red_fused__to_copy_add_mean_mul_pow_rsqrt_2.run(buf5, buf0, arg3_1, arg7_1, buf7, buf18, s0, 2560, stream=stream0)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 909, in run
+    self.autotune_to_one_config(*args, **kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 763, in autotune_to_one_config
+    timings = self.benchmark_all_configs(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 738, in benchmark_all_configs
+    launcher: self.bench(launcher, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 616, in bench
+    return benchmarker.benchmark_gpu(kernel_call, rep=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 39, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 240, in benchmark_gpu
+    torch.cuda.synchronize()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Process EngineCore_0:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 590, in run_engine_core
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 577, in run_engine_core
+    engine_core = EngineCoreProc(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 404, in __init__
+    super().__init__(vllm_config, executor_class, log_stats,
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 82, in __init__
+    self._initialize_kv_caches(vllm_config)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 142, in _initialize_kv_caches
+    available_gpu_memory = self.model_executor.determine_available_memory()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 76, in determine_available_memory
+    output = self.collective_rpc("determine_available_memory")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 210, in determine_available_memory
+    self.model_runner.profile_run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 590, in run_engine_core
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2274, in profile_run
+    = self._dummy_run(self.max_num_tokens, is_profile=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 577, in run_engine_core
+    engine_core = EngineCoreProc(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 404, in __init__
+    super().__init__(vllm_config, executor_class, log_stats,
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2057, in _dummy_run
+    outputs = model(
+              ^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 82, in __init__
+    self._initialize_kv_caches(vllm_config)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 142, in _initialize_kv_caches
+    available_gpu_memory = self.model_executor.determine_available_memory()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 76, in determine_available_memory
+    output = self.collective_rpc("determine_available_memory")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py", line 302, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 239, in __call__
+    output = self.compiled_callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 210, in determine_available_memory
+    self.model_runner.profile_run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2274, in profile_run
+    = self._dummy_run(self.max_num_tokens, is_profile=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2057, in _dummy_run
+    outputs = model(
+              ^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 590, in run_engine_core
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 577, in run_engine_core
+    engine_core = EngineCoreProc(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 404, in __init__
+    super().__init__(vllm_config, executor_class, log_stats,
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py", line 302, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 82, in __init__
+    self._initialize_kv_caches(vllm_config)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 239, in __call__
+    output = self.compiled_callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 142, in _initialize_kv_caches
+    available_gpu_memory = self.model_executor.determine_available_memory()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 76, in determine_available_memory
+    output = self.collective_rpc("determine_available_memory")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.74", line 305, in forward
+    submod_2 = self.submod_2(getitem_3, s0, l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_, getitem_4, l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_3 = l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_4 = l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 112, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 210, in determine_available_memory
+    self.model_runner.profile_run()
+  File "/pscratch/sd/z/zax/vllm_cache/torch_compile_cache/07f74ec616/rank_0_0/inductor_cache/ah/cahccd7fqbun5wohzgm4ftos5psjas7s6rstn2ymjxnkmzovgpq4.py", line 641, in call
+    triton_red_fused__to_copy_add_mean_mul_pow_rsqrt_2.run(buf5, buf0, arg3_1, arg7_1, buf7, buf18, s0, 2560, stream=stream0)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2274, in profile_run
+    = self._dummy_run(self.max_num_tokens, is_profile=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 909, in run
+    self.autotune_to_one_config(*args, **kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 763, in autotune_to_one_config
+    timings = self.benchmark_all_configs(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2057, in _dummy_run
+    outputs = model(
+              ^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 738, in benchmark_all_configs
+    launcher: self.bench(launcher, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 616, in bench
+    return benchmarker.benchmark_gpu(kernel_call, rep=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 39, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.74", line 305, in forward
+    submod_2 = self.submod_2(getitem_3, s0, l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_, getitem_4, l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_3 = l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_4 = l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py", line 302, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 240, in benchmark_gpu
+    torch.cuda.synchronize()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 112, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 239, in __call__
+    output = self.compiled_callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/pscratch/sd/z/zax/vllm_cache/torch_compile_cache/07f74ec616/rank_0_0/inductor_cache/ah/cahccd7fqbun5wohzgm4ftos5psjas7s6rstn2ymjxnkmzovgpq4.py", line 641, in call
+    triton_red_fused__to_copy_add_mean_mul_pow_rsqrt_2.run(buf5, buf0, arg3_1, arg7_1, buf7, buf18, s0, 2560, stream=stream0)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 909, in run
+    self.autotune_to_one_config(*args, **kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 763, in autotune_to_one_config
+    timings = self.benchmark_all_configs(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 738, in benchmark_all_configs
+    launcher: self.bench(launcher, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 616, in bench
+    return benchmarker.benchmark_gpu(kernel_call, rep=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 39, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 240, in benchmark_gpu
+    torch.cuda.synchronize()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+  File "<eval_with_key>.74", line 305, in forward
+    submod_2 = self.submod_2(getitem_3, s0, l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_, getitem_4, l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_3 = l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_4 = l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 112, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/pscratch/sd/z/zax/vllm_cache/torch_compile_cache/07f74ec616/rank_0_0/inductor_cache/ah/cahccd7fqbun5wohzgm4ftos5psjas7s6rstn2ymjxnkmzovgpq4.py", line 641, in call
+    triton_red_fused__to_copy_add_mean_mul_pow_rsqrt_2.run(buf5, buf0, arg3_1, arg7_1, buf7, buf18, s0, 2560, stream=stream0)
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 909, in run
+    self.autotune_to_one_config(*args, **kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 590, in run_engine_core
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 763, in autotune_to_one_config
+    timings = self.benchmark_all_configs(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 577, in run_engine_core
+    engine_core = EngineCoreProc(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 738, in benchmark_all_configs
+    launcher: self.bench(launcher, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 404, in __init__
+    super().__init__(vllm_config, executor_class, log_stats,
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 616, in bench
+    return benchmarker.benchmark_gpu(kernel_call, rep=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 82, in __init__
+    self._initialize_kv_caches(vllm_config)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 39, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 142, in _initialize_kv_caches
+    available_gpu_memory = self.model_executor.determine_available_memory()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 240, in benchmark_gpu
+    torch.cuda.synchronize()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 76, in determine_available_memory
+    output = self.collective_rpc("determine_available_memory")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 210, in determine_available_memory
+    self.model_runner.profile_run()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2274, in profile_run
+    = self._dummy_run(self.max_num_tokens, is_profile=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 2057, in _dummy_run
+    outputs = model(
+              ^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen3.py", line 302, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 239, in __call__
+    output = self.compiled_callable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 655, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.74", line 305, in forward
+    submod_2 = self.submod_2(getitem_3, s0, l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_, getitem_4, l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_, l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_3 = l_self_modules_layers_modules_0_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_4 = l_self_modules_layers_modules_0_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_0_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_q_norm_parameters_weight_ = l_self_modules_layers_modules_1_modules_self_attn_modules_k_norm_parameters_weight_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 112, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/vllm_cache/torch_compile_cache/07f74ec616/rank_0_0/inductor_cache/ah/cahccd7fqbun5wohzgm4ftos5psjas7s6rstn2ymjxnkmzovgpq4.py", line 641, in call
+    triton_red_fused__to_copy_add_mean_mul_pow_rsqrt_2.run(buf5, buf0, arg3_1, arg7_1, buf7, buf18, s0, 2560, stream=stream0)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 909, in run
+    self.autotune_to_one_config(*args, **kwargs)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 763, in autotune_to_one_config
+    timings = self.benchmark_all_configs(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 738, in benchmark_all_configs
+    launcher: self.bench(launcher, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/triton_heuristics.py", line 616, in bench
+    return benchmarker.benchmark_gpu(kernel_call, rep=40)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 39, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/_inductor/runtime/benchmarking.py", line 240, in benchmark_gpu
+    torch.cuda.synchronize()
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1040, in synchronize
+    return torch._C._cuda_synchronize()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank0]:[W1022 18:17:04.729849667 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+[rank0]:[W1022 18:17:04.740168351 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+[rank0]:[W1022 18:17:04.742655400 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+[rank0]:[W1022 18:17:04.770381764 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/main_diff.py", line 181, in <module>
+    main()
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/main_diff.py", line 92, in main
+    vllmmodel = load_model(config=model_config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/model_loader.py", line 107, in load_model
+    return load_model_with_accelerate_or_default(config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/model_loader.py", line 199, in load_model_with_accelerate_or_default
+    model = VLLMModel(config=config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 120, in __init__
+    self.model = self._create_auto_model(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 191, in _create_auto_model
+    model = LLM(**self.model_args)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 271, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/engine/llm_engine.py", line 501, in from_engine_args
+    return engine_cls.from_vllm_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 124, in from_vllm_config
+    return cls(vllm_config=vllm_config,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 101, in __init__
+    self.engine_core = EngineCoreClient.make_client(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 75, in make_client
+    return SyncMPClient(vllm_config, executor_class, log_stats)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 503, in __init__
+    super().__init__(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 403, in __init__
+    with launch_core_engines(vllm_config, executor_class,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 434, in launch_core_engines
+    wait_for_engine_startup(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 484, in wait_for_engine_startup
+    raise RuntimeError("Engine core initialization failed. "
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/main_diff.py", line 181, in <module>
+    main()
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/main_diff.py", line 92, in main
+    vllmmodel = load_model(config=model_config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/model_loader.py", line 107, in load_model
+    return load_model_with_accelerate_or_default(config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/model_loader.py", line 199, in load_model_with_accelerate_or_default
+    model = VLLMModel(config=config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 120, in __init__
+    self.model = self._create_auto_model(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 191, in _create_auto_model
+    model = LLM(**self.model_args)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 271, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/engine/llm_engine.py", line 501, in from_engine_args
+    return engine_cls.from_vllm_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 124, in from_vllm_config
+    return cls(vllm_config=vllm_config,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 101, in __init__
+    self.engine_core = EngineCoreClient.make_client(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 75, in make_client
+    return SyncMPClient(vllm_config, executor_class, log_stats)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 503, in __init__
+    super().__init__(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 403, in __init__
+    with launch_core_engines(vllm_config, executor_class,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 434, in launch_core_engines
+    wait_for_engine_startup(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 484, in wait_for_engine_startup
+    raise RuntimeError("Engine core initialization failed. "
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/main_diff.py", line 181, in <module>
+    main()
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/main_diff.py", line 92, in main
+    vllmmodel = load_model(config=model_config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/model_loader.py", line 107, in load_model
+    return load_model_with_accelerate_or_default(config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/model_loader.py", line 199, in load_model_with_accelerate_or_default
+    model = VLLMModel(config=config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 120, in __init__
+    self.model = self._create_auto_model(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 191, in _create_auto_model
+    model = LLM(**self.model_args)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 271, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/engine/llm_engine.py", line 501, in from_engine_args
+    return engine_cls.from_vllm_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 124, in from_vllm_config
+    return cls(vllm_config=vllm_config,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 101, in __init__
+    self.engine_core = EngineCoreClient.make_client(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 75, in make_client
+    return SyncMPClient(vllm_config, executor_class, log_stats)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 503, in __init__
+    super().__init__(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 403, in __init__
+    with launch_core_engines(vllm_config, executor_class,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 434, in launch_core_engines
+    wait_for_engine_startup(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 484, in wait_for_engine_startup
+    raise RuntimeError("Engine core initialization failed. "
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}
+Traceback (most recent call last):
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/main_diff.py", line 181, in <module>
+    main()
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/main_diff.py", line 92, in main
+    vllmmodel = load_model(config=model_config)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/model_loader.py", line 107, in load_model
+    return load_model_with_accelerate_or_default(config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/model_loader.py", line 199, in load_model_with_accelerate_or_default
+    model = VLLMModel(config=config)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 120, in __init__
+    self.model = self._create_auto_model(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 191, in _create_auto_model
+    model = LLM(**self.model_args)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 271, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/engine/llm_engine.py", line 501, in from_engine_args
+    return engine_cls.from_vllm_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 124, in from_vllm_config
+    return cls(vllm_config=vllm_config,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 101, in __init__
+    self.engine_core = EngineCoreClient.make_client(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 75, in make_client
+    return SyncMPClient(vllm_config, executor_class, log_stats)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 503, in __init__
+    super().__init__(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 403, in __init__
+    with launch_core_engines(vllm_config, executor_class,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/global/common/software/nersc/pe/conda-envs/25.3.0/python-3.12/nersc-python/lib/python3.12/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 434, in launch_core_engines
+    wait_for_engine_startup(
+  File "/pscratch/sd/z/zax/env/test/lib/python3.12/site-packages/vllm/v1/engine/utils.py", line 484, in wait_for_engine_startup
+    raise RuntimeError("Engine core initialization failed. "
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}
