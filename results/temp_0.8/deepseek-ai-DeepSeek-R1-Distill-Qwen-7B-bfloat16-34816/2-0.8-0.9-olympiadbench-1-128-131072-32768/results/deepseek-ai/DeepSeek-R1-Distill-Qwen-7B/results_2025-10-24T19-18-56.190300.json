@@ -1,0 +1,98 @@
+{
+  "config_general": {
+    "lighteval_sha": "47081a5adf93cc2c23ce8cc09e27c51ae752e43f",
+    "num_fewshot_seeds": 1,
+    "max_samples": null,
+    "job_id": 0,
+    "start_time": 520622.349508089,
+    "end_time": 526414.629219549,
+    "total_evaluation_time_secondes": "5792.279711459996",
+    "model_name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "model_sha": "",
+    "model_dtype": null,
+    "model_size": null,
+    "generation_parameters": {}
+  },
+  "results": {
+    "custom|olympiadbench|0": {
+      "extractive_match": 0.6711111111111111,
+      "extractive_match_stderr": 0.018096386660590942
+    },
+    "all": {
+      "extractive_match": 0.6711111111111111,
+      "extractive_match_stderr": 0.018096386660590942
+    }
+  },
+  "versions": {
+    "custom|olympiadbench|0": 1
+  },
+  "config_tasks": {
+    "custom|olympiadbench": {
+      "name": "olympiadbench",
+      "prompt_function": "olympiadbench_prompt_fn",
+      "hf_repo": "knoveleng/OlympiadBench",
+      "hf_subset": "default",
+      "metric": [
+        {
+          "metric_name": "extractive_match",
+          "higher_is_better": true,
+          "category": "3",
+          "use_case": "1",
+          "sample_level_fn": "sample_level_fn",
+          "corpus_level_fn": "mean"
+        }
+      ],
+      "hf_revision": null,
+      "hf_filter": null,
+      "hf_avail_splits": [
+        "train"
+      ],
+      "trust_dataset": false,
+      "evaluation_splits": [
+        "train"
+      ],
+      "few_shots_split": null,
+      "few_shots_select": null,
+      "generation_size": 32768,
+      "generation_grammar": null,
+      "stop_sequence": [],
+      "num_samples": null,
+      "suite": [
+        "custom"
+      ],
+      "original_num_docs": 675,
+      "effective_num_docs": 675,
+      "must_remove_duplicate_docs": false,
+      "version": 1
+    }
+  },
+  "summary_tasks": {
+    "custom|olympiadbench|0": {
+      "hashes": {
+        "hash_examples": "1aa5127d76df67fd",
+        "hash_full_prompts": "e1052cefd5a41d35",
+        "hash_input_tokens": "339073e58743a54c",
+        "hash_cont_tokens": "2e0707fc15f0e1f8"
+      },
+      "truncated": 0,
+      "non_truncated": 675,
+      "padded": 0,
+      "non_padded": 675,
+      "effective_few_shots": 0.0,
+      "num_truncated_few_shots": 0
+    }
+  },
+  "summary_general": {
+    "hashes": {
+      "hash_examples": "72e847dd9234c5c2",
+      "hash_full_prompts": "eb93021df134f9ed",
+      "hash_input_tokens": "ddccba31d4dba9f8",
+      "hash_cont_tokens": "3198a98005dac73d"
+    },
+    "truncated": 0,
+    "non_truncated": 675,
+    "padded": 0,
+    "non_padded": 675,
+    "num_truncated_few_shots": 0
+  }
+}
