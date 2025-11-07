@@ -88,7 +88,9 @@ def main():
             max_new_tokens=args.max_new_tokens,
         ),
     )
-    model = load_model(config=model_config)
+    print("Loading model...")
+    vllmmodel = load_model(config=model_config)
+    print("Model loaded successfully.")
 
     print(args.temperature, args.top_p)
     print(args.temperature.__class__, args.top_p.__class__)
@@ -127,6 +129,8 @@ def main():
                     
                     fs.makedirs(run_output_dir, exist_ok=True)
 
+                    print(f"Results will be saved")
+
                     evaluation_tracker = EvaluationTracker(
                         output_dir=run_output_dir,  # Now using the run-specific output directory
                         save_details=True,
@@ -135,6 +139,7 @@ def main():
                         public=False,
                         hub_results_org=None,
                     )
+                    print(f"EvaluationTracker initialized with output directory")
 
                     pipeline_params = PipelineParameters(
                         launcher_type=ParallelismManager.VLLM,
@@ -148,13 +153,17 @@ def main():
                         cot_prompt=args.cot_prompt,
                         load_responses_from_details_date_id=None,
                     )
+                    print(f"PipelineParameters set")
+
                     pipeline = Pipeline(
                         tasks=task,
                         pipeline_parameters=pipeline_params,
                         evaluation_tracker=evaluation_tracker,
-                        model=model,
+                        model=vllmmodel,
                         metric_options={},
                     )
+                    print(f"Pipeline initialized")
+
                     # Update generation parameters for the current run
                     model_config.generation_parameters.temperature = temp
                     model_config.generation_parameters.top_p = top_p

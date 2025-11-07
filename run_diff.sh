@@ -1,20 +1,20 @@
 #!/bin/bash
-module load cuda/12.6
-conda init
-source ~/.bashrc
-conda deactivate
-source /projects/bdrx/azhang14/env/change/bin/activate
+module load cuda/12.9
+export HF_HOME="/pscratch/sd/z/zax/huggingface_cache"
+export VLLM_CACHE_ROOT="/pscratch/sd/z/zax/vllm_cache"
+echo "VLLM_CACHE_ROOT is set to $VLLM_CACHE_ROOT"
+echo "HF_HOME is set to $HF_HOME"
+source /pscratch/sd/z/zax/env/test/bin/activate
 
-export OMP_NUM_THREADS=16
+export OMP_NUM_THREADS=8
 export VLLM_WORKER_MULTIPROC_METHOD=spawn
 
-# export VLLM_TORCH_COMPILE=0
-# export VLLM_CUDA_GRAPH=0
-LOCAL_DIR="/projects/bdrx/azhang14/SoberReasoningPlus"
-OUTPUT_DIR="/projects/bdrx/azhang14/SoberReasoningPlus/test"
+export TORCH_CUDA_ARCH_LIST="8.0"
 
-# unset VLLM_ATTENTION_BACKEND
-# export VLLM_ATTENTION_BACKEND=XFORMERS
+LOCAL_DIR="/pscratch/sd/z/zax/SoberReasoningPlus"
+OUTPUT_DIR="/pscratch/sd/z/zax/SoberReasoningPlus/results"
+
+unset VLLM_ATTENTION_BACKEND
 
 # Define prompts directly in the shell script
 export SYSTEM_PROMPT="You are a helpful assistant."
@@ -27,7 +27,7 @@ MODELS=(
     deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
 )
 
-MAX_NUM_SEQUENCES=(8)
+MAX_NUM_SEQUENCES=(128)
 MAX_NUM_BATCHED_TOKENS=(65536)
 DTYPES=("bfloat16")
 MAX_MODEL_LENGTHS=(34816)
@@ -66,7 +66,7 @@ python main_diff.py \
     --dtype $DTYPE \
     --max_num_seqs $MAX_NUM_SEQUENCES \
     --max_num_batched_tokens $MAX_NUM_BATCHED_TOKENS \
-    --tensor_parallel_size 2 \
+    --tensor_parallel_size 1 \
     --pipeline_parallel_size 1 \
     --data_parallel_size 1
 
