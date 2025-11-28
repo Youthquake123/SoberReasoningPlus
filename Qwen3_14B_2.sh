@@ -1,22 +1,18 @@
 #!/bin/bash
-#SBATCH --job-name=qwen3_14b_2_3
-#SBATCH -A m4899
-#SBATCH -C gpu&hbm80g
-#SBATCH -q regular
+#SBATCH --job-name=qwen3_14b_2_4
+#SBATCH --account=bdrx-delta-gpu
+#SBATCH --partition=gpuA100x4
 #SBATCH -t 48:00:00
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=4
 #SBATCH -c 8
 #SBATCH --gpus-per-task=1
-#SBATCH -o /pscratch/sd/z/zax/SoberReasoningPlus/results/logs/qwen3_14b_2_3_%j.out  
-#SBATCH -e /pscratch/sd/z/zax/SoberReasoningPlus/results/logs/qwen3_14b_2_3_%j.err 
+#SBATCH -o /projects/bdrx/azhang14/SoberReasoningPlus/results/logs/qwen3_14b_2_4_%j.out  
+#SBATCH -e /projects/bdrx/azhang14/SoberReasoningPlus/results/logs/qwen3_14b_2_4_%j.err 
 
-module load cuda/12.9
-export HF_HOME="/pscratch/sd/z/zax/huggingface_cache"
-export VLLM_CACHE_ROOT="/pscratch/sd/z/zax/vllm_cache"
-echo "VLLM_CACHE_ROOT is set to $VLLM_CACHE_ROOT"
+export HF_HOME="/projects/bdrx/azhang14/huggingface_cache"
 echo "HF_HOME is set to $HF_HOME"
-source /pscratch/sd/z/zax/env/test/bin/activate
+source /projects/bdrx/azhang14/env/reasoning_benchmark/bin/activate
 
 unset VLLM_ATTENTION_BACKEND
 
@@ -26,8 +22,8 @@ export VLLM_WORKER_MULTIPROC_METHOD=spawn
 
 export TORCH_CUDA_ARCH_LIST="80"
 
-LOCAL_DIR="/pscratch/sd/z/zax/SoberReasoningPlus"
-OUTPUT_DIR="/pscratch/sd/z/zax/SoberReasoningPlus/results"
+LOCAL_DIR="/projects/bdrx/azhang14/SoberReasoningPlus"
+OUTPUT_DIR="/projects/bdrx/azhang14/SoberReasoningPlus/results"
 
 # Define prompts directly in the shell script
 export SYSTEM_PROMPT="You are a helpful assistant."

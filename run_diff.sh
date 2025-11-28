@@ -1,18 +1,16 @@
 #!/bin/bash
-module load cuda/12.9
-export HF_HOME="/pscratch/sd/z/zax/huggingface_cache"
-export VLLM_CACHE_ROOT="/pscratch/sd/z/zax/vllm_cache"
-echo "VLLM_CACHE_ROOT is set to $VLLM_CACHE_ROOT"
+# module load cuda/12.9
+export HF_HOME="/projects/bdrx/azhang14/huggingface_cache"
 echo "HF_HOME is set to $HF_HOME"
-source /pscratch/sd/z/zax/env/test/bin/activate
+source /projects/bdrx/azhang14/env/reasoning_benchmark/bin/activate
 
 export OMP_NUM_THREADS=8
 export VLLM_WORKER_MULTIPROC_METHOD=spawn
 
-export TORCH_CUDA_ARCH_LIST="8.0"
+export TORCH_CUDA_ARCH_LIST="8.6"
 
-LOCAL_DIR="/pscratch/sd/z/zax/SoberReasoningPlus"
-OUTPUT_DIR="/pscratch/sd/z/zax/SoberReasoningPlus/results"
+LOCAL_DIR="/projects/bdrx/azhang14/SoberReasoningPlus"
+OUTPUT_DIR="/projects/bdrx/azhang14/SoberReasoningPlus/results"
 
 unset VLLM_ATTENTION_BACKEND
 
@@ -28,7 +26,7 @@ MODELS=(
 )
 
 MAX_NUM_SEQUENCES=(128)
-MAX_NUM_BATCHED_TOKENS=(65536)
+MAX_NUM_BATCHED_TOKENS=(131072)
 DTYPES=("bfloat16")
 MAX_MODEL_LENGTHS=(34816)
 MAX_TOKENS_LIST=(32768)
