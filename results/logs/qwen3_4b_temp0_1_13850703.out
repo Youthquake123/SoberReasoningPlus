@@ -1,0 +1,1295 @@
+HF_HOME is set to /projects/bdrx/azhang14/huggingface_cache
+Starting temperature 0 on GPU 0
+INFO 11-29 14:59:59 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 11-29 15:02:31 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.0] [0.7, 0.8, 0.9, 0.95, 1.0]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/0-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/1-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/2-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/3-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/4-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/5-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/6-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/7-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/8-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/9-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/10-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/11-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/12-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/13-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/14-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/15-0.0-0.7-aime24-1-128-131072-32768
+Running evaluation for task: custom|aime25|0|0, temperature: 0.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/0-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/1-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/2-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/3-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/4-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/5-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/6-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/7-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/8-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/9-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/10-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/11-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/12-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/13-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/14-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/15-0.0-0.7-aime25-1-128-131072-32768
+Running evaluation for task: custom|amc23|0|0, temperature: 0.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/0-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/1-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/2-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/3-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/4-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/5-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/6-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/7-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/8-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/9-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/10-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/11-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/12-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/13-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/14-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/Qwen-Qwen3-4B-bfloat16-34816/15-0.0-0.7-amc23-1-128-131072-32768
+Running evaluation for task: custom|aime24|0|0, temperature: 0.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime24:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 0.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime25:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+Running evaluation for task: custom|amc23|0|0, temperature: 0.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime24|0|0, temperature: 0.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 0.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+Running evaluation for task: custom|amc23|0|0, temperature: 0.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.975|±  | 0.025|
+|custom:amc23:0|      1|extractive_match|0.975|±  | 0.025|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.925|±  |0.0422|
+|custom:amc23:0|      1|extractive_match|0.925|±  |0.0422|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized

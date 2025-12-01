@@ -1,0 +1,896 @@
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:15<00:15, 15.22s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:34<00:00, 17.88s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:34<00:00, 17.48s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:31,  2.11it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:27,  2.40it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:25,  2.51it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:24,  2.57it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:24,  2.50it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:24,  2.53it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:23,  2.56it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.56it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:22,  2.58it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:03<00:21,  2.59it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:21,  2.60it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:21,  2.61it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:20,  2.61it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:20,  2.61it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:05<00:19,  2.61it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:19,  2.59it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.59it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:18,  2.59it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:18,  2.61it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:07<00:18,  2.59it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:18,  2.49it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.53it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:08<00:17,  2.56it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:16,  2.58it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:09<00:16,  2.61it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:15,  2.61it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:15,  2.58it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:10<00:15,  2.60it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:14,  2.60it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:11<00:14,  2.58it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:13,  2.58it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:13,  2.59it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:12<00:12,  2.63it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:12,  2.64it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:13<00:12,  2.66it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:13<00:11,  2.67it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.68it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:14<00:10,  2.70it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.70it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:09,  2.70it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:13,  1.95it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:11,  2.13it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:16<00:10,  2.29it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:09,  2.37it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:09,  2.34it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:18<00:08,  2.43it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.50it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.54it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.60it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.62it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:20<00:06,  2.65it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.68it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.69it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:04,  2.71it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.73it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:21<00:04,  2.73it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.73it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.74it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:22<00:02,  2.74it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.74it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.75it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.74it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.59it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:24<00:01,  2.63it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.33it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.42it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:26<00:00,  2.40it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:26<00:00,  2.56it/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5569.63it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:28<13:55, 28.81s/it, est. speed input: 7.46 toks/s, output: 50.01 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:46<10:22, 22.22s/it, est. speed input: 7.41 toks/s, output: 81.54 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:47<05:41, 12.66s/it, est. speed input: 11.53 toks/s, output: 129.83 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:58<05:06, 11.78s/it, est. speed input: 11.80 toks/s, output: 157.07 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [01:03<03:52,  9.31s/it, est. speed input: 14.38 toks/s, output: 195.28 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:11<03:32,  8.86s/it, est. speed input: 15.30 toks/s, output: 223.81 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:16<02:59,  7.83s/it, est. speed input: 17.09 toks/s, output: 257.56 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:40<04:45, 12.97s/it, est. speed input: 14.45 toks/s, output: 246.15 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:58<05:01, 14.35s/it, est. speed input: 13.56 toks/s, output: 259.56 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [02:10<04:35, 13.76s/it, est. speed input: 13.54 toks/s, output: 284.41 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [03:33<11:04, 34.99s/it, est. speed input: 9.58 toks/s, output: 223.42 toks/s] [A
+Processed prompts:  40%|████      | 12/30 [04:01<09:50, 32.80s/it, est. speed input: 9.28 toks/s, output: 247.54 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [05:17<13:00, 45.90s/it, est. speed input: 8.55 toks/s, output: 238.38 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [10:45<34:58, 131.18s/it, est. speed input: 4.61 toks/s, output: 167.96 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [12:45<17:16, 79.73s/it, est. speed input: 4.70 toks/s, output: 251.15 toks/s] [A
+Processed prompts:  60%|██████    | 18/30 [13:00<13:10, 65.91s/it, est. speed input: 4.84 toks/s, output: 288.49 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [13:15<09:55, 54.14s/it, est. speed input: 4.95 toks/s, output: 296.99 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [14:47<10:35, 63.51s/it, est. speed input: 4.64 toks/s, output: 303.20 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [14:56<07:23, 49.24s/it, est. speed input: 4.74 toks/s, output: 306.17 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [16:14<07:37, 57.24s/it, est. speed input: 4.54 toks/s, output: 315.11 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [16:18<04:54, 42.12s/it, est. speed input: 4.67 toks/s, output: 318.72 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [19:07<07:50, 78.37s/it, est. speed input: 4.15 toks/s, output: 300.00 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [21:06<07:31, 90.37s/it, est. speed input: 3.87 toks/s, output: 297.51 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [21:31<04:44, 71.03s/it, est. speed input: 3.91 toks/s, output: 317.28 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [22:24<03:17, 65.75s/it, est. speed input: 3.88 toks/s, output: 329.11 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [22:36<01:39, 49.92s/it, est. speed input: 3.96 toks/s, output: 337.86 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [23:38<00:53, 53.32s/it, est. speed input: 3.88 toks/s, output: 334.04 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [25:01<00:00, 62.39s/it, est. speed input: 3.78 toks/s, output: 337.23 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [25:01<00:00, 62.39s/it, est. speed input: 3.78 toks/s, output: 337.23 toks/s][AProcessed prompts: 100%|██████████| 30/30 [25:01<00:00, 50.06s/it, est. speed input: 3.78 toks/s, output: 337.23 toks/s]
+Splits: 100%|██████████| 1/1 [25:01<00:00, 1501.93s/it]Splits: 100%|██████████| 1/1 [25:01<00:00, 1501.93s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  7.50ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  7.48ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 3959.01it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:36<17:24, 36.03s/it, est. speed input: 5.97 toks/s, output: 53.87 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:37<07:18, 15.67s/it, est. speed input: 9.37 toks/s, output: 105.60 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:40<04:22,  9.73s/it, est. speed input: 13.89 toks/s, output: 152.18 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:57<05:32, 12.77s/it, est. speed input: 13.59 toks/s, output: 158.76 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [01:08<04:59, 12.00s/it, est. speed input: 14.11 toks/s, output: 186.17 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:08<03:15,  8.14s/it, est. speed input: 16.06 toks/s, output: 236.55 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:15<02:53,  7.53s/it, est. speed input: 16.43 toks/s, output: 268.66 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:16<02:04,  5.65s/it, est. speed input: 18.96 toks/s, output: 314.86 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:22<01:59,  5.70s/it, est. speed input: 19.85 toks/s, output: 344.42 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [01:30<02:07,  6.36s/it, est. speed input: 20.27 toks/s, output: 365.94 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [01:41<02:28,  7.80s/it, est. speed input: 19.35 toks/s, output: 377.26 toks/s][A
+Processed prompts:  40%|████      | 12/30 [01:50<02:27,  8.20s/it, est. speed input: 19.13 toks/s, output: 397.12 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [01:57<02:12,  7.77s/it, est. speed input: 19.28 toks/s, output: 424.96 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [01:57<01:28,  5.52s/it, est. speed input: 20.74 toks/s, output: 474.58 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [02:08<01:46,  7.07s/it, est. speed input: 20.31 toks/s, output: 485.75 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [02:19<01:58,  8.43s/it, est. speed input: 20.29 toks/s, output: 496.18 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [02:29<01:53,  8.76s/it, est. speed input: 20.12 toks/s, output: 515.15 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [02:37<01:41,  8.46s/it, est. speed input: 19.98 toks/s, output: 540.34 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [03:32<04:07, 22.52s/it, est. speed input: 15.46 toks/s, output: 450.33 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [03:39<02:59, 17.97s/it, est. speed input: 16.21 toks/s, output: 485.82 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [04:01<02:52, 19.15s/it, est. speed input: 15.52 toks/s, output: 492.25 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [04:59<04:06, 30.83s/it, est. speed input: 13.04 toks/s, output: 447.40 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [09:27<11:53, 101.88s/it, est. speed input: 7.29 toks/s, output: 287.12 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [10:00<08:07, 81.22s/it, est. speed input: 7.68 toks/s, output: 321.86 toks/s] [A
+Processed prompts:  83%|████████▎ | 25/30 [10:47<05:54, 70.95s/it, est. speed input: 7.53 toks/s, output: 349.12 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [11:36<04:17, 64.41s/it, est. speed input: 7.25 toks/s, output: 371.52 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [13:38<04:05, 81.69s/it, est. speed input: 6.36 toks/s, output: 356.18 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [14:25<02:22, 71.37s/it, est. speed input: 6.18 toks/s, output: 360.04 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [14:38<00:53, 53.60s/it, est. speed input: 6.27 toks/s, output: 383.01 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [14:47<00:00, 40.45s/it, est. speed input: 6.39 toks/s, output: 415.71 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [14:47<00:00, 40.45s/it, est. speed input: 6.39 toks/s, output: 415.71 toks/s][AProcessed prompts: 100%|██████████| 30/30 [14:47<00:00, 29.59s/it, est. speed input: 6.39 toks/s, output: 415.71 toks/s]
+Splits: 100%|██████████| 1/1 [14:47<00:00, 887.90s/it]Splits: 100%|██████████| 1/1 [14:47<00:00, 887.91s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 77.69ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 1333.30it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:36<17:26, 36.07s/it, est. speed input: 3.63 toks/s, output: 53.81 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:40<08:05, 17.36s/it, est. speed input: 8.83 toks/s, output: 101.61 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:40<04:17,  9.53s/it, est. speed input: 13.86 toks/s, output: 154.54 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:42<02:51,  6.58s/it, est. speed input: 18.24 toks/s, output: 200.49 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:46<02:20,  5.63s/it, est. speed input: 19.47 toks/s, output: 236.72 toks/s][A
+Processed prompts:  20%|██        | 6/30 [00:46<01:31,  3.81s/it, est. speed input: 22.25 toks/s, output: 288.49 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [00:58<02:27,  6.43s/it, est. speed input: 20.84 toks/s, output: 283.32 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [00:59<01:41,  4.61s/it, est. speed input: 22.99 toks/s, output: 332.82 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:31<04:35, 13.14s/it, est. speed input: 17.38 toks/s, output: 268.27 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [02:03<06:19, 18.97s/it, est. speed input: 15.13 toks/s, output: 249.50 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [02:13<05:07, 16.18s/it, est. speed input: 15.38 toks/s, output: 281.82 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:29<04:54, 16.34s/it, est. speed input: 14.96 toks/s, output: 300.93 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [02:45<04:36, 16.28s/it, est. speed input: 14.46 toks/s, output: 322.17 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [02:51<03:29, 13.12s/it, est. speed input: 15.01 toks/s, output: 361.70 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [03:26<04:53, 19.59s/it, est. speed input: 13.30 toks/s, output: 351.34 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [03:51<04:59, 21.36s/it, est. speed input: 12.96 toks/s, output: 362.94 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [03:57<03:35, 16.55s/it, est. speed input: 13.46 toks/s, output: 404.79 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [04:19<03:38, 18.25s/it, est. speed input: 12.86 toks/s, output: 420.18 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [04:51<04:05, 22.32s/it, est. speed input: 13.09 toks/s, output: 424.38 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [05:04<03:16, 19.62s/it, est. speed input: 13.02 toks/s, output: 455.88 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [05:57<04:26, 29.66s/it, est. speed input: 11.74 toks/s, output: 438.07 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [10:49<14:26, 108.29s/it, est. speed input: 6.82 toks/s, output: 291.76 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [11:05<04:12, 50.44s/it, est. speed input: 7.39 toks/s, output: 409.02 toks/s] [A
+Processed prompts:  87%|████████▋ | 26/30 [11:11<02:43, 40.92s/it, est. speed input: 7.55 toks/s, output: 414.42 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [13:16<03:01, 60.61s/it, est. speed input: 6.54 toks/s, output: 390.11 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [15:11<02:27, 73.96s/it, est. speed input: 5.89 toks/s, output: 366.35 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [16:53<01:21, 81.30s/it, est. speed input: 5.47 toks/s, output: 361.83 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [18:16<00:00, 82.00s/it, est. speed input: 5.17 toks/s, output: 364.04 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [18:16<00:00, 82.00s/it, est. speed input: 5.17 toks/s, output: 364.04 toks/s][AProcessed prompts: 100%|██████████| 30/30 [18:16<00:00, 36.57s/it, est. speed input: 5.17 toks/s, output: 364.04 toks/s]
+Splits: 100%|██████████| 1/1 [18:17<00:00, 1097.14s/it]Splits: 100%|██████████| 1/1 [18:17<00:00, 1097.14s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 66.29ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5827.85it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:33<16:02, 33.20s/it, est. speed input: 6.48 toks/s, output: 53.92 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:34<06:51, 14.69s/it, est. speed input: 12.05 toks/s, output: 105.04 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:45<05:44, 12.75s/it, est. speed input: 13.56 toks/s, output: 134.00 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:46<03:32,  8.16s/it, est. speed input: 16.01 toks/s, output: 183.86 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:50<02:50,  6.82s/it, est. speed input: 18.14 toks/s, output: 220.69 toks/s][A
+Processed prompts:  20%|██        | 6/30 [00:54<02:13,  5.57s/it, est. speed input: 21.25 toks/s, output: 260.72 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [00:57<01:52,  4.91s/it, est. speed input: 22.30 toks/s, output: 297.30 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:29<04:58, 13.55s/it, est. speed input: 17.44 toks/s, output: 242.70 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:45<04:59, 14.27s/it, est. speed input: 16.18 toks/s, output: 257.22 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [01:51<03:56, 11.84s/it, est. speed input: 17.23 toks/s, output: 293.31 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [01:56<03:01,  9.53s/it, est. speed input: 18.12 toks/s, output: 333.02 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:04<02:46,  9.23s/it, est. speed input: 18.35 toks/s, output: 360.65 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [02:29<03:57, 13.94s/it, est. speed input: 16.42 toks/s, output: 351.16 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [03:09<05:49, 21.83s/it, est. speed input: 13.78 toks/s, output: 327.27 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [03:41<06:12, 24.82s/it, est. speed input: 13.95 toks/s, output: 330.45 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [03:50<04:42, 20.18s/it, est. speed input: 14.51 toks/s, output: 367.14 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [03:57<03:31, 16.29s/it, est. speed input: 14.69 toks/s, output: 403.12 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [05:39<08:24, 42.00s/it, est. speed input: 10.97 toks/s, output: 331.82 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [07:00<09:46, 53.33s/it, est. speed input: 9.26 toks/s, output: 318.21 toks/s] [A
+Processed prompts:  67%|██████▋   | 20/30 [08:49<11:42, 70.27s/it, est. speed input: 7.70 toks/s, output: 302.09 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [10:52<12:55, 86.14s/it, est. speed input: 6.60 toks/s, output: 295.31 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [10:57<05:32, 47.51s/it, est. speed input: 7.04 toks/s, output: 392.78 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [11:09<03:52, 38.69s/it, est. speed input: 7.12 toks/s, output: 395.53 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [11:16<02:32, 30.49s/it, est. speed input: 7.24 toks/s, output: 400.12 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [11:37<01:51, 27.94s/it, est. speed input: 7.22 toks/s, output: 397.83 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [12:15<01:32, 30.67s/it, est. speed input: 7.08 toks/s, output: 395.09 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [12:48<01:02, 31.39s/it, est. speed input: 6.98 toks/s, output: 395.56 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [14:36<00:53, 53.47s/it, est. speed input: 6.29 toks/s, output: 384.38 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [16:53<00:00, 78.10s/it, est. speed input: 5.59 toks/s, output: 364.53 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [16:53<00:00, 78.10s/it, est. speed input: 5.59 toks/s, output: 364.53 toks/s][AProcessed prompts: 100%|██████████| 30/30 [16:53<00:00, 33.80s/it, est. speed input: 5.59 toks/s, output: 364.53 toks/s]
+Splits: 100%|██████████| 1/1 [16:54<00:00, 1014.03s/it]Splits: 100%|██████████| 1/1 [16:54<00:00, 1014.03s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  1.71ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  1.71ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 1059.11it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:30<14:52, 30.76s/it, est. speed input: 4.42 toks/s, output: 54.35 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:38<08:03, 17.28s/it, est. speed input: 6.87 toks/s, output: 97.05 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:40<04:38, 10.30s/it, est. speed input: 11.82 toks/s, output: 145.87 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:45<03:36,  8.32s/it, est. speed input: 14.95 toks/s, output: 182.41 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:49<02:43,  6.53s/it, est. speed input: 18.50 toks/s, output: 223.20 toks/s][A
+Processed prompts:  20%|██        | 6/30 [00:56<02:43,  6.80s/it, est. speed input: 19.29 toks/s, output: 247.22 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:01<02:21,  6.17s/it, est. speed input: 19.89 toks/s, output: 280.42 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:07<02:13,  6.09s/it, est. speed input: 20.27 toks/s, output: 308.36 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:24<03:18,  9.47s/it, est. speed input: 18.82 toks/s, output: 298.47 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [01:24<02:15,  6.75s/it, est. speed input: 20.77 toks/s, output: 348.09 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [02:10<05:51, 18.52s/it, est. speed input: 15.05 toks/s, output: 278.18 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:11<03:59, 13.29s/it, est. speed input: 16.29 toks/s, output: 326.24 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [02:36<04:45, 16.79s/it, est. speed input: 14.64 toks/s, output: 324.91 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [03:03<05:19, 19.94s/it, est. speed input: 13.37 toks/s, output: 327.07 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [03:28<05:19, 21.31s/it, est. speed input: 13.05 toks/s, output: 338.72 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [04:27<07:40, 32.91s/it, est. speed input: 11.18 toks/s, output: 313.22 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [05:19<08:21, 38.61s/it, est. speed input: 9.95 toks/s, output: 312.81 toks/s] [A
+Processed prompts:  60%|██████    | 18/30 [07:42<13:58, 69.85s/it, est. speed input: 7.39 toks/s, output: 266.96 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [10:42<18:52, 102.94s/it, est. speed input: 6.06 toks/s, output: 243.16 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [10:43<12:05, 72.51s/it, est. speed input: 6.40 toks/s, output: 293.45 toks/s] [A
+Processed prompts:  73%|███████▎  | 22/30 [11:03<05:48, 43.53s/it, est. speed input: 6.69 toks/s, output: 343.17 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [11:12<04:05, 35.04s/it, est. speed input: 6.84 toks/s, output: 349.74 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [11:36<03:12, 32.02s/it, est. speed input: 6.85 toks/s, output: 352.16 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [12:31<03:11, 38.25s/it, est. speed input: 6.54 toks/s, output: 345.64 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [13:27<02:53, 43.34s/it, est. speed input: 6.28 toks/s, output: 362.07 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [15:55<03:39, 73.24s/it, est. speed input: 5.47 toks/s, output: 340.27 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [17:17<02:31, 75.75s/it, est. speed input: 5.18 toks/s, output: 344.99 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [18:55<01:22, 82.14s/it, est. speed input: 4.88 toks/s, output: 344.20 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [18:59<00:00, 59.32s/it, est. speed input: 4.98 toks/s, output: 371.52 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [18:59<00:00, 59.32s/it, est. speed input: 4.98 toks/s, output: 371.52 toks/s][AProcessed prompts: 100%|██████████| 30/30 [18:59<00:00, 37.99s/it, est. speed input: 4.98 toks/s, output: 371.52 toks/s]
+Splits: 100%|██████████| 1/1 [19:00<00:00, 1140.63s/it]Splits: 100%|██████████| 1/1 [19:00<00:00, 1140.63s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 60.77ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5887.02it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:29<14:14, 29.46s/it, est. speed input: 7.30 toks/s, output: 54.38 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:33<06:39, 14.26s/it, est. speed input: 12.73 toks/s, output: 102.54 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:40<05:04, 11.29s/it, est. speed input: 15.06 toks/s, output: 136.61 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:43<03:26,  7.94s/it, est. speed input: 17.04 toks/s, output: 181.26 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:44<02:10,  5.24s/it, est. speed input: 21.97 toks/s, output: 232.86 toks/s][A
+Processed prompts:  20%|██        | 6/30 [00:46<01:42,  4.28s/it, est. speed input: 23.91 toks/s, output: 274.17 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:07<03:40,  9.60s/it, est. speed input: 18.61 toks/s, output: 242.80 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:34<05:33, 15.14s/it, est. speed input: 15.18 toks/s, output: 224.59 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:42<04:35, 13.10s/it, est. speed input: 15.52 toks/s, output: 256.91 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [01:44<03:12,  9.62s/it, est. speed input: 17.37 toks/s, output: 303.54 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [01:52<02:56,  9.27s/it, est. speed input: 18.53 toks/s, output: 331.58 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:18<04:14, 14.11s/it, est. speed input: 16.22 toks/s, output: 321.58 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [02:25<03:26, 12.14s/it, est. speed input: 16.63 toks/s, output: 355.29 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [02:38<03:16, 12.30s/it, est. speed input: 16.42 toks/s, output: 377.16 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [02:51<03:10, 12.67s/it, est. speed input: 15.97 toks/s, output: 397.65 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [03:06<03:06, 13.30s/it, est. speed input: 15.71 toks/s, output: 416.30 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [03:14<02:32, 11.72s/it, est. speed input: 15.92 toks/s, output: 448.84 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [04:00<04:22, 21.91s/it, est. speed input: 13.99 toks/s, output: 413.69 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [04:54<05:48, 31.70s/it, est. speed input: 12.00 toks/s, output: 387.33 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [06:29<08:25, 50.60s/it, est. speed input: 10.30 toks/s, output: 343.41 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [10:46<16:52, 112.51s/it, est. speed input: 6.57 toks/s, output: 257.64 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [11:22<05:36, 56.03s/it, est. speed input: 6.99 toks/s, output: 348.82 toks/s] [A
+Processed prompts:  83%|████████▎ | 25/30 [11:56<04:16, 51.24s/it, est. speed input: 6.85 toks/s, output: 346.11 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [12:29<03:07, 46.98s/it, est. speed input: 6.73 toks/s, output: 344.39 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [12:52<02:03, 41.14s/it, est. speed input: 6.73 toks/s, output: 376.33 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [14:52<02:03, 61.72s/it, est. speed input: 6.00 toks/s, output: 362.60 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [16:34<01:12, 72.86s/it, est. speed input: 5.54 toks/s, output: 358.15 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [17:49<00:00, 73.52s/it, est. speed input: 5.30 toks/s, output: 363.60 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [17:49<00:00, 73.52s/it, est. speed input: 5.30 toks/s, output: 363.60 toks/s][AProcessed prompts: 100%|██████████| 30/30 [17:49<00:00, 35.67s/it, est. speed input: 5.30 toks/s, output: 363.60 toks/s]
+Splits: 100%|██████████| 1/1 [17:50<00:00, 1070.11s/it]Splits: 100%|██████████| 1/1 [17:50<00:00, 1070.11s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 75.69ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 4770.59it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:38<18:25, 38.14s/it, est. speed input: 5.64 toks/s, output: 53.62 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:41<08:07, 17.41s/it, est. speed input: 8.55 toks/s, output: 103.21 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:42<04:29,  9.97s/it, est. speed input: 13.22 toks/s, output: 153.84 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:43<02:54,  6.72s/it, est. speed input: 15.63 toks/s, output: 200.94 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:45<02:02,  4.89s/it, est. speed input: 19.02 toks/s, output: 246.88 toks/s][A
+Processed prompts:  20%|██        | 6/30 [00:47<01:32,  3.85s/it, est. speed input: 23.03 toks/s, output: 290.48 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [00:47<01:04,  2.79s/it, est. speed input: 25.72 toks/s, output: 339.93 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:20<04:32, 12.38s/it, est. speed input: 17.01 toks/s, output: 253.32 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:28<03:50, 10.96s/it, est. speed input: 18.65 toks/s, output: 282.41 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [02:10<06:49, 20.49s/it, est. speed input: 14.04 toks/s, output: 242.52 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [02:22<05:38, 17.82s/it, est. speed input: 14.17 toks/s, output: 273.02 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:34<04:48, 16.05s/it, est. speed input: 14.49 toks/s, output: 302.16 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [03:25<07:31, 26.58s/it, est. speed input: 11.68 toks/s, output: 277.63 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [05:27<14:47, 55.45s/it, est. speed input: 7.85 toks/s, output: 224.41 toks/s] [A
+Processed prompts:  50%|█████     | 15/30 [07:19<18:10, 72.68s/it, est. speed input: 6.37 toks/s, output: 217.52 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [10:45<26:18, 112.77s/it, est. speed input: 5.08 toks/s, output: 198.93 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [10:50<12:20, 61.67s/it, est. speed input: 5.79 toks/s, output: 298.33 toks/s] [A
+Processed prompts:  63%|██████▎   | 19/30 [10:54<08:40, 47.30s/it, est. speed input: 6.00 toks/s, output: 321.77 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [11:02<06:11, 37.15s/it, est. speed input: 6.22 toks/s, output: 356.51 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [11:14<04:32, 30.26s/it, est. speed input: 6.33 toks/s, output: 362.73 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [11:51<04:16, 32.09s/it, est. speed input: 6.20 toks/s, output: 360.39 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [12:43<04:25, 37.98s/it, est. speed input: 5.99 toks/s, output: 350.57 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [13:23<03:51, 38.50s/it, est. speed input: 5.86 toks/s, output: 349.24 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [13:41<02:42, 32.47s/it, est. speed input: 5.93 toks/s, output: 358.77 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [13:42<01:32, 23.21s/it, est. speed input: 6.12 toks/s, output: 380.73 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [13:51<00:56, 18.82s/it, est. speed input: 6.26 toks/s, output: 395.36 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [15:05<01:10, 35.42s/it, est. speed input: 5.95 toks/s, output: 392.32 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [17:10<01:01, 61.88s/it, est. speed input: 5.38 toks/s, output: 376.84 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [19:11<00:00, 79.61s/it, est. speed input: 4.93 toks/s, output: 365.63 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [19:11<00:00, 79.61s/it, est. speed input: 4.93 toks/s, output: 365.63 toks/s][AProcessed prompts: 100%|██████████| 30/30 [19:11<00:00, 38.37s/it, est. speed input: 4.93 toks/s, output: 365.63 toks/s]
+Splits: 100%|██████████| 1/1 [19:11<00:00, 1151.37s/it]Splits: 100%|██████████| 1/1 [19:11<00:00, 1151.37s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 58.18ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 4049.34it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:26<12:50, 26.56s/it, est. speed input: 4.93 toks/s, output: 48.79 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:41<09:05, 19.50s/it, est. speed input: 8.41 toks/s, output: 81.33 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:45<05:44, 12.77s/it, est. speed input: 12.03 toks/s, output: 122.77 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:47<03:35,  8.28s/it, est. speed input: 14.55 toks/s, output: 169.09 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [01:05<04:54, 11.78s/it, est. speed input: 12.79 toks/s, output: 172.49 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:07<03:21,  8.39s/it, est. speed input: 14.58 toks/s, output: 217.88 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:11<02:40,  6.98s/it, est. speed input: 16.28 toks/s, output: 255.42 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:13<02:00,  5.47s/it, est. speed input: 18.84 toks/s, output: 297.57 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:13<01:19,  3.81s/it, est. speed input: 21.23 toks/s, output: 347.01 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [01:16<01:11,  3.58s/it, est. speed input: 22.06 toks/s, output: 383.08 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [01:19<01:06,  3.49s/it, est. speed input: 24.65 toks/s, output: 417.42 toks/s][A
+Processed prompts:  40%|████      | 12/30 [01:27<01:25,  4.74s/it, est. speed input: 25.03 toks/s, output: 431.25 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [01:35<01:34,  5.58s/it, est. speed input: 24.54 toks/s, output: 447.42 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [01:40<01:28,  5.54s/it, est. speed input: 24.88 toks/s, output: 473.42 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [02:40<05:28, 21.89s/it, est. speed input: 16.59 toks/s, output: 347.06 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [02:48<04:08, 17.75s/it, est. speed input: 16.69 toks/s, output: 380.11 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [02:55<03:08, 14.54s/it, est. speed input: 17.06 toks/s, output: 414.53 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [03:41<04:46, 23.86s/it, est. speed input: 14.39 toks/s, output: 378.81 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [03:41<03:06, 16.95s/it, est. speed input: 15.21 toks/s, output: 427.01 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [04:15<03:39, 21.93s/it, est. speed input: 13.83 toks/s, output: 420.48 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [04:16<02:20, 15.61s/it, est. speed input: 14.80 toks/s, output: 468.54 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [04:18<01:32, 11.52s/it, est. speed input: 15.59 toks/s, output: 514.24 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [04:57<02:18, 19.84s/it, est. speed input: 13.99 toks/s, output: 475.38 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [05:07<01:41, 16.96s/it, est. speed input: 14.06 toks/s, output: 509.40 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [05:14<01:09, 13.81s/it, est. speed input: 14.23 toks/s, output: 547.00 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [05:56<01:28, 22.22s/it, est. speed input: 13.00 toks/s, output: 517.98 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [07:16<01:59, 39.70s/it, est. speed input: 10.98 toks/s, output: 467.14 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [10:18<02:44, 82.36s/it, est. speed input: 8.52 toks/s, output: 382.73 toks/s] [A
+Processed prompts: 100%|██████████| 30/30 [10:18<00:00, 82.36s/it, est. speed input: 9.17 toks/s, output: 488.70 toks/s][AProcessed prompts: 100%|██████████| 30/30 [10:18<00:00, 20.61s/it, est. speed input: 9.17 toks/s, output: 488.70 toks/s]
+Splits: 100%|██████████| 1/1 [10:19<00:00, 619.65s/it]Splits: 100%|██████████| 1/1 [10:19<00:00, 619.65s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  1.05ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  1.05ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 4085.76it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:38<18:23, 38.06s/it, est. speed input: 5.65 toks/s, output: 53.41 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:38<07:23, 15.83s/it, est. speed input: 8.98 toks/s, output: 106.44 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:46<05:31, 12.27s/it, est. speed input: 11.86 toks/s, output: 140.85 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:50<03:59,  9.22s/it, est. speed input: 15.22 toks/s, output: 180.88 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [01:02<04:15, 10.21s/it, est. speed input: 15.19 toks/s, output: 198.58 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:11<03:56,  9.84s/it, est. speed input: 16.34 toks/s, output: 225.15 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:12<02:34,  6.73s/it, est. speed input: 20.12 toks/s, output: 275.82 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:25<03:15,  8.87s/it, est. speed input: 18.62 toks/s, output: 283.86 toks/s][A
+Processed prompts:  30%|███       | 9/30 [02:04<06:19, 18.07s/it, est. speed input: 14.75 toks/s, output: 246.56 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [02:20<05:50, 17.52s/it, est. speed input: 14.01 toks/s, output: 268.16 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [03:13<09:02, 28.56s/it, est. speed input: 10.95 toks/s, output: 244.16 toks/s][A
+Processed prompts:  40%|████      | 12/30 [03:39<08:19, 27.73s/it, est. speed input: 10.50 toks/s, output: 265.62 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [03:53<06:38, 23.44s/it, est. speed input: 10.87 toks/s, output: 300.30 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [03:58<04:47, 17.97s/it, est. speed input: 11.44 toks/s, output: 343.64 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [04:10<04:03, 16.24s/it, est. speed input: 11.51 toks/s, output: 376.88 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [04:20<03:18, 14.14s/it, est. speed input: 11.77 toks/s, output: 413.39 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [04:37<03:17, 15.21s/it, est. speed input: 11.54 toks/s, output: 426.05 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [04:48<02:44, 13.72s/it, est. speed input: 11.70 toks/s, output: 446.85 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [05:39<04:34, 24.98s/it, est. speed input: 10.38 toks/s, output: 426.98 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [05:46<03:16, 19.63s/it, est. speed input: 10.68 toks/s, output: 467.91 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [05:59<02:38, 17.58s/it, est. speed input: 10.70 toks/s, output: 486.29 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [06:17<02:21, 17.73s/it, est. speed input: 10.55 toks/s, output: 479.99 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [08:48<06:44, 57.78s/it, est. speed input: 7.89 toks/s, output: 392.67 toks/s] [A
+Processed prompts:  80%|████████  | 24/30 [10:52<07:46, 77.70s/it, est. speed input: 7.11 toks/s, output: 368.18 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [10:54<04:34, 54.96s/it, est. speed input: 7.49 toks/s, output: 417.15 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [11:42<03:31, 52.90s/it, est. speed input: 7.22 toks/s, output: 409.78 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [12:16<02:21, 47.14s/it, est. speed input: 7.07 toks/s, output: 406.13 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [12:56<01:29, 44.93s/it, est. speed input: 6.89 toks/s, output: 427.53 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [14:42<01:03, 63.21s/it, est. speed input: 6.25 toks/s, output: 413.37 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [17:27<00:00, 93.96s/it, est. speed input: 5.41 toks/s, output: 379.27 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [17:27<00:00, 93.96s/it, est. speed input: 5.41 toks/s, output: 379.27 toks/s][AProcessed prompts: 100%|██████████| 30/30 [17:27<00:00, 34.93s/it, est. speed input: 5.41 toks/s, output: 379.27 toks/s]
+Splits: 100%|██████████| 1/1 [17:27<00:00, 1047.92s/it]Splits: 100%|██████████| 1/1 [17:27<00:00, 1047.92s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 58.20ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5751.93it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:36<17:40, 36.57s/it, est. speed input: 5.88 toks/s, output: 53.14 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:44<09:11, 19.71s/it, est. speed input: 7.73 toks/s, output: 96.33 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:48<05:35, 12.43s/it, est. speed input: 10.09 toks/s, output: 141.21 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:52<03:58,  9.17s/it, est. speed input: 13.58 toks/s, output: 182.26 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:59<03:30,  8.40s/it, est. speed input: 14.26 toks/s, output: 212.76 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:09<03:34,  8.93s/it, est. speed input: 14.26 toks/s, output: 233.97 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:09<02:21,  6.16s/it, est. speed input: 16.75 toks/s, output: 284.11 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:23<03:04,  8.40s/it, est. speed input: 16.75 toks/s, output: 290.34 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:28<02:35,  7.38s/it, est. speed input: 17.49 toks/s, output: 324.52 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [01:48<03:47, 11.38s/it, est. speed input: 15.86 toks/s, output: 314.44 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [01:53<02:57,  9.35s/it, est. speed input: 16.81 toks/s, output: 351.83 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:01<02:39,  8.86s/it, est. speed input: 17.10 toks/s, output: 379.67 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [03:22<08:45, 30.93s/it, est. speed input: 11.17 toks/s, output: 276.80 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [05:43<17:06, 64.16s/it, est. speed input: 7.27 toks/s, output: 213.70 toks/s] [A
+Processed prompts:  50%|█████     | 15/30 [06:06<12:55, 51.69s/it, est. speed input: 8.11 toks/s, output: 250.74 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [10:46<28:06, 120.43s/it, est. speed input: 5.03 toks/s, output: 192.80 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [10:48<18:22, 84.81s/it, est. speed input: 5.42 toks/s, output: 242.75 toks/s] [A
+Processed prompts:  63%|██████▎   | 19/30 [13:02<14:02, 76.56s/it, est. speed input: 5.04 toks/s, output: 284.96 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [13:23<10:29, 62.90s/it, est. speed input: 5.09 toks/s, output: 290.00 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [14:00<08:23, 55.95s/it, est. speed input: 5.04 toks/s, output: 294.36 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [15:36<08:56, 67.01s/it, est. speed input: 4.71 toks/s, output: 299.00 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [17:18<08:56, 76.58s/it, est. speed input: 4.40 toks/s, output: 301.41 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [17:26<05:42, 57.15s/it, est. speed input: 4.49 toks/s, output: 303.97 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [17:26<03:23, 40.69s/it, est. speed input: 4.65 toks/s, output: 318.51 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [17:55<02:28, 37.21s/it, est. speed input: 4.70 toks/s, output: 340.44 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [18:47<02:04, 41.47s/it, est. speed input: 4.63 toks/s, output: 337.90 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [19:03<01:07, 33.79s/it, est. speed input: 4.71 toks/s, output: 361.97 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [20:03<00:41, 41.87s/it, est. speed input: 4.60 toks/s, output: 358.10 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [24:25<00:00, 107.51s/it, est. speed input: 3.87 toks/s, output: 316.46 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [24:25<00:00, 107.51s/it, est. speed input: 3.87 toks/s, output: 316.46 toks/s][AProcessed prompts: 100%|██████████| 30/30 [24:25<00:00, 48.86s/it, est. speed input: 3.87 toks/s, output: 316.46 toks/s] 
+Splits: 100%|██████████| 1/1 [24:26<00:00, 1466.12s/it]Splits: 100%|██████████| 1/1 [24:26<00:00, 1466.12s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 64.43ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5868.62it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:33<16:13, 33.58s/it, est. speed input: 6.40 toks/s, output: 54.10 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:38<07:46, 16.66s/it, est. speed input: 9.14 toks/s, output: 101.07 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:41<04:47, 10.64s/it, est. speed input: 13.76 toks/s, output: 146.17 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:46<03:38,  8.39s/it, est. speed input: 16.70 toks/s, output: 183.97 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [01:10<05:45, 13.83s/it, est. speed input: 12.96 toks/s, output: 174.66 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:13<04:09, 10.38s/it, est. speed input: 16.09 toks/s, output: 217.92 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:19<03:19,  8.67s/it, est. speed input: 17.31 toks/s, output: 255.48 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:24<02:50,  7.75s/it, est. speed input: 18.42 toks/s, output: 289.67 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:38<03:21,  9.60s/it, est. speed input: 17.32 toks/s, output: 300.59 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [02:01<04:32, 13.63s/it, est. speed input: 15.55 toks/s, output: 294.98 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [02:16<04:29, 14.18s/it, est. speed input: 15.01 toks/s, output: 312.22 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:22<03:30, 11.69s/it, est. speed input: 15.41 toks/s, output: 349.38 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [02:53<04:57, 17.49s/it, est. speed input: 13.75 toks/s, output: 337.47 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [03:36<06:44, 25.30s/it, est. speed input: 12.21 toks/s, output: 320.09 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [04:03<06:27, 25.84s/it, est. speed input: 11.60 toks/s, output: 334.66 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [04:21<05:26, 23.30s/it, est. speed input: 11.43 toks/s, output: 362.61 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [04:46<05:09, 23.77s/it, est. speed input: 11.05 toks/s, output: 381.30 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [05:13<04:57, 24.76s/it, est. speed input: 10.80 toks/s, output: 398.51 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [06:55<08:48, 48.06s/it, est. speed input: 8.69 toks/s, output: 350.69 toks/s] [A
+Processed prompts:  67%|██████▋   | 20/30 [06:57<05:40, 34.07s/it, est. speed input: 9.22 toks/s, output: 399.65 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [10:49<14:01, 93.50s/it, est. speed input: 6.66 toks/s, output: 307.26 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [10:51<08:49, 66.21s/it, est. speed input: 6.87 toks/s, output: 356.32 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [11:15<06:13, 53.37s/it, est. speed input: 6.86 toks/s, output: 392.49 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [11:27<04:06, 41.08s/it, est. speed input: 6.98 toks/s, output: 400.98 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [12:22<03:46, 45.31s/it, est. speed input: 6.64 toks/s, output: 384.20 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [13:48<03:48, 57.11s/it, est. speed input: 6.13 toks/s, output: 361.48 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [14:28<02:37, 52.35s/it, est. speed input: 6.01 toks/s, output: 382.04 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [14:40<01:20, 40.08s/it, est. speed input: 6.08 toks/s, output: 397.16 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [15:21<00:40, 40.43s/it, est. speed input: 5.98 toks/s, output: 402.55 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [16:38<00:00, 50.99s/it, est. speed input: 5.69 toks/s, output: 404.88 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [16:38<00:00, 50.99s/it, est. speed input: 5.69 toks/s, output: 404.88 toks/s][AProcessed prompts: 100%|██████████| 30/30 [16:38<00:00, 33.28s/it, est. speed input: 5.69 toks/s, output: 404.88 toks/s]
+Splits: 100%|██████████| 1/1 [16:38<00:00, 998.63s/it]Splits: 100%|██████████| 1/1 [16:38<00:00, 998.63s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 52.09ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5844.09it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:34<16:42, 34.58s/it, est. speed input: 6.22 toks/s, output: 53.33 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:35<06:56, 14.88s/it, est. speed input: 11.80 toks/s, output: 104.98 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:49<06:33, 14.58s/it, est. speed input: 12.95 toks/s, output: 127.54 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:56<04:58, 11.47s/it, est. speed input: 13.94 toks/s, output: 164.64 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [01:00<03:35,  8.60s/it, est. speed input: 15.39 toks/s, output: 207.07 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:00<02:23,  5.96s/it, est. speed input: 17.30 toks/s, output: 256.28 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:07<02:24,  6.26s/it, est. speed input: 18.19 toks/s, output: 282.15 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:15<02:30,  6.83s/it, est. speed input: 17.99 toks/s, output: 303.89 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:57<06:12, 17.73s/it, est. speed input: 13.26 toks/s, output: 246.63 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [03:10<11:37, 34.88s/it, est. speed input: 9.54 toks/s, output: 202.15 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [03:30<09:33, 30.21s/it, est. speed input: 9.52 toks/s, output: 233.60 toks/s][A
+Processed prompts:  40%|████      | 12/30 [09:37<39:47, 132.65s/it, est. speed input: 3.87 toks/s, output: 135.76 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [10:41<31:42, 111.91s/it, est. speed input: 4.23 toks/s, output: 173.25 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [10:44<21:05, 79.09s/it, est. speed input: 4.64 toks/s, output: 223.19 toks/s] [A
+Processed prompts:  50%|█████     | 15/30 [11:43<18:15, 73.03s/it, est. speed input: 4.57 toks/s, output: 251.04 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [14:37<24:05, 103.22s/it, est. speed input: 3.92 toks/s, output: 238.79 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [15:47<20:11, 93.18s/it, est. speed input: 3.82 toks/s, output: 255.78 toks/s] [A
+Processed prompts:  60%|██████    | 18/30 [15:57<13:40, 68.42s/it, est. speed input: 3.95 toks/s, output: 261.14 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [16:26<10:20, 56.41s/it, est. speed input: 3.99 toks/s, output: 266.30 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [16:32<06:53, 41.33s/it, est. speed input: 4.12 toks/s, output: 271.45 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [16:39<04:38, 30.92s/it, est. speed input: 4.27 toks/s, output: 302.45 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [17:00<03:44, 28.06s/it, est. speed input: 4.32 toks/s, output: 301.68 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [18:16<04:56, 42.41s/it, est. speed input: 4.16 toks/s, output: 310.69 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [18:20<03:05, 30.89s/it, est. speed input: 4.27 toks/s, output: 316.03 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [18:48<02:29, 29.96s/it, est. speed input: 4.30 toks/s, output: 323.23 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [20:38<03:36, 54.17s/it, est. speed input: 4.07 toks/s, output: 320.81 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [20:47<02:01, 40.44s/it, est. speed input: 4.17 toks/s, output: 333.01 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [21:25<01:19, 39.88s/it, est. speed input: 4.17 toks/s, output: 337.44 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [24:01<01:14, 74.68s/it, est. speed input: 3.82 toks/s, output: 323.69 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [24:33<00:00, 61.75s/it, est. speed input: 3.85 toks/s, output: 338.99 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [24:33<00:00, 61.75s/it, est. speed input: 3.85 toks/s, output: 338.99 toks/s][AProcessed prompts: 100%|██████████| 30/30 [24:33<00:00, 49.11s/it, est. speed input: 3.85 toks/s, output: 338.99 toks/s]
+Splits: 100%|██████████| 1/1 [24:34<00:00, 1474.12s/it]Splits: 100%|██████████| 1/1 [24:34<00:00, 1474.12s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  1.74ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  1.74ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 3996.10it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:33<15:58, 33.04s/it, est. speed input: 4.12 toks/s, output: 54.14 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:34<06:39, 14.27s/it, est. speed input: 10.27 toks/s, output: 106.40 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:37<04:06,  9.15s/it, est. speed input: 12.90 toks/s, output: 151.53 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:47<04:09,  9.59s/it, est. speed input: 14.84 toks/s, output: 172.11 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:54<03:40,  8.83s/it, est. speed input: 16.57 toks/s, output: 201.69 toks/s][A
+Processed prompts:  20%|██        | 6/30 [00:56<02:28,  6.19s/it, est. speed input: 18.81 toks/s, output: 250.81 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [00:58<01:57,  5.12s/it, est. speed input: 21.63 toks/s, output: 291.31 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:09<02:30,  6.86s/it, est. speed input: 20.93 toks/s, output: 299.56 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:22<03:02,  8.71s/it, est. speed input: 19.90 toks/s, output: 305.16 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [01:34<03:18,  9.92s/it, est. speed input: 19.00 toks/s, output: 316.24 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [01:35<02:15,  7.15s/it, est. speed input: 21.74 toks/s, output: 365.03 toks/s][A
+Processed prompts:  40%|████      | 12/30 [01:38<01:41,  5.65s/it, est. speed input: 22.70 toks/s, output: 408.44 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [01:39<01:12,  4.26s/it, est. speed input: 23.81 toks/s, output: 455.66 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [01:48<01:32,  5.79s/it, est. speed input: 23.40 toks/s, output: 468.01 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [02:16<03:09, 12.65s/it, est. speed input: 19.94 toks/s, output: 421.72 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [03:29<07:11, 30.82s/it, est. speed input: 13.76 toks/s, output: 325.96 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [04:30<08:36, 39.74s/it, est. speed input: 11.65 toks/s, output: 303.96 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [04:38<06:03, 30.27s/it, est. speed input: 11.85 toks/s, output: 343.36 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [05:40<07:16, 39.70s/it, est. speed input: 10.39 toks/s, output: 331.89 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [06:39<07:36, 45.66s/it, est. speed input: 9.28 toks/s, output: 333.20 toks/s] [A
+Processed prompts:  70%|███████   | 21/30 [10:44<15:47, 105.29s/it, est. speed input: 6.50 toks/s, output: 257.70 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [10:45<09:53, 74.22s/it, est. speed input: 6.83 toks/s, output: 307.72 toks/s] [A
+Processed prompts:  80%|████████  | 24/30 [10:53<04:10, 41.77s/it, est. speed input: 7.19 toks/s, output: 364.41 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [11:28<03:20, 40.05s/it, est. speed input: 7.07 toks/s, output: 360.64 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [12:07<02:38, 39.68s/it, est. speed input: 6.96 toks/s, output: 383.38 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [15:19<04:03, 81.05s/it, est. speed input: 5.68 toks/s, output: 327.73 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [15:55<02:17, 68.54s/it, est. speed input: 5.61 toks/s, output: 349.55 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [17:35<01:17, 77.67s/it, est. speed input: 5.22 toks/s, output: 347.31 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [17:50<00:00, 59.33s/it, est. speed input: 5.30 toks/s, output: 373.26 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [17:50<00:00, 59.33s/it, est. speed input: 5.30 toks/s, output: 373.26 toks/s][AProcessed prompts: 100%|██████████| 30/30 [17:50<00:00, 35.68s/it, est. speed input: 5.30 toks/s, output: 373.26 toks/s]
+Splits: 100%|██████████| 1/1 [17:50<00:00, 1070.48s/it]Splits: 100%|██████████| 1/1 [17:50<00:00, 1070.48s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 70.88ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5852.25it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:34<16:29, 34.12s/it, est. speed input: 6.30 toks/s, output: 54.04 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:45<09:37, 20.62s/it, est. speed input: 9.71 toks/s, output: 93.90 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:49<05:54, 13.11s/it, est. speed input: 13.06 toks/s, output: 138.85 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:54<04:14,  9.77s/it, est. speed input: 14.45 toks/s, output: 179.57 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:59<03:23,  8.15s/it, est. speed input: 15.34 toks/s, output: 216.08 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:04<02:51,  7.15s/it, est. speed input: 16.88 toks/s, output: 250.84 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:22<04:04, 10.61s/it, est. speed input: 14.97 toks/s, output: 248.44 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:23<02:44,  7.49s/it, est. speed input: 17.16 toks/s, output: 297.55 toks/s][A
+Processed prompts:  30%|███       | 9/30 [02:18<07:54, 22.58s/it, est. speed input: 11.30 toks/s, output: 228.59 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [02:34<06:49, 20.46s/it, est. speed input: 11.17 toks/s, output: 255.75 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [02:48<05:49, 18.40s/it, est. speed input: 11.35 toks/s, output: 285.23 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:58<04:46, 15.93s/it, est. speed input: 12.26 toks/s, output: 319.00 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [03:54<07:58, 28.17s/it, est. speed input: 10.43 toks/s, output: 292.70 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [03:58<05:31, 20.74s/it, est. speed input: 11.06 toks/s, output: 337.55 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [05:35<10:54, 43.67s/it, est. speed input: 8.53 toks/s, output: 290.30 toks/s] [A
+Processed prompts:  53%|█████▎    | 16/30 [05:53<08:24, 36.01s/it, est. speed input: 8.75 toks/s, output: 325.52 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [10:47<24:32, 113.29s/it, est. speed input: 5.52 toks/s, output: 228.68 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [10:48<15:57, 79.78s/it, est. speed input: 5.86 toks/s, output: 278.60 toks/s] [A
+Processed prompts:  67%|██████▋   | 20/30 [10:56<07:28, 44.81s/it, est. speed input: 6.31 toks/s, output: 333.58 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [11:28<06:14, 41.66s/it, est. speed input: 6.23 toks/s, output: 329.37 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [11:38<04:25, 33.24s/it, est. speed input: 6.38 toks/s, output: 340.50 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [11:42<02:58, 25.49s/it, est. speed input: 6.53 toks/s, output: 347.42 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [13:03<04:04, 40.80s/it, est. speed input: 6.09 toks/s, output: 353.69 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [14:11<04:03, 48.62s/it, est. speed input: 5.77 toks/s, output: 344.68 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [14:50<03:03, 45.93s/it, est. speed input: 5.66 toks/s, output: 342.62 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [15:13<01:57, 39.09s/it, est. speed input: 5.69 toks/s, output: 370.05 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [17:00<01:58, 59.20s/it, est. speed input: 5.25 toks/s, output: 353.48 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [17:12<00:45, 45.17s/it, est. speed input: 5.34 toks/s, output: 381.15 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [19:01<00:00, 63.96s/it, est. speed input: 4.97 toks/s, output: 373.68 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [19:01<00:00, 63.96s/it, est. speed input: 4.97 toks/s, output: 373.68 toks/s][AProcessed prompts: 100%|██████████| 30/30 [19:01<00:00, 38.04s/it, est. speed input: 4.97 toks/s, output: 373.68 toks/s]
+Splits: 100%|██████████| 1/1 [19:01<00:00, 1141.25s/it]Splits: 100%|██████████| 1/1 [19:01<00:00, 1141.25s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 41.60ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5696.98it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:33<16:16, 33.67s/it, est. speed input: 4.04 toks/s, output: 52.42 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:35<06:54, 14.79s/it, est. speed input: 9.96 toks/s, output: 102.45 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:40<04:46, 10.60s/it, est. speed input: 11.75 toks/s, output: 140.58 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:43<03:14,  7.48s/it, est. speed input: 15.75 toks/s, output: 184.03 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:55<03:44,  8.97s/it, est. speed input: 15.03 toks/s, output: 197.31 toks/s][A
+Processed prompts:  20%|██        | 6/30 [00:58<02:51,  7.14s/it, est. speed input: 17.94 toks/s, output: 237.15 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:10<03:18,  8.65s/it, est. speed input: 16.80 toks/s, output: 249.27 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:13<02:30,  6.83s/it, est. speed input: 18.58 toks/s, output: 290.89 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:31<03:37, 10.37s/it, est. speed input: 17.95 toks/s, output: 284.33 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [01:35<02:49,  8.48s/it, est. speed input: 19.18 toks/s, output: 322.72 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [01:49<03:11, 10.08s/it, est. speed input: 18.29 toks/s, output: 332.95 toks/s][A
+Processed prompts:  40%|████      | 12/30 [01:52<02:25,  8.06s/it, est. speed input: 19.04 toks/s, output: 373.45 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [01:54<01:41,  6.00s/it, est. speed input: 20.21 toks/s, output: 419.65 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [02:08<02:17,  8.62s/it, est. speed input: 19.62 toks/s, output: 422.16 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [02:11<01:40,  6.68s/it, est. speed input: 20.69 toks/s, output: 465.24 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [02:14<01:18,  5.61s/it, est. speed input: 21.54 toks/s, output: 504.57 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [02:28<01:46,  8.19s/it, est. speed input: 20.61 toks/s, output: 506.44 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [02:34<01:32,  7.68s/it, est. speed input: 20.68 toks/s, output: 535.50 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [02:45<01:33,  8.53s/it, est. speed input: 20.22 toks/s, output: 546.42 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [03:03<01:54, 11.44s/it, est. speed input: 19.24 toks/s, output: 542.62 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [03:13<01:38, 10.90s/it, est. speed input: 19.63 toks/s, output: 566.11 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [04:07<03:10, 23.79s/it, est. speed input: 16.06 toks/s, output: 493.24 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [04:15<02:13, 19.14s/it, est. speed input: 16.13 toks/s, output: 527.62 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [05:45<04:03, 40.53s/it, est. speed input: 13.29 toks/s, output: 440.49 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [10:45<09:50, 118.06s/it, est. speed input: 7.49 toks/s, output: 287.09 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [10:45<05:31, 82.97s/it, est. speed input: 7.83 toks/s, output: 337.34 toks/s] [A
+Processed prompts:  93%|█████████▎| 28/30 [12:44<02:24, 72.01s/it, est. speed input: 7.04 toks/s, output: 370.81 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [14:09<01:15, 75.30s/it, est. speed input: 6.49 toks/s, output: 364.60 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [14:11<00:00, 56.20s/it, est. speed input: 6.66 toks/s, output: 402.10 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [14:11<00:00, 56.20s/it, est. speed input: 6.66 toks/s, output: 402.10 toks/s][AProcessed prompts: 100%|██████████| 30/30 [14:11<00:00, 28.40s/it, est. speed input: 6.66 toks/s, output: 402.10 toks/s]
+Splits: 100%|██████████| 1/1 [14:13<00:00, 853.71s/it]Splits: 100%|██████████| 1/1 [14:13<00:00, 853.71s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 71.84ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 4371.04it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:30<14:30, 30.03s/it, est. speed input: 4.36 toks/s, output: 54.44 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:36<07:29, 16.04s/it, est. speed input: 7.17 toks/s, output: 99.02 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:39<04:39, 10.34s/it, est. speed input: 9.94 toks/s, output: 143.88 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [00:40<02:45,  6.37s/it, est. speed input: 15.23 toks/s, output: 196.60 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [00:43<02:13,  5.32s/it, est. speed input: 18.74 toks/s, output: 234.51 toks/s][A
+Processed prompts:  20%|██        | 6/30 [00:55<03:04,  7.70s/it, est. speed input: 18.64 toks/s, output: 235.94 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:03<02:56,  7.65s/it, est. speed input: 18.67 toks/s, output: 260.66 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:13<03:03,  8.33s/it, est. speed input: 18.64 toks/s, output: 278.30 toks/s][A
+Processed prompts:  30%|███       | 9/30 [01:14<02:11,  6.25s/it, est. speed input: 20.67 toks/s, output: 324.51 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [02:04<06:31, 19.55s/it, est. speed input: 14.24 toks/s, output: 246.72 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [02:09<04:46, 15.08s/it, est. speed input: 14.87 toks/s, output: 288.21 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:19<04:04, 13.56s/it, est. speed input: 15.07 toks/s, output: 318.16 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [02:49<05:18, 18.75s/it, est. speed input: 13.45 toks/s, output: 311.39 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [03:10<05:06, 19.17s/it, est. speed input: 12.90 toks/s, output: 328.89 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [03:29<04:47, 19.16s/it, est. speed input: 13.06 toks/s, output: 349.16 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [04:23<06:54, 29.58s/it, est. speed input: 10.99 toks/s, output: 328.15 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [04:58<06:46, 31.29s/it, est. speed input: 10.56 toks/s, output: 339.65 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [05:58<07:59, 39.97s/it, est. speed input: 9.44 toks/s, output: 332.97 toks/s] [A
+Processed prompts:  63%|██████▎   | 19/30 [06:10<05:46, 31.51s/it, est. speed input: 9.53 toks/s, output: 356.27 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [08:34<10:54, 65.49s/it, est. speed input: 7.19 toks/s, output: 306.82 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [10:45<12:45, 85.04s/it, est. speed input: 6.47 toks/s, output: 295.50 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [10:47<08:01, 60.21s/it, est. speed input: 6.80 toks/s, output: 345.02 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [14:19<08:06, 81.11s/it, est. speed input: 5.54 toks/s, output: 336.58 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [15:23<06:25, 77.11s/it, est. speed input: 5.30 toks/s, output: 331.22 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [15:29<03:53, 58.49s/it, est. speed input: 5.42 toks/s, output: 343.63 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [15:45<02:20, 46.95s/it, est. speed input: 5.49 toks/s, output: 359.56 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [18:16<02:31, 76.00s/it, est. speed input: 4.87 toks/s, output: 340.01 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [18:50<01:04, 64.11s/it, est. speed input: 4.87 toks/s, output: 358.64 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [19:10<00:00, 51.06s/it, est. speed input: 4.93 toks/s, output: 381.19 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [19:10<00:00, 51.06s/it, est. speed input: 4.93 toks/s, output: 381.19 toks/s][AProcessed prompts: 100%|██████████| 30/30 [19:10<00:00, 38.33s/it, est. speed input: 4.93 toks/s, output: 381.19 toks/s]
+Splits: 100%|██████████| 1/1 [19:10<00:00, 1150.20s/it]Splits: 100%|██████████| 1/1 [19:10<00:00, 1150.20s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:01<00:00,  1.89s/ba]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:01<00:00,  1.89s/ba]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime25 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][A
+Adding requests:   3%|▎         | 1/30 [00:00<00:21,  1.35it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 40.30it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [00:33<16:03, 33.24s/it, est. speed input: 3.46 toks/s, output: 53.76 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [00:50<11:14, 24.08s/it, est. speed input: 5.81 toks/s, output: 87.55 toks/s][A
+Processed prompts:  10%|█         | 3/30 [00:51<05:58, 13.29s/it, est. speed input: 9.00 toks/s, output: 139.20 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [01:02<05:20, 12.31s/it, est. speed input: 9.25 toks/s, output: 166.86 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [01:16<05:23, 12.95s/it, est. speed input: 10.06 toks/s, output: 187.29 toks/s][A
+Processed prompts:  20%|██        | 6/30 [01:28<05:04, 12.71s/it, est. speed input: 11.84 toks/s, output: 212.13 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [01:34<04:04, 10.61s/it, est. speed input: 12.69 toks/s, output: 248.52 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [01:48<04:13, 11.52s/it, est. speed input: 12.97 toks/s, output: 267.70 toks/s][A
+Processed prompts:  30%|███       | 9/30 [02:16<05:52, 16.79s/it, est. speed input: 11.53 toks/s, output: 262.05 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [02:19<04:06, 12.34s/it, est. speed input: 12.48 toks/s, output: 307.36 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [02:22<03:02,  9.63s/it, est. speed input: 13.74 toks/s, output: 349.61 toks/s][A
+Processed prompts:  40%|████      | 12/30 [02:41<03:44, 12.47s/it, est. speed input: 17.39 toks/s, output: 358.25 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [04:03<09:31, 33.60s/it, est. speed input: 12.29 toks/s, output: 287.14 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [05:15<12:01, 45.07s/it, est. speed input: 10.61 toks/s, output: 271.98 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [10:45<32:46, 131.07s/it, est. speed input: 6.25 toks/s, output: 183.56 toks/s][ADumping input data for V1 LLM engine (v0.9.2) with config: model='deepseek-ai/DeepSeek-R1-Distill-Qwen-7B', speculative_config=None, tokenizer='deepseek-ai/DeepSeek-R1-Distill-Qwen-7B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=main, override_neuron_config={}, tokenizer_revision=main, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=34816, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=deepseek-ai/DeepSeek-R1-Distill-Qwen-7B, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=True, chunked_prefill_enabled=True, use_async_output_proc=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"/u/azhang14/.cache/vllm/torch_compile_cache/a5e7c9d04a","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[512,504,496,488,480,472,464,456,448,440,432,424,416,408,400,392,384,376,368,360,352,344,336,328,320,312,304,296,288,280,272,264,256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"max_capture_size":512,"local_cache_dir":"/u/azhang14/.cache/vllm/torch_compile_cache/a5e7c9d04a/rank_0_0/backbone"}, 
+Dumping scheduler output for model execution: SchedulerOutput(scheduled_new_reqs=[], scheduled_cached_reqs=CachedRequestData(req_ids=['485', '486', '493', '494', '495', '497', '498'], resumed_from_preemption=[true, true, true, true, true, true, true], new_token_ids=[], new_block_ids=[[[1, 2, 3, 4, 830, 4671, 5695, 173, 4127, 3812, 503, 2439, 2509, 1303, 5851, 5771, 6080, 497, 5452, 2965, 1408, 4078, 2327, 2478, 6256, 5779, 1209, 4367, 566, 4134, 4876, 2197, 1205, 6298, 6103, 2920, 5144, 5461, 6022, 1944, 1964, 3882, 5706, 5340, 3620, 5563, 1193, 2542, 4944, 2146, 2690, 3162, 4504, 6293, 2598, 3744, 1182, 4340, 82, 5484, 2891, 6364, 4361, 4595, 5311, 3607, 6435, 1277, 6070, 717, 4765, 5227, 5131, 3091, 1813, 3075, 298, 2276, 4778, 6175, 120, 2428, 3723, 5554, 4222, 1166, 3067, 2130, 3232, 2931, 3955, 6468, 5520, 1486, 1290, 728, 1669, 2030, 2921, 702, 1832, 3352, 5450, 4979, 5474, 5900, 2284, 5200, 3683, 6162, 5600, 4211, 6455, 590, 2895, 1750, 6432, 1124, 1185, 5209, 384, 1749, 5234, 461, 3642, 1598, 3514, 5204, 4372, 6218, 1675, 6484, 2527, 203, 5915, 5784, 2183, 5610, 2320, 347, 1743, 2277, 176, 923, 5909, 4219, 4590, 1384, 3287, 69, 654, 4147, 3157, 5270, 3512, 5271, 3239, 5879, 4390, 3339, 681, 5958, 572, 6373, 6534, 3703, 6496, 5741, 6122, 4091, 6268, 3707, 1002, 851, 2856, 477, 4370, 3851, 693, 5651, 5662, 137, 562, 5679, 1081, 6421, 1556, 574, 6019, 6619, 3039, 3948, 2674, 4287, 2043, 5434, 5291, 3016, 2519, 4857, 1115, 6240, 6099, 3281, 1028, 3154, 1722, 864, 5663, 766, 6466, 1268, 3237, 1558, 5780, 4782, 4698, 4014, 2391, 1542, 1520, 5719, 2623, 4573, 5625, 1547, 5299, 3984, 4716, 3751, 2608, 5162, 4406, 4445, 4787, 3568, 376, 2458, 3594, 5443, 1593, 4847, 4555, 4714, 165, 6365, 3746, 2994, 1049, 4461, 3754, 3432, 1375, 5653, 1662, 98, 5464, 4362, 2221, 6407, 3476, 6088, 5738, 6347, 83, 1751, 4513, 2525, 2511, 918, 4737, 6603, 5095, 5367, 4541, 4417, 1064, 5306, 5478, 3490, 861, 4724, 3772, 4658, 4010, 3518, 4909, 3384, 5569, 1887, 5111, 6284, 19, 3996, 1853, 3117, 1806, 5528, 4689, 28, 3072, 1822, 4904, 1387, 4284, 517, 6518, 1423, 6625, 5973, 1342, 90, 4341, 3283, 1468, 5707, 5025, 5049, 5045, 641, 4248, 3967, 183, 247, 6149, 5027, 3562, 3645, 1415, 5142, 4182, 2946, 4635, 1075, 2654, 1715, 5566, 4204, 5609, 2004, 2900, 4478, 1759, 5659, 1330, 2861, 4271, 6091, 3925, 6557, 199, 3617, 1680, 4784, 1852, 3355, 5739, 2683, 5858, 5530, 3713, 2264, 5368, 229, 3505, 3313, 4668, 337, 3109, 1690, 1228, 5586, 4476, 1321, 6309, 2943, 4133, 6090, 4005, 6007, 5072, 3265, 3145, 6208, 4725, 5446, 4963, 3051, 1692, 1463, 892, 2155, 4398, 2090, 1687, 5561, 1395, 2577, 1939, 3557, 747, 498, 86, 5767, 2699, 4977, 5954, 743, 1021, 5682, 3597, 1391, 2318, 3441, 6000, 3206, 5537, 4210, 5422, 294, 2642, 289, 2830, 5883, 99, 2687, 679, 3868, 790, 2400, 5773, 2827, 6507, 5320, 6472, 2358, 3800, 6369, 462, 3340, 4621, 1492, 3134, 2553, 5511, 5456, 906, 138, 2784, 6111, 3274, 600, 640, 2713, 5494, 942, 6247, 2597, 2909, 4976, 6623, 3749, 1523, 5401, 2285, 4438, 6359, 231, 5419, 2818, 2846, 200, 4289, 1650, 2982, 442, 2812, 4824, 1633, 2242, 1097, 2733, 2583, 2041, 4418, 6360, 2051, 5327, 2091, 4281, 3531, 3685, 4723, 6586, 1036, 3590, 6497, 1632, 2448, 3718, 5212, 3989, 2286, 6324, 3714, 5642, 1688, 5127, 2291, 3102, 2883, 2457, 3780, 4625, 2303, 3404, 6487, 64, 2395, 3501, 3101, 6045, 745, 4654, 1980, 1718, 1009, 5372, 5722, 5694, 2515, 6150, 3988, 212, 1693, 4873, 6590, 2152, 4001, 3838, 2003, 410, 3954, 2721, 3223, 2297, 1202, 3242, 5112, 5570, 6210, 3172, 3736, 5292, 2023, 4996, 2125, 1834, 1102, 837, 3380, 4158, 4660, 752, 5343, 3841, 4935, 5479, 4223, 5159, 377, 1871, 4936, 5955, 3216, 2127, 1788, 1999, 3112, 5078, 5269, 2375, 103, 3705, 2697, 5338, 1811, 1863, 5809, 5885, 319, 236, 3605, 729, 187, 929, 1441, 6160, 2031, 1398, 5873, 3018, 222, 6501, 2698, 4108, 5664, 3391, 5417, 1696, 836, 17, 3588, 871, 4957, 2362, 2218, 4086, 2418, 3031, 258, 206, 5731, 2014, 1673, 2359, 6211, 5371, 4990, 2975, 531, 1758, 3805, 803, 2296, 272, 2171, 3777, 4798, 4556, 1655, 5789, 4986, 4191, 2907, 4547, 1319, 2633, 6353, 1928, 1844, 4226, 883, 2398, 5700, 5768, 3783, 435, 6538, 1109, 5470, 2646, 43, 1295, 3267, 2179, 4836, 408, 5261, 779, 6399, 603, 5348, 4282, 1437, 2087, 776, 6023, 2257, 4683, 1134, 3991, 2659, 6002, 4552, 425, 4809, 6040, 2686, 3466, 3497, 4911, 1514, 131, 4359, 388, 6478, 3750, 4262, 2098, 2317, 4524, 280, 2603, 2821, 2364, 1510, 5195, 5242, 716, 4670, 3263, 5177, 3873, 1142, 488, 635, 190, 6410, 1642, 703, 4539, 2366, 3960, 144, 2985, 1026, 2902, 22, 4035, 1017, 4582, 327, 4610, 705, 3731, 5041, 2730, 1755, 6591, 3487, 4232, 3880, 4012, 771, 3654, 2865, 4920, 3387, 4577, 3615, 3978, 1562, 4804, 1707, 1347, 1293, 4160, 3943, 4454, 2801, 3544, 5543, 1372, 1986, 3682, 3043, 3290, 4293, 3448, 5995, 1251, 604, 6197, 1254, 6254, 2350, 6621, 1602, 4572, 3244, 4578, 4135, 5214, 4855, 3410, 4087, 4198, 2033, 486, 2923, 540, 4674, 737, 2455, 5405, 1967, 1198, 4270, 5999, 4324, 1469, 3398, 3764, 45, 6475, 2301, 1291, 6560, 4066, 4703, 3302, 869, 1634, 2164, 5898, 1467, 3140, 3221, 817, 3596, 1407, 3180, 282, 1349, 2121, 1925, 1356, 3859, 709, 6503, 314, 2550, 4427, 6120, 4193, 2150, 361, 4252, 5718, 6261, 2751, 5493, 6506, 6176, 2379, 4620, 1706, 2347, 453, 5155, 1329, 4818, 1726, 1160, 2526, 1535, 2969, 5820, 2893, 2950, 4377, 2444, 3327, 6323, 5100, 2988, 4216, 2984, 1808, 3268, 3375, 4919, 5325, 6096, 1947, 4736, 862, 520, 5225, 668, 6305, 3814, 987, 4168, 2114, 4823, 5334, 5395, 4366, 4758, 3080, 60, 3312, 2804, 1406, 5467, 434, 4869, 4580, 3935, 2632, 2869, 3461, 526, 3332, 444, 257, 5010, 4852, 2185, 6064, 3513, 5734, 1146, 2816, 4971, 535, 1821, 2877, 1224, 6306, 2070, 943, 802, 5978, 1276, 1793, 1595, 971, 6039, 5839, 2897, 2665, 1340, 3556, 5764, 4009, 3816, 4767, 6588, 4709, 250, 6470, 5031, 2202, 778, 6317, 2689, 2667, 4664, 949, 2949, 2044, 2211, 4881, 2116, 3835, 2157, 3188, 1812, 6601, 1420, 5727, 3413, 1155, 1985, 4633, 1491, 912, 5090, 2386, 688, 4433, 2148, 896, 4343, 1517, 6068, 2792, 3724, 3696, 1141, 3879, 390, 5997, 135, 4038, 3598, 1835, 638, 2144, 760, 2859, 993, 1053, 3344, 5544, 5830, 5860, 1881, 5753, 881, 5411, 4586, 3911, 4605, 1034, 2453, 6170, 6367, 991, 2396, 2989, 454, 402, 6328, 4309, 5591, 6440, 6235, 6616, 1959, 5880, 6322, 2097, 1610, 1220, 2806, 5564, 4138, 4916, 6615, 2932, 565, 6033, 1741, 3021, 3105, 2262, 4639, 5881, 5983, 661, 5951, 4379, 649, 5287, 4080, 4659, 2799, 5775, 2295, 5855, 1379, 6272, 1488, 3003, 1192, 1809, 3148, 259, 5385, 797, 6049, 4479, 4739, 5716, 4708, 3135, 3197, 6332, 6445, 3917, 1737, 6205, 6174, 4467, 2649, 3057, 4295, 3040, 6094, 2059, 980, 5032, 5871, 2831, 2298, 1005, 4214, 4879, 2239, 2944, 4019, 605, 820, 5806, 1403, 4741, 5321, 5410, 1522, 5729, 100, 4781, 6474, 2493, 317, 6274, 4437, 3439, 3484, 5133, 6069, 3481, 6416, 1215, 5794, 3253, 2789, 2936, 893, 491, 4280, 5842, 1177, 6016, 4987, 6609, 5428, 2585, 1475, 4423, 1849, 5776, 5421, 4566, 3864, 521, 3181, 3004, 958, 4251, 973, 1645, 4067, 3727, 2321, 1884, 4915, 4992, 2691, 1445, 4746, 1138, 3421, 966, 496, 2253, 6181, 5007, 5587, 5377, 2336, 3022, 3901, 1991, 519, 2237, 3815, 4046, 5704, 4444, 5602, 226, 5250, 3527, 5515, 4929, 1565, 4316, 828, 3292, 6321, 2425, 5238, 897, 2498, 356, 5813, 274, 2617, 560, 6300, 2134, 2005, 4558, 3130, 4318, 2802, 405, 1914, 1594, 3666, 724, 1584, 1843, 420, 2857, 5924, 23, 3586, 5834, 5035, 6216, 1392, 1159, 6535, 1057, 5611, 4808, 1545, 6140, 2201, 2855, 2345, 2466, 5126, 362, 5068, 2099, 6358, 903, 3971, 4955, 1323, 2338, 1381, 3215, 6295, 3857, 1095, 32, 2388, 4839, 2635, 1389, 982, 1719, 4442, 308, 1857, 186, 172, 6299, 4614, 4600, 4174, 2644, 4011, 859, 2105, 6213, 5720, 5277, 4526, 2844, 4953, 139, 4684, 5574, 5728, 3459, 4396, 3482, 5660, 5535, 233, 5157, 2573, 157, 5268, 1235, 4502, 490, 2915, 6573, 4801, 6575, 1189, 6585, 1993, 5550, 94, 6276, 3125, 5346, 4995, 6551, 1131, 2332, 4109, 1916, 3474, 1554, 3030, 4874, 3325, 5932, 5712, 3830, 838, 37, 822, 1246, 5605, 5936, 123, 2261, 3630, 5243, 4450, 858, 3593, 1987, 4615, 4546, 4796, 119, 1951, 5981, 5018, 710, 3010, 2133, 6596, 5487, 4965, 5005, 92, 6341, 3688, 2952, 2363, 4140, 2038, 735, 5938, 2892, 5504, 5089, 1531, 2722, 775, 5441, 5488, 3342, 5361, 5817, 6010, 4989, 3662, 5471, 5652, 6168, 1076, 2995, 6414, 2442, 5040, 913, 1230, 61, 2652, 1497, 1371, 2029, 4828, 2319, 2117, 3144, 4024, 5895, 4607, 2020, 1436, 5406, 2325, 916, 1536, 5648, 6580, 998, 469, 3540, 4657, 1548, 6128, 47, 3639, 2621, 2111, 5910, 4632, 1364, 2840, 3712, 3333, 4640, 449, 894, 3706, 5178, 3801, 6199, 644, 5713, 4083, 3822, 3217, 4999, 3471, 189, 5540, 5998, 2638, 1775, 5254, 3691, 5557, 3423, 3037, 4395, 1186, 5037, 6426, 3412, 632, 852, 2166, 3649, 392, 808, 2796, 1311, 5769, 5733, 1273, 6050, 2132, 1249, 84, 87, 1422, 125, 2862, 3507, 6438, 1855, 5923, 5000, 1818, 5289, 1780, 1438, 2974, 3535, 1711, 156, 5445, 5473, 2557, 2266, 868, 2569, 5283, 345, 3310, 3884, 5198, 1786, 4149, 4227, 3213, 2986, 2462, 1866, 6452, 5925, 6177, 1567, 3357, 3186, 355, 5146, 1062, 315, 3532, 6131, 1327, 4807, 1805, 163, 2140, 2129, 4568, 2624, 3411, 6362, 5067, 4335, 2420, 2556, 2220, 3739, 1861, 5680, 898, 3957, 4488, 4100, 650, 2670, 2213, 2367, 4745, 1145, 1691, 6075, 3533, 922, 5911, 6350, 5294, 2151, 5637, 5989, 494, 142, 6180, 6430, 6593, 1943, 4858, 2216, 2536, 5646, 3694, 3185, 1345, 1055, 2401, 1058, 6294, 6041, 4238, 1731, 2342, 4493, 279, 2587, 3876, 2497, 2120, 2613, 1898, 6237, 4113, 3985, 597, 4007, 3152, 3820, 6565, 133, 5318, 6391, 2387, 4962, 6152, 6320, 5073, 2566, 3992, 2685, 2657, 772, 3697, 2451, 6171, 2283, 4107, 3095, 1720, 5281, 6434, 2207, 6528, 4368, 5336, 6163, 3473, 105, 3591, 5555, 5730, 3711, 741, 5692, 59, 5818, 6106, 1507, 3137, 4094, 541, 6396, 911, 5257, 5608, 50, 3602, 6513, 2641, 6031, 6499, 1043, 2663, 2863, 4880, 2340, 352, 3120, 577, 5595, 5472, 3329, 6510, 5658, 1798, 1400, 6013, 5082, 2222, 5, 67, 1904, 1756, 5083, 3052, 6333, 5134, 2445, 5004]], [[1, 2, 3, 4, 4704, 4098, 5770, 5967, 6488, 40, 2609, 2554, 4076, 3863, 3127, 2779, 1460, 870, 421, 3953, 4180, 2935, 872, 695, 588, 6014, 3840, 1920, 4842, 5360, 3323, 1604, 5737, 1016, 213, 4200, 2811, 3111, 1292, 2666, 4404, 4910, 1766, 1454, 3858, 2888, 2016, 1211, 6057, 1603, 1008, 2815, 1149, 552, 2227, 5845, 433, 3973, 1746, 3298, 6325, 1997, 5604, 2941, 4998, 2055, 3684, 3773, 4313, 2086, 4643, 1730, 3537, 3997, 3559, 624, 6067, 5476, 3768, 2357, 5578, 2028, 4129, 1665, 2447, 3200, 2479, 1253, 5425, 6433, 2314, 344, 5542, 4974, 4432, 730, 6148, 2374, 5158, 1462, 6065, 3748, 3942, 5684, 1079, 2945, 1054, 6564, 4948, 1819, 4997, 5469, 6130, 1774, 3146, 2085, 1796, 3945, 1151, 6327, 5765, 6424, 4489, 656, 65, 1841, 130, 2655, 2309, 587, 4984, 981, 5326, 2089, 5337, 5615, 5403, 4326, 6291, 6425, 5059, 887, 2270, 2050, 5519, 3640, 3558, 3176, 2069, 6077, 4338, 4663, 3183, 6063, 873, 1815, 6001, 1027, 1328, 5107, 350, 5891, 3990, 395, 305, 6558, 411, 407, 848, 5917, 2534, 3218, 1854, 740, 6614, 5328, 974, 5691, 6482, 4224, 6078, 6193, 4161, 4952, 1827, 6344, 886, 1447, 2601, 6104, 153, 6061, 657, 122, 5708, 3634, 4864, 253, 2823, 666, 5644, 4638, 476, 1066, 4972, 4884, 5573, 448, 2036, 4956, 6209, 1498, 578, 2620, 5933, 514, 769, 4060, 2732, 2564, 6155, 1128, 320, 1972, 1074, 2369, 2740, 6389, 93, 1581, 3318, 4903, 159, 5516, 6265, 1846, 1546, 2311, 3316, 6355, 1431, 4480, 473, 398, 2403, 6456, 3400, 2280, 6384, 2901, 2917, 4867, 3214, 5987, 3286, 4719, 5837, 4327, 573, 1518, 3655, 6270, 2423, 6361, 2083, 6541, 2996, 1918, 5465, 3378, 3798, 3229, 118, 6186, 5468, 5339, 1643, 4988, 3260, 2904, 2263, 3567, 1519, 4315, 6156, 2749, 2561, 4831, 4148, 1683, 3299, 4095, 3090, 5914, 842, 1824, 1958, 3489, 3343, 4154, 5829, 6617, 2559, 634, 3889, 5757, 6334, 1434, 6581, 1703, 1256, 2156, 1667, 581, 5698, 6054, 5477, 4554, 880, 5800, 5612, 2998, 6471, 4093, 5882, 5260, 3635, 1965, 3833, 5276, 6217, 1144, 5812, 6279, 271, 3173, 2032, 1112, 4250, 3087, 1906, 3566, 4932, 6178, 3898, 4647, 3456, 428, 3407, 6047, 839, 2229, 3446, 4065, 3453, 3442, 2958, 1197, 5324, 5463, 6233, 3921, 24, 5279, 3918, 1368, 4616, 515, 3061, 6315, 1046, 1377, 3322, 412, 854, 613, 5964, 5358, 3324, 5841, 1426, 6409, 4399, 959, 3829, 263, 4401, 5754, 6613, 2912, 3259, 2924, 1765, 4221, 431, 5331, 1020, 5819, 2720, 6084, 5438, 2580, 1816, 415, 1949, 5616, 2304, 68, 3204, 4877, 4058, 2997, 4923, 5120, 2600, 2407, 1471, 697, 1769, 2178, 4827, 4329, 1271, 961, 6011, 718, 2538, 4522, 313, 6443, 1899, 4584, 1708, 5278, 198, 1876, 5288, 2241, 1521, 5957, 4256, 1393, 5219, 6146, 542, 2870, 1797, 75, 3335, 4125, 3709, 4170, 3516, 4733, 5211, 768, 6043, 467, 2138, 1200, 6095, 750, 2238, 4806, 458, 1587, 1601, 5437, 4505, 2532, 4581, 4646, 341, 3912, 1282, 5016, 143, 5141, 393, 2233, 1465, 3947, 3167, 2196, 3032, 518, 5240, 6447, 5312, 5677, 5931, 273, 1233, 4105, 4819, 62, 5319, 4856, 3300, 6289, 5483, 951, 4898, 3354, 2131, 1716, 2022, 5389, 5752, 4720, 3636, 5180, 6055, 6203, 3963, 4342, 4072, 2115, 1605, 6563, 3892, 2078, 2293, 4815, 3658, 4914, 4592, 6530, 6444, 2588, 637, 5489, 3578, 5217, 4562, 664, 1962, 5258, 109, 3225, 6154, 2223, 1096, 4410, 4734, 2377, 5182, 5486, 2010, 798, 1539, 4090, 2738, 4763, 4428, 1900, 5763, 2011, 6097, 297, 5647, 5380, 5135, 3987, 6273, 4768, 2416, 948, 4887, 4499, 6577, 1150, 3986, 2886, 1280, 2970, 3275, 1867, 5832, 1640, 1724, 4456, 1317, 5639, 1781, 3369, 2889, 3317, 1178, 2491, 5908, 3965, 2622, 2378, 6356, 252, 5814, 4832, 2435, 4653, 2983, 214, 5619, 169, 3770, 1902, 5251, 516, 3704, 2012, 1265, 4950, 6354, 5137, 2639, 2446, 3348, 584, 3417, 1425, 5341, 2484, 3050, 6463, 5499, 307, 4364, 3958, 223, 3269, 2634, 3048, 3116, 2781, 1353, 5382, 3463, 2847, 6546, 2785, 5562, 3667, 4863, 3796, 3056, 4466, 2727, 5774, 2450, 4373, 2287, 310, 4150, 5980, 152, 6132, 89, 3579, 1451, 2558, 5355, 1534, 5956, 1653, 696, 2748, 5033, 5827, 2135, 6532, 30, 5899, 2819, 3844, 6227, 1686, 1306, 276, 756, 4218, 1945, 3184, 1795, 4215, 2349, 4106, 5976, 787, 4648, 3425, 4045, 4549, 2715, 5758, 6504, 2018, 806, 1163, 5145, 4115, 2093, 5354, 5432, 643, 1382, 4159, 3256, 4692, 1126, 2616, 2809, 3177, 2906, 711, 290, 1363, 2411, 6159, 4676, 3552, 992, 4319, 3900, 2061, 5725, 6267, 678, 3054, 795, 844, 3968, 3811, 3813, 1350, 1248, 6351, 553, 5633, 3671, 4131, 5803, 2433, 5247, 5003, 460, 1974, 2017, 1418, 3924, 5971, 3468, 406, 3175, 2062, 1287, 4567, 1210, 5080, 538, 2383, 3301, 2929, 3392, 268, 4484, 2605, 4774, 6145, 474, 3792, 2288, 3495, 6533, 4561, 4419, 1453, 2248, 3270, 1777, 5129, 5755, 753, 4821, 6051, 2711, 3923, 773, 3424, 5567, 216, 983, 551, 3673, 3472, 2606, 6201, 239, 1237, 5762, 207, 1836, 3081, 3132, 4055, 4352, 5665, 5952, 4531, 5797, 1110, 2813, 865, 2745, 3209, 3922, 6059, 5553, 4021, 3852, 5123, 2729, 4982, 3771, 1296, 1823, 6231, 5150, 4000, 2708, 1901, 4735, 4711, 5918, 3026, 4244, 6345, 4249, 921, 2371, 4365, 5905, 2956, 5534, 3236, 1180, 2763, 5630, 3402, 3007, 4175, 751, 1090, 3328, 2175, 4688, 6415, 6342, 5634, 4650, 5862, 720, 4775, 4902, 6477, 558, 4033, 947, 6260, 5935, 4788, 2769, 5894, 2979, 919, 1164, 4375, 2574, 1199, 6032, 3715, 5571, 4029, 1334, 5747, 2021, 5922, 694, 856, 1735, 2737, 3695, 4355, 5046, 5623, 4783, 2767, 2702, 6402, 6405, 1927, 5513, 6183, 1754, 2234, 4139, 1872, 3192, 1207, 4506, 3430, 3350, 3436, 1794, 6044, 441, 5541, 4871, 3776, 629, 592, 3608, 6119, 2394, 2082, 662, 658, 4032, 3450, 3951, 5309, 2200, 3389, 570, 113, 5353, 2174, 3149, 3055, 3781, 2243, 4481, 1449, 4068, 5064, 3949, 513, 5093, 6417, 690, 762, 953, 2126, 6413, 1238, 3595, 3382, 6314, 334, 2149, 2469, 275, 2259, 4469, 5850, 3961, 102, 1572, 44, 3096, 3248, 1611, 4608, 2039, 5673, 184, 595, 3689, 3401, 3914, 1727, 1394, 3572, 2866, 5930, 6521, 1705, 1968, 4533, 3440, 723, 1875, 630, 3660, 1658, 5143, 3293, 1833, 148, 646, 5906, 5904, 1592, 5678, 5282, 3504, 161, 4412, 383, 1351, 5893, 4207, 1390, 2843, 6263, 3019, 4780, 6479, 6436, 1060, 6427, 4314, 3938, 3834, 6290, 191, 4416, 73, 3869, 598, 890, 2628, 5228, 4245, 295, 3687, 4507, 5512, 1105, 5168, 2590, 1354, 1037, 607, 4722, 2520, 3891, 879, 1591, 1135, 2820, 3979, 1957, 1476, 227, 4834, 104, 3170, 5218, 4053, 5702, 780, 413, 5672, 792, 3205, 221, 5028, 4189, 4939, 5599, 4612, 3982, 3907, 5934, 5332, 4875, 4712, 6287, 2771, 2835, 3767, 2230, 6164, 3747, 2864, 4837, 4241, 5156, 2760, 5012, 4705, 2810, 3139, 3583, 5491, 1525, 575, 197, 1516, 2334, 5990, 2289, 3722, 1579, 12, 1721, 6514, 2176, 3094, 3099, 1478, 791, 1913, 6312, 4927, 4810, 6489, 4157, 1459, 689, 2392, 1753, 5979, 5387, 1915, 4268, 5790, 6182, 1019, 2490, 179, 3326, 6036, 1977, 2876, 1252, 2787, 3659, 3946, 3319, 736, 2990, 4766, 1183, 424, 3789, 4047, 194, 2074, 6481, 6540, 2800, 2064, 617, 52, 3721, 882, 5592, 5687, 1204, 1310, 4609, 4217, 2143, 2734, 1324, 6548, 4575, 1847, 1361, 1652, 1533, 1984, 2438, 1114, 2210, 2341, 1181, 2245, 4194, 6331, 2871, 419, 3452, 4016, 31, 6229, 4503, 786, 2963, 3420, 1378, 4351, 1130, 742, 5629, 2203, 1380, 6594, 145, 202, 5475, 1499, 5077, 1416, 4899, 2168, 124, 472, 6553, 1433, 1405, 3665, 968, 4247, 6374, 2940, 1637, 3164, 3819, 5029, 6571, 5509, 651, 738, 3888, 302, 1607, 4693, 4551, 1136, 249, 4237, 3377, 6053, 4190, 2102, 4179, 3604, 66, 3428, 5167, 3870, 382, 5950, 88, 1879, 427, 1807, 3433, 1083, 5280, 3663, 4344, 3025, 4697, 3850, 328, 1504, 2980, 1152, 4389, 826, 2460, 1544, 3011, 4303, 3861, 3361, 2048, 2764, 5863, 4597, 5345, 6549, 464, 5208, 1188, 4051, 6473, 698, 3438, 3657, 4975, 1023, 6125, 6101, 1313, 1432, 1154, 4726, 1195, 4430, 3403, 6467, 5062, 3178, 3156, 4054, 3073, 628, 2246, 2273, 3085, 2095, 956, 3600, 835, 6567, 367, 3376, 136, 5103, 5205, 2128, 964, 3839, 5597, 6129, 5221, 4542, 4497]], [[1, 2, 3, 4, 830, 5943, 237, 4254, 3314, 4471, 1912, 5184, 5347, 5953, 2991, 6490, 6058, 5853, 589, 5495, 571, 6004, 3142, 5668, 685, 29, 674, 5740, 2521, 6189, 2656, 2331, 1263, 107, 5575, 4096, 5044, 3994, 1779, 5393, 3866, 6278, 3523, 6003, 260, 2648, 2094, 2927, 2066, 5617, 3763, 2693, 4937, 1511, 4069, 1139, 5149, 5993, 4685, 4042, 1360, 5674, 106, 3551, 1698, 1299, 2231, 5966, 3336, 1245, 2399, 387, 5710, 2709, 3969, 569, 1589, 5350, 3915, 3966, 3271, 5379, 5821, 1424, 6081, 1061, 1365, 3308, 3252, 6398, 150, 524, 242, 5002, 3189, 1312, 2768, 5087, 3842, 3419, 1014, 1659, 4604, 5349, 373, 3509, 6385, 6486, 2539, 262, 255, 3905, 1024, 1458, 2604, 2188, 4922, 935, 5323, 1505, 3076, 3098, 2333, 1540, 6060, 2385, 209, 3196, 4905, 2147, 6505, 5172, 4574, 3500, 3435, 4613, 1063, 6248, 6005, 4761, 2027, 891, 3266, 6226, 3788, 3700, 6598, 3999, 6258, 6607, 5538, 2887, 4231, 4475, 4699, 3644, 304, 5359, 5501, 6017, 758, 5975, 2057, 3732, 1585, 1222, 4132, 2770, 4655, 6234, 2544, 5459, 1748, 4850, 2485, 4429, 5169, 2754, 3977, 4126, 5888, 2505, 4186, 2858, 2228, 4755, 1532, 391, 3483, 2934, 3627, 1963, 4931, 5635, 957, 831, 2878, 3786, 2673, 3998, 4142, 626, 6243, 5872, 2723, 1174, 5627, 4865, 6343, 990, 2968, 2275, 2226, 6035, 6599, 4052, 2739, 988, 2999, 2417, 3254, 2434, 1304, 6387, 4753, 164, 1448, 5440, 2267, 1482, 4357, 3934, 4371, 5968, 5558, 5151, 1172, 339, 6423, 1941, 155, 5792, 4770, 2376, 914, 1429, 2356, 582, 1344, 3159, 91, 3546, 6559, 3625, 4460, 3643, 4845, 928, 6093, 6451, 4846, 5305, 954, 1734, 6108, 4486, 5607, 4381, 1848, 4088, 5693, 1100, 4964, 4617, 1761, 3809, 5846, 6297, 2578, 3802, 5034, 1617, 2880, 3321, 4694, 2885, 4943, 2872, 3383, 2596, 5342, 1982, 847, 1851, 6492, 4092, 2193, 4153, 3601, 5179, 5598, 5546, 4099, 2545, 4760, 2456, 3787, 5661, 726, 438, 765, 6277, 3155, 2092, 353, 5454, 2251, 3203, 455, 1983, 1802, 1626, 18, 4084, 3422, 2026, 2842, 2101, 3294, 2404, 4862, 2252, 619, 13, 4487, 2194, 63, 5215, 579, 1934, 4826, 925, 365, 3716, 1566, 2777, 333, 234, 3488, 1890, 403, 5640, 3860, 1612, 4500, 3909, 3272, 4618, 2793, 2139, 618, 4750, 4545, 2828, 3366, 2910, 6554, 2271, 400, 4276, 3141, 4325, 1493, 1006, 3821, 4114, 4553, 1630, 6608, 416, 1893, 4236, 9, 2581, 4759, 5203, 4253, 2849, 4321, 2305, 4496, 843, 2955, 4510, 5375, 4511, 764, 357, 5878, 1481, 2510, 2841, 889, 6469, 1288, 3728, 5114, 5056, 1167, 950, 2397, 1457, 5236, 6188, 1297, 4606, 5081, 4062, 5669, 4155, 5043, 6476, 2746, 3273, 523, 2530, 4743, 1322, 1259, 5649, 5074, 6219, 5588, 1123, 5500, 2852, 3379, 2548, 181, 1850, 2209, 5690, 3895, 2546, 5015, 3469, 1710, 3631, 1704, 1960, 3832, 2381, 4306, 2890, 4411, 4619, 2310, 3133, 1168, 1278, 6578, 3679, 5552, 4008, 205, 975, 4701, 6522, 219, 1946, 286, 303, 3652, 5173, 5303, 5206, 244, 3613, 960, 6257, 4070, 5119, 2255, 5455, 4277, 877, 481, 5249, 1583, 1068, 5273, 6491, 2500, 2058, 1452, 5036, 2265, 2471, 2476, 482, 4039, 4840, 3621, 2019, 2677, 3729, 6073, 563, 2630, 3766, 2930, 1574, 6437, 712, 3493, 3853, 1935, 2013, 2602, 6028, 6348, 5160, 4563, 3496, 6397, 1440, 3065, 6386, 2370, 4747, 1537, 1599, 5272, 6460, 385, 3123, 374, 178, 1829, 2421, 6112, 1936, 3769, 127, 5147, 3581, 754, 72, 5527, 3547, 4706, 267, 4184, 5235, 2700, 2063, 4968, 5121, 483, 5451, 748, 700, 3539, 6508, 5335, 4861, 761, 1455, 823, 4263, 4363, 1261, 5194, 1509, 5021, 4645, 5408, 3920, 1308, 2712, 4744, 3975, 623, 6454, 4792, 1709, 5222, 1050, 140, 5545, 5061, 6495, 5583, 3847, 5497, 2483, 2794, 6025, 6253, 5457, 2123, 1651, 3933, 4181, 2875, 4347, 904, 1073, 2426, 2960, 6628, 5636, 2627, 4229, 6113, 6500, 4201, 4408, 1376, 2158, 3904, 2034, 6292, 3675, 1635, 3638, 1978, 829, 3612, 5259, 3599, 4073, 4145, 2607, 372, 547, 2884, 1886, 4447, 111, 235, 3677, 426, 3393, 3570, 4130, 3628, 908, 3078, 5778, 2384, 5506, 2352, 3941, 3940, 3211, 2100, 3458, 3414, 1227, 1201, 2406, 168, 5838, 6498, 4569, 4348, 3431, 1184, 3063, 1314, 3580, 3020, 5896, 804, 940, 5125, 2913, 3449, 1170, 2868, 42, 3774, 1022, 4528, 1950, 2169, 1555, 1091, 3359, 378, 5426, 979, 5940, 2035, 1817, 5699, 2292, 5681, 1701, 5369, 3983, 3846, 813, 744, 6600, 2329, 1908, 4534, 4452, 5202, 3624, 1107, 5097, 4779, 5233, 4947, 389, 2701, 1153, 6020, 5889, 1094, 2487, 2122, 2348, 810, 6086, 602, 2413, 2918, 941, 5019, 6286, 1580, 1087, 3086, 4570, 3735, 1366, 5344, 2189, 4267, 1039, 2118, 338, 5548, 3028, 160, 559, 4900, 567, 1600, 2926, 6123, 2660, 5624, 451, 1639, 3182, 3119, 6441, 4304, 2774, 5374, 4453, 301, 6206, 3083, 534, 529, 2692, 6595, 1717, 4013, 4681, 5620, 1791, 4762, 4339, 3970, 1631, 2076, 5232, 2684, 4682, 4849, 2268, 6288, 265, 2908, 5982, 2937, 6511, 2040, 2443, 4945, 112, 4431, 224, 6241, 3131, 3936, 414, 4636, 1111, 6046, 801, 4208, 3524, 3360, 5939, 4455, 5748, 986, 3791, 4137, 1828, 2103, 2045, 645, 5245, 5551, 6442, 860, 4483, 439, 874, 6027, 4897, 3972, 3163, 3932, 2650, 2647, 1976, 246, 4167, 2204, 1654, 1336, 2724, 3543, 330, 5576, 6114, 4993, 3674, 1029, 335, 56, 2675, 6109, 3765, 6622, 902, 2470, 4044, 537, 5163, 6566, 4334, 3118, 1474, 2501, 5585, 2000, 2454, 1337, 3110, 707, 3220, 3614, 977, 5363, 1283, 2967, 6587, 5054, 5666, 1799, 5701, 1677, 4188, 4468, 6574, 6545, 4101, 5154, 292, 6225, 5865, 5709, 2104, 3210, 5362, 5549, 3528, 3233, 4020, 2113, 793, 8, 2757, 2080, 6138, 6179, 4593, 5590, 6056, 6271, 256, 5053, 3584, 1564, 3138, 663, 5186, 796, 4764, 1374, 3230, 1657, 2565, 5761, 4023, 4494, 3499, 1839, 5055, 3201, 166, 2330, 1332, 3486, 1954, 2928, 2339, 849, 1952, 3282, 2313, 2240, 2528, 4376, 1772, 495, 3394, 3306, 1569, 5781, 1922, 5220, 3399, 1269, 686, 1628, 46, 1399, 955, 3059, 1289, 1223, 5130, 2249, 4233, 41, 3171, 6493, 3027, 4079, 323, 4349, 2625, 5024, 146, 1333, 4641, 2006, 5079, 4346, 4527, 1359, 3534, 863, 4111, 5977, 2791, 5791, 3296, 4298, 5972, 4967, 3066, 6212, 4354, 5241, 2165, 3356, 4535, 812, 4064, 5153, 6275, 2551, 1011, 3806, 4195, 1814, 4771, 1932, 2873, 1165, 4312, 721, 3406, 1266, 3678, 963, 299, 3187, 878, 78, 6531, 6602, 2761, 5683, 1571, 5058, 1038, 2412, 4687, 6085, 4378, 306, 6335, 2599, 5655, 4255, 5745, 715, 5226, 5188, 33, 3235, 4885, 5715, 4924, 6446, 6589]], [[1, 2, 3, 4, 830, 3408, 1676, 4358, 1298, 115, 2668, 1461, 5884, 5929, 1865, 1101, 4332, 642, 329, 3455, 2939, 2547, 1300, 4672, 4434, 3136, 2653, 3034, 430, 5185, 2269, 5423, 5886, 1723, 1956, 2614, 218, 4843, 2440, 2430, 4297, 3195, 4028, 6570, 4050, 3538, 2172, 6302, 561, 2514, 1502, 5429, 1495, 5783, 1444, 1641, 2833, 5897, 2173, 2496, 4866, 1896, 4515, 4710, 3249, 3479, 4966, 3222, 1938, 3856, 4425, 6370, 5453, 6524, 3650, 4921, 5391, 1508, 5014, 5641, 3574, 4243, 4790, 5685, 4457, 1485, 2424, 1226, 5760, 1206, 6121, 3084, 3276, 1825, 1792, 4345, 440, 2429, 2236, 6157, 511, 3875, 2290, 4383, 512, 509, 3397, 6519, 11, 3475, 1858, 2380, 3427, 1140, 5859, 3097, 5030, 6376, 141, 5187, 6363, 6037, 5584, 4730, 5480, 6464, 1001, 2513, 930, 2993, 1348, 5643, 1664, 938, 5286, 3520, 3622, 5969, 6542, 2626, 2881, 965, 1104, 5224, 5308, 116, 5840, 6439, 5723, 4930, 5744, 3976, 3315, 6379, 5244, 6117, 1470, 4209, 4954, 5175, 4448, 232, 3279, 2615, 6556, 3610, 781, 1479, 5799, 4015, 5796, 5854, 2081, 3255, 1430, 147, 4449, 1067, 6568, 4163, 625, 5526, 6401, 2695, 5959, 3092, 811, 2537, 201, 5316, 3881, 6304, 4791, 1175, 2867, 4892, 6611, 4470, 1352, 3467, 1590, 1837, 3240, 4882, 129, 3224, 544, 3161, 3710, 132, 527, 3661, 6457, 3069, 4196, 4443, 6245, 4830, 4844, 855, 4644, 1414, 3761, 5140, 154, 606, 4353, 2854, 2373, 3845, 6024, 6251, 5248, 4384, 3303, 4369, 4629, 3077, 2933, 74, 6381, 2717, 4025, 800, 2981, 789, 3351, 4702, 2798, 999, 3693, 727, 506, 1541, 6329, 5086, 6520, 1018, 4679, 2826, 3778, 530, 788, 1597, 38, 6228, 5444, 6034, 4883, 5696, 1656, 5496, 2056, 4320, 6196, 1279, 5508, 4817, 1450, 5856, 4205, 2850, 1122, 3896, 1244, 2052, 5866, 4731, 3670, 3058, 6527, 5986, 2661, 3485, 1118, 924, 4718, 1355, 885, 3437, 2848, 1995, 5110, 5430, 3129, 4077, 5436, 2217, 1764, 5356, 1489, 3808, 2549, 867, 5407, 3013, 4387, 4103, 1552, 3041, 3304, 4122, 5941, 6543, 2780, 1689, 3708, 196, 1362, 3569, 615, 1733, 6151, 4894, 550, 2482, 3470, 1412, 1242, 1955, 5531, 6192, 4973, 1770, 4715, 5772, 1187, 79, 2903, 5071, 6318, 2136, 3451, 2591, 2706, 3871, 3219, 1699, 3641, 3409, 1003, 2694, 3623, 4969, 1410, 4800, 525, 2278, 1990, 5229, 2571, 2894, 1661, 4162, 4603, 4949, 564, 3560, 2783, 1072, 1040, 673, 300, 225, 3913, 4265, 907, 5094, 5626, 767, 4557, 4192, 5547, 3208, 211, 5805, 3865, 1714, 2328, 1113, 2307, 1826, 5284, 6330, 6124, 121, 3651, 1473, 2302, 5907, 6166, 1672, 2274, 4459, 5926, 3664, 1070, 6393, 510, 2215, 539, 6357, 1666, 5816, 5262, 3060, 2879, 5023, 5402, 5869, 2611, 985, 1713, 6282, 6137, 27, 6509, 1668, 443, 5216, 4492, 507, 4854, 2324, 6462, 6576, 1783, 1477, 363, 3548, 4934, 4521, 241, 3575, 2825, 1911, 4027, 2294, 6597, 3002, 4543, 6021, 899, 2925, 4816, 3330, 5424, 660, 6215, 4291, 238, 397, 5404, 3618, 5264, 48, 1845, 492, 6224, 5518, 2431, 5788, 4239, 4942, 4112, 3006, 1309, 2643, 528, 3491, 5901, 2177, 1988, 2182, 1757, 6555, 4272, 3752, 5113, 6153, 1191, 2637, 3545, 1047, 1527, 1442, 4322, 5386, 20, 782, 5239, 5603, 5314, 6220, 243, 15, 1294, 2755, 5705, 4413, 5847, 5246, 5751, 1606, 7, 4110, 6136, 2874, 3368, 4649, 4397, 1830, 2162, 1619, 5556, 2570, 4686, 3587, 6255, 3582, 1910, 2741, 4508, 3826, 5947, 2180, 1267, 2054, 2326, 3337, 4925, 3033, 6346, 3115, 1778, 5065, 5582, 6202, 5330, 3536, 336, 5165, 5197, 6204, 2824, 4426, 1357, 6378, 1318, 3637, 2672, 2077, 2964, 6187, 3362, 1176, 3950, 1388, 3629, 683, 1789, 763, 5606, 4213, 1093, 4462, 6184, 505, 3585, 2186, 5960, 2365, 4851, 6382, 6502, 6308, 2562, 1553, 2167, 269, 4473, 4751, 14, 5039, 3883, 4075, 2541, 3158, 4888, 5671, 2461, 6371, 5302, 3238, 3068, 2629, 6134, 6400, 3089, 380, 669, 1162, 1524, 6584, 6388, 4794, 2065, 4040, 3698, 110, 2961, 1307, 1970, 5721, 500, 1490, 2481, 4296, 5193, 2540, 6523, 556, 366, 1969, 149, 2529, 2072, 1080, 1013, 1644, 3462, 1260, 6605, 2308, 1670, 429, 3349, 4102, 1464, 672, 2360, 6089, 6337, 5301, 3646, 6029, 4529, 546, 4829, 3632, 6266, 4631, 1119, 2008, 4642, 2181, 4274, 5104, 4261, 6250, 3554, 1905, 2919, 2254, 5290, 2636, 4124, 1575, 3828, 4918, 2728, 1694, 6461, 4509, 2786, 2260, 6377, 2797, 3047, 4394, 3510, 2235, 6547, 2736, 2316, 6394, 5390, 4669, 4206, 5352, 4913, 1840, 3121, 1103, 1933, 3827, 4860, 5876, 2962, 432, 631, 5275, 5092, 1035, 4234, 909, 3288, 2640, 1942, 3114, 5903, 5050, 840, 6458, 4409, 6006, 5650, 4199, 888, 931, 3894, 5415, 6336, 5568, 5828, 5376, 3289, 3443, 5416, 1320, 4970, 1092, 6079, 1998, 783, 2206, 1286, 6620, 3939, 5510, 2007, 1042, 3848, 5831, 4728, 5490, 4388, 3701, 3919, 195, 997, 2805, 1117, 4691, 3807, 4300, 733, 6572, 3849, 3353, 4594, 5743, 2409, 5843, 2119, 2594, 285, 5593, 1771, 6042, 1736]], [[1, 2, 3, 4, 3669, 359, 5523, 1241, 504, 343, 3549, 4278, 3930, 4049, 3686, 1171, 5492, 6383, 2195, 3885, 4756, 818, 1869, 1325, 1551, 1487, 1369, 324, 1895, 6431, 470, 1787, 3762, 354, 3334, 4537, 2752, 4717, 583, 5949, 3506, 4330, 3044, 3374, 2405, 692, 3370, 807, 4004, 5974, 4310, 2575, 248, 2851, 4212, 1048, 2718, 3280, 6135, 2441, 647, 457, 917, 2817, 293, 4415, 4895, 4043, 3023, 1255, 5383, 5560, 5667, 487, 318, 1203, 6517, 2966, 1143, 5994, 5001, 3564, 3565, 3434, 2279, 5298, 2951, 39, 1071, 4795, 1747, 6316, 5724, 3878, 5166, 3529, 1930, 4258, 1346, 2389, 910, 5798, 3241, 4928, 4165, 2555, 2153, 3373, 5835, 6624, 436, 2853, 1856, 2088, 936, 6422, 2688, 468, 284, 1169, 220, 2631, 3511, 4673, 1338, 4667, 6412, 3264, 51, 6071, 2531, 6618, 1810, 5189, 2753, 5868, 4061, 5913, 3681, 3341, 6296, 4328, 3980, 2473, 1125, 4141, 6252, 4538, 2506, 734, 1804, 2107, 58, 6161, 3478, 3886, 3364, 5088, 3928, 1000, 5084, 1615, 1738, 1272, 5447, 5397, 5118, 5106, 4178, 6, 5848, 1528, 1627, 4519, 6221, 4336, 6349, 4517, 5418, 2829, 3779, 4435, 6372, 1744, 4803, 2219, 6082, 967, 3937, 2882, 774, 4868, 1636, 809, 2978, 6395, 5622, 2402, 1275, 4978, 670, 659, 4772, 2464, 2489, 5101, 1250, 1917, 3001, 423, 4266, 6550, 3358, 3460, 2822, 1132, 2576, 5810, 3525, 4273, 2664, 3395, 777, 108, 188, 175, 21, 3927, 667, 3563, 3190, 732, 5357, 6428, 4512, 2067, 1161, 5601, 2662, 1262, 3226, 4938, 2477, 3093, 3508, 2414, 976, 291, 4825, 1697, 5333, 1880, 5870, 332, 3862, 5963, 5256, 1568, 6008, 1885, 5373, 5631, 3616, 622, 2463, 3005, 4983, 278, 1045, 3199, 2346, 5098, 210, 6198, 3720, 1427, 4565, 3803, 5638, 4841, 2742, 3756, 3759, 5070, 1732, 5786, 1864, 309, 1883, 1212, 4525, 3797, 1217, 2987, 3782, 4769, 4230, 1907, 4933, 5449, 989, 4420, 3035, 1173, 3606, 4820, 2775, 2124, 1888, 3064, 6380, 6048, 4220, 4451, 5579, 6239, 3874, 2355, 1044, 3573, 6012, 5928, 456, 5920, 6311, 5022, 5825, 1108, 6062, 170, 5811, 1435, 151, 3823, 3385, 5614, 3365, 1326, 5787, 3477, 3503, 1621, 501, 4901, 1678, 4081, 6172, 5937, 785, 2756, 554, 4814, 325, 6465, 3278, 4491, 1156, 713, 6375, 5802, 4811, 1638, 2704, 5517, 3042, 3331, 5102, 3648, 3944, 3150, 532, 1358, 1137, 4440, 6561, 1870, 639, 648, 4323, 6319, 969, 1892, 1085, 5996, 371, 3108, 4172, 1909, 4495, 3897, 4960, 580, 3790, 2914, 653, 5237, 4225, 4308, 4197, 5785, 394, 1926, 5844, 3386, 5020, 2001, 1098, 5329, 3071, 3415, 1549, 3194, 6583, 4958, 655, 57, 5171, 3745, 2523, 401, 5448, 1618, 2160, 6480, 5026, 409, 4785, 2159, 5091, 5927, 3126, 321, 2145, 3690, 3038, 1526, 2898, 4183, 932, 5295, 3626, 3338, 4799, 3619, 1623, 326, 5378, 4143, 3577, 3837, 1919, 2512, 3169, 5122, 126, 3836, 819, 6390, 2953, 4677, 5196, 905, 3893, 549, 5613, 5117, 2415, 3555, 3726, 2225, 2071, 4813, 1862, 3824, 2595, 2281, 4301, 3160, 3445, 5230, 901, 687, 3015, 725, 379, 1033, 2645, 1586, 5201, 3561, 3250, 5263, 1529, 2449, 5804, 4991, 478, 5657, 6406, 2808, 4666, 576, 533, 1219, 230, 1284, 821, 4835, 5008, 5524, 6173, 5875, 939, 2976, 2419, 1373, 3147, 1729, 3100, 5533, 6200, 4482, 4523, 1401, 2572, 2096, 1236, 2142, 3231, 4926, 5139, 952, 4074, 3890, 1989, 2795, 4292, 3818, 3699, 2610, 5676, 1059, 3371, 846, 6074, 1838, 4279, 857, 1979, 4382, 4981, 5366, 2009, 3742, 2282, 1339, 2106, 1859, 5892, 3755, 3017, 1264, 3576, 2747, 5836, 2543, 4729, 4520, 3825, 4041, 3247, 722, 1948, 348, 77, 5047, 594, 4634, 5199, 5628, 4144, 680, 5265, 6340, 312, 296, 1973, 5394, 3734, 6453, 1196, 1331, 2335, 3717, 4946, 4228, 6420, 4026, 1981, 3656, 3285, 2612, 2184, 4337, 5902, 5861, 2494, 1506, 5161, 1370, 3191, 611, 1702, 2037, 5427, 2109, 4752, 1613, 1301, 5711, 636, 3522, 4696, 1190, 3277, 2957, 2678, 5057, 2154, 1903, 5213, 4031, 2758, 5714, 593, 2393, 485, 6459, 522, 3346, 4331, 4120, 6569, 3817, 76, 6066, 2002, 1216, 6552, 5181, 1573, 5581, 4463, 1012, 2492, 5502, 4071, 2408, 4246]], [[1, 2, 3, 4, 830, 3902, 4022, 2042, 2671, 1739, 3952, 1501, 1679, 3454, 5192, 5942, 3702, 671, 5777, 2224, 5105, 984, 1629, 1421, 6483, 4294, 185, 2584, 1500, 3743, 2187, 4424, 557, 1768, 2337, 691, 3429, 5138, 1831, 704, 4436, 1078, 5365, 6450, 853, 1106, 1088, 1099, 1563, 4661, 621, 6238, 719, 1860, 2516, 1578, 2772, 4264, 834, 895, 5442, 3307, 4036, 2744, 6083, 5076, 1877, 4286, 2046, 4695, 80, 3257, 1712, 459, 5670, 1386, 5439, 2567, 5300, 5388, 54, 2475, 1897, 484, 3502, 2208, 3305, 316, 3009, 4623, 5136, 349, 755, 3000, 5462, 1842, 4516, 192, 2073, 4474, 1157, 1685, 4941, 6269, 5191, 1285, 4121, 4912, 5052, 5703, 1647, 2942, 3672, 4591, 1800, 994, 1740, 2899, 264, 217, 3079, 369, 6249, 2948, 1681, 34, 4085, 4951, 5539, 4402, 4721, 5296, 6629, 6139, 6408, 6126, 2190, 1218, 2669, 1231, 5085, 204, 4185, 4748, 545, 4891, 6264, 1929, 5750, 5632, 3603, 2472, 3347, 5498, 2508, 85, 2192, 841, 2947, 6544, 3261, 3959, 182, 3390, 1577, 2743, 1889, 1663, 4421, 2759, 6537, 2390, 4872, 2782, 3794, 6539, 5307, 3758, 1674, 3024, 3070, 3418, 2710, 5458, 2300, 6301, 3647, 5170, 2250, 2714, 5433, 1624, 1782, 3088, 4350, 4624, 3854, 6582, 16, 4637, 5096, 1121, 4530, 4906, 1596, 1503, 4571, 946, 4550, 2731, 3899, 6185, 995, 1940, 5890, 944, 1148, 6087, 749, 3381, 5795, 4490, 1937, 1158, 616, 5675, 4870, 3931, 4896, 3036, 5109, 254, 633, 3464, 2834, 446, 3492, 5594, 2436, 96, 6610, 3633, 934, 404, 6207, 55, 2535, 1411, 422, 4583, 1921, 3804, 6242, 6627, 1513, 283, 287, 3867, 2351, 5384, 3367, 3014, 4242, 6009, 757, 1570, 2911, 1069, 3692, 4164, 2198, 4587, 6246, 3680, 3045, 1684, 3730, 746, 739, 2244, 6115, 3784, 3309, 6612, 2422, 1767, 5522, 6030, 4805, 5267, 5099, 4749, 3521, 6516, 2803, 1725, 2299, 4680, 3757, 4740, 167, 586, 1538, 1077, 1396, 794, 2788, 759, 5115, 4886, 2563, 3553, 5689, 1225, 5565, 1762, 2836, 5688, 6190, 5066, 2137, 4288, 4757, 1763, 1194, 2382, 850, 6244, 845, 555, 4173, 261, 4257, 5223, 2368, 2705, 1472, 1302, 6368, 4302, 5962, 3228, 1397, 502, 6449, 701, 5274, 370, 1089, 2480, 6222, 5824, 331, 3465, 866, 6626, 5525, 4240, 3877, 2502, 6604, 2410, 5006, 4119, 5253, 4656, 4380, 1961, 4797, 3571, 4576, 1258, 1582, 4057, 3291, 6285, 3227, 6195, 824, 215, 3962, 6512, 825, 4259, 2972, 36, 3725, 4360, 6107, 1007, 1316, 1428, 4589, 3738, 2488, 2108, 1931, 5532, 3166, 2716, 3795, 937, 6404, 5874, 6429, 6529, 1742, 2495, 1086, 5596, 4665, 208, 4003, 5128, 682, 70, 245, 4773, 1682, 731, 97, 5756, 3515, 364, 418, 3297, 1480, 3426, 1234, 609, 1559, 3029, 2272, 1032, 3609, 4559, 2973, 5580, 6072, 4713, 3956, 4812, 4477, 5849, 972, 3363, 1456, 174, 2053, 450, 3550, 6592, 5589, 2068, 4754, 699, 2839, 5507, 4738, 5766, 970, 1025, 5912, 927, 452, 162, 2191, 117, 3262, 4485, 608, 5460, 5392, 508, 4598, 4961, 5823, 3929, 3517, 5656, 4959, 5381, 4393, 5310, 1383, 2459, 5992, 2084, 4333, 4518, 2486, 101, 1671, 1873, 1221, 3258, 3494, 4548, 1120, 251, 3498, 26, 1239, 5297, 1247, 2618, 815, 2024, 536, 4146, 2015, 4994, 1031, 4602, 2452, 1129, 1620, 5808, 4305, 677, 5536, 5945, 3908, 5970, 2474, 5412, 4002, 5176, 5961, 3981, 4283, 1232, 2735, 3174, 6448, 5735, 4030, 2354, 1971, 4907, 114, 1010, 4392, 3741, 4859, 3128, 3106, 2592, 3104, 4833, 3074, 4439, 2361, 1343, 1543, 3143, 4156, 6403, 381, 4048, 342, 4662, 1512, 5364, 3345, 322, 2681, 5132, 3519, 4006, 3753, 3444, 3416, 466, 4980, 1419, 5255, 53, 2199, 6100, 4908, 2719, 6392, 2467, 591, 2589, 620, 3103, 770, 1728, 675, 396, 5285, 4596, 875, 945, 6515, 3212]], [[1, 2, 3, 4, 830, 4202, 596, 5919, 1820, 4560, 340, 3653, 6283, 1051, 5529, 3799, 652, 884, 2205, 35, 3542, 4403, 4290, 1404, 3887, 445, 311, 4622, 5060, 4707, 1052, 1745, 3053, 81, 1439, 49, 4151, 2814, 4407, 784, 706, 4356, 4793, 4732, 5877, 2522, 5521, 933, 134, 4235, 1367, 4940, 3243, 4037, 471, 6169, 915, 2212, 2079, 5577, 3480, 5852, 2247, 5559, 3168, 5485, 1801, 2992, 3668, 5370, 5887, 475, 5749, 1496, 920, 5313, 4391, 3388, 1240, 6418, 1868, 4063, 4853, 4465, 2372, 6158, 2025, 1116, 3008, 1229, 1975, 5152, 548, 1515, 3151, 1894, 2778, 270, 4275, 1335, 1622, 5742, 2315, 6236, 5481, 1483, 3295, 3785, 1147, 5833, 5948, 4018, 5717, 1127, 4501, 2579, 665, 6076, 2679, 266, 5466, 2524, 4269, 1994, 4536, 2503, 5857, 4117, 2322, 5807, 827, 6214, 4176, 5782, 6326, 3251, 4118, 1776, 4034, 1588, 2560, 1270, 3526, 1874, 5916, 1243, 2306, 5398, 4727, 4136, 3396, 1409, 876, 1996, 5038, 2680, 4385, 5013, 4742, 5293, 4878, 2586, 1082, 4166, 2170, 6194, 5985, 2344, 4089, 2343, 6144, 5946, 6606, 3165, 1616, 4700, 1608, 4532, 3405, 1133, 1179, 1484, 5514, 6280, 2619, 6562, 4169, 6191, 601, 1700, 5207, 6118, 1214, 2922, 1561, 5822, 4056, 5304, 3046, 3153, 6411, 2533, 6223, 3320, 493, 6579, 499, 3234, 4675, 3082, 978, 5618, 4097, 2896, 5732, 1494, 4116, 5190, 489, 3530, 5815, 3719, 1803, 4386, 5988, 2075, 5399, 3012, 6366, 3843, 4152, 3733, 6092, 5148, 4405, 5011, 5017, 479, 2807, 2790, 614, 2703, 5921, 3611, 2468, 2323, 5645, 4822, 3062, 816, 95, 4678, 2427, 1760, 5654, 3964, 5317, 1648, 4104, 6098, 4514, 2214, 5572, 6116, 4890, 2725, 1785, 171, 3245, 3810, 962, 1443, 1315, 4374, 6018, 4776, 676, 2504, 5435, 5108, 1752, 463, 5231, 4472, 1992, 4299, 3113, 465, 3246, 6338, 5736, 1004, 6232, 6141, 1015, 599, 4838, 1790, 4652, 3592, 2432, 4203, 2766, 5826, 2049, 5431, 5801, 1557, 1646, 2552, 1041, 6281, 3903, 5009, 1924, 5944, 6133, 2232, 2765, 714, 5048, 2682, 4599, 4128, 3906, 4422, 1560, 6052, 360, 2651, 6165, 2905, 3202, 2568, 4307, 5686, 5420, 5984, 4585, 5793, 4588, 5315, 814, 1446, 6307, 1274, 5351, 6419, 128, 4317, 3372, 2256, 1341, 5183, 1550, 2258, 5396, 3916, 4446, 5414, 2762, 2465, 6313, 351, 4400, 2916, 6339, 1923, 5867, 2582, 1660, 6352, 6262, 4601, 4187, 610, 2312, 799, 4786, 5697, 4311, 71, 4848, 1257, 6110, 805, 3198, 2696, 926, 158, 1402, 4789, 5413, 1065, 2845, 4651, 6038, 6105, 1953, 3049, 6147, 3193, 585, 5991, 447, 3311, 3740, 4171, 5075, 437, 708, 1056, 4260, 1891, 3737, 1609, 5621, 4544, 2676, 1417, 480, 2750, 1614, 833, 5051, 4017, 4564, 375, 399, 3993, 1208, 4690, 6015, 1385, 5864, 2773, 3107, 2047, 5322, 3775, 5482, 5164, 1305, 2837, 996, 2938, 4540, 3207, 2658, 6536, 5759, 5400, 2060, 6026, 4464, 4458, 5174, 6127, 900, 4985, 1030, 1530, 5505, 6526, 4627, 1576, 6303, 3760, 2161, 3974, 3910, 4893, 5252, 25, 2776, 5726, 627, 10, 1413, 6310, 1966, 5063, 2437, 2507, 3995, 417, 1649, 3676, 3179, 1281, 2726, 2860, 3831, 3589, 2959, 4611, 277, 2707, 5503, 568, 4777, 3457, 1625, 3793, 5210, 6525, 5116, 4082, 358, 6167, 4889, 3541, 5124, 1695]]], num_computed_tokens=[6528, 64, 80, 80, 80, 80, 80]), num_scheduled_tokens={497: 9487, 494: 12561, 485: 19937, 498: 8140, 486: 21075, 493: 16709, 495: 10450}, total_num_scheduled_tokens=98359, scheduled_spec_decode_tokens={}, scheduled_encoder_inputs={}, num_common_prefix_blocks=[4], finished_req_ids=['481', '484', '482'], free_encoder_input_ids=[], structured_output_request_ids={}, grammar_bitmask=null, kv_connector_metadata=null)
+EngineCore encountered a fatal error.
+Traceback (most recent call last):
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 579, in run_engine_core
+    engine_core.run_busy_loop()
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 606, in run_busy_loop
+    self._process_engine_step()
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 631, in _process_engine_step
+    outputs, model_executed = self.step_fn()
+                              ^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 235, in step
+    model_output = self.execute_model(scheduler_output)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 221, in execute_model
+    raise err
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 212, in execute_model
+    return self.model_executor.execute_model(scheduler_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 87, in execute_model
+    output = self.collective_rpc("execute_model",
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 308, in execute_model
+    output = self.model_runner.execute_model(scheduler_output,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 1374, in execute_model
+    model_output = self.model(
+                   ^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 478, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 246, in __call__
+    model_output = self.forward(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.58", line 220, in forward
+    submod_4 = self.submod_4(getitem_8, s0, l_self_modules_layers_modules_1_modules_self_attn_modules_o_proj_parameters_weight_, getitem_9, l_self_modules_layers_modules_1_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_2_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_2_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_2_modules_self_attn_modules_qkv_proj_parameters_bias_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_8 = l_self_modules_layers_modules_1_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_9 = l_self_modules_layers_modules_1_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_2_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_2_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_2_modules_self_attn_modules_qkv_proj_parameters_bias_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 117, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/azhang14/.cache/vllm/torch_compile_cache/a5e7c9d04a/rank_0_0/inductor_cache/a4/ca4s6l5r2uurnxvg6wsdrbrklzrqfa4yeygq5ois7p7zv3i5qi2z.py", line 495, in call
+    buf4 = empty_strided_cuda((s0, 18944), (18944, 1), torch.bfloat16)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.47 GiB. GPU 0 has a total capacity of 39.38 GiB of which 2.83 GiB is free. Including non-PyTorch memory, this process has 36.54 GiB memory in use. Of the allocated memory 30.53 GiB is allocated by PyTorch, with 97.50 MiB allocated in private pools (e.g., CUDA Graphs), and 5.15 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Splits:   0%|          | 0/1 [10:55<?, ?it/s]
+Traceback (most recent call last):
+  File "/projects/bdrx/azhang14/SoberReasoningPlus/main_diff.py", line 181, in <module>
+    main()
+  File "/projects/bdrx/azhang14/SoberReasoningPlus/main_diff.py", line 172, in main
+    pipeline.evaluate()
+  File "/projects/bdrx/azhang14/SoberReasoningPlus/lighteval/src/lighteval/pipeline.py", line 291, in evaluate
+    sample_id_to_responses = self._run_model()
+                             ^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/SoberReasoningPlus/lighteval/src/lighteval/pipeline.py", line 469, in _run_model
+    responses = run_model(requests)
+                ^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 278, in greedy_until
+    vllm_outputs = self._generate(
+                   ^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/SoberReasoningPlus/lighteval/src/lighteval/models/vllm/vllm_model.py", line 355, in _generate
+    outputs = self.model.generate(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/utils/__init__.py", line 1292, in inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 510, in generate
+    outputs = self._run_engine(use_tqdm=use_tqdm)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/entrypoints/llm.py", line 1570, in _run_engine
+    step_outputs = self.llm_engine.step()
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/llm_engine.py", line 237, in step
+    outputs = self.engine_core.get_output()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core_client.py", line 571, in get_output
+    raise self._format_exception(outputs) from None
+vllm.v1.engine.exceptions.EngineDeadError: EngineCore encountered an issue. See stack trace (above) for the root cause.
+Process EngineCore_0:
+Traceback (most recent call last):
+  File "/sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/python-3.12.1-ahcgi2c/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/python-3.12.1-ahcgi2c/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 590, in run_engine_core
+    raise e
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 579, in run_engine_core
+    engine_core.run_busy_loop()
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 606, in run_busy_loop
+    self._process_engine_step()
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 631, in _process_engine_step
+    outputs, model_executed = self.step_fn()
+                              ^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 235, in step
+    model_output = self.execute_model(scheduler_output)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 221, in execute_model
+    raise err
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 212, in execute_model
+    return self.model_executor.execute_model(scheduler_output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/executor/abstract.py", line 87, in execute_model
+    output = self.collective_rpc("execute_model",
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/executor/uniproc_executor.py", line 57, in collective_rpc
+    answer = run_method(self.driver_worker, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/utils/__init__.py", line 2736, in run_method
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py", line 308, in execute_model
+    output = self.model_runner.execute_model(scheduler_output,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/worker/gpu_model_runner.py", line 1374, in execute_model
+    model_output = self.model(
+                   ^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 478, in forward
+    hidden_states = self.model(input_ids, positions, intermediate_tensors,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/compilation/decorators.py", line 246, in __call__
+    model_output = self.forward(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/model_executor/models/qwen2.py", line 337, in forward
+    def forward(
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/fx/graph_module.py", line 830, in call_wrapped
+    return self._wrapped_call(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/fx/graph_module.py", line 406, in __call__
+    raise e
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/fx/graph_module.py", line 393, in __call__
+    return super(self.cls, obj).__call__(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<eval_with_key>.58", line 220, in forward
+    submod_4 = self.submod_4(getitem_8, s0, l_self_modules_layers_modules_1_modules_self_attn_modules_o_proj_parameters_weight_, getitem_9, l_self_modules_layers_modules_1_modules_post_attention_layernorm_parameters_weight_, l_self_modules_layers_modules_1_modules_mlp_modules_gate_up_proj_parameters_weight_, l_self_modules_layers_modules_1_modules_mlp_modules_down_proj_parameters_weight_, l_self_modules_layers_modules_2_modules_input_layernorm_parameters_weight_, l_self_modules_layers_modules_2_modules_self_attn_modules_qkv_proj_parameters_weight_, l_self_modules_layers_modules_2_modules_self_attn_modules_qkv_proj_parameters_bias_, l_positions_, l_self_modules_layers_modules_0_modules_self_attn_modules_rotary_emb_buffers_cos_sin_cache_);  getitem_8 = l_self_modules_layers_modules_1_modules_self_attn_modules_o_proj_parameters_weight_ = getitem_9 = l_self_modules_layers_modules_1_modules_post_attention_layernorm_parameters_weight_ = l_self_modules_layers_modules_1_modules_mlp_modules_gate_up_proj_parameters_weight_ = l_self_modules_layers_modules_1_modules_mlp_modules_down_proj_parameters_weight_ = l_self_modules_layers_modules_2_modules_input_layernorm_parameters_weight_ = l_self_modules_layers_modules_2_modules_self_attn_modules_qkv_proj_parameters_weight_ = l_self_modules_layers_modules_2_modules_self_attn_modules_qkv_proj_parameters_bias_ = None
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/compilation/cuda_piecewise_backend.py", line 117, in __call__
+    return self.compiled_graph_for_general_shape(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/compilation/compiler_interface.py", line 510, in compiled_graph
+    graph_output = inductor_compiled_graph(list_args)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/_inductor/output_code.py", line 460, in __call__
+    return self.current_callable(inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/azhang14/.cache/vllm/torch_compile_cache/a5e7c9d04a/rank_0_0/inductor_cache/a4/ca4s6l5r2uurnxvg6wsdrbrklzrqfa4yeygq5ois7p7zv3i5qi2z.py", line 495, in call
+    buf4 = empty_strided_cuda((s0, 18944), (18944, 1), torch.bfloat16)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.47 GiB. GPU 0 has a total capacity of 39.38 GiB of which 2.83 GiB is free. Including non-PyTorch memory, this process has 36.54 GiB memory in use. Of the allocated memory 30.53 GiB is allocated by PyTorch, with 97.50 MiB allocated in private pools (e.g., CUDA Graphs), and 5.15 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Exception ignored in atexit callback: <bound method finalize._exitfunc of <class 'weakref.finalize'>>
+Traceback (most recent call last):
+  File "/sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/python-3.12.1-ahcgi2c/lib/python3.12/weakref.py", line 666, in _exitfunc
+    f()
+  File "/sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/python-3.12.1-ahcgi2c/lib/python3.12/weakref.py", line 590, in __call__
+    return info.func(*info.args, **(info.kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/_dynamo/guards.py", line 2743, in invalidate
+    deleted_guard_manager = DeletedGuardManagerWrapper(reason)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/_dynamo/guards.py", line 2395, in __init__
+    super().__init__()
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/torch/_dynamo/guards.py", line 186, in __init__
+    self.root = RootGuardManager()
+                ^^^^^^^^^^^^^^^^^^
+  File "/projects/bdrx/azhang14/env/reasoning_benchmark/lib/python3.12/site-packages/vllm/v1/engine/core.py", line 561, in signal_handler
+    raise SystemExit()
+SystemExit: 
+[rank0]:[W1201 10:11:03.020683972 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Processed prompts:  57%|█████▋    | 17/30 [11:02<08:26, 38.99s/it, est. speed input: 7.33 toks/s, output: 285.06 toks/s] 
