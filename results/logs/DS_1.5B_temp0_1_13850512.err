@@ -4440,3 +4440,187 @@ You cannot select the number of dataset splits for a generative evaluation at th
 Processed prompts:  52%|█████▎    | 21/40 [01:15<02:38,  8.32s/it, est. speed input: 45.15 toks/s, output: 571.06 toks/s][A
 Processed prompts:  55%|█████▌    | 22/40 [01:42<04:08, 13.79s/it, est. speed input: 34.74 toks/s, output: 492.06 toks/s][A
 Processed prompts:  57%|█████▊    | 23/40 [04:04<14:50, 52.39s/it, est. speed input: 15.20 toks/s, output: 265.25 toks/s][A
+Processed prompts:  60%|██████    | 24/40 [12:46<51:31, 193.19s/it, est. speed input: 5.24 toks/s, output: 127.47 toks/s][A
+Processed prompts: 100%|██████████| 40/40 [12:46<00:00, 193.19s/it, est. speed input: 8.69 toks/s, output: 811.49 toks/s][AProcessed prompts: 100%|██████████| 40/40 [12:46<00:00, 19.16s/it, est. speed input: 8.69 toks/s, output: 811.49 toks/s] 
+Splits: 100%|██████████| 1/1 [12:47<00:00, 767.53s/it]Splits: 100%|██████████| 1/1 [12:47<00:00, 767.53s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 65.78ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|amc23 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/40 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 40/40 [00:00<00:00, 6332.46it/s]
+
+Processed prompts:   0%|          | 0/40 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   2%|▎         | 1/40 [00:05<03:53,  5.98s/it, est. speed input: 26.74 toks/s, output: 80.56 toks/s][A
+Processed prompts:   5%|▌         | 2/40 [00:06<01:37,  2.57s/it, est. speed input: 47.08 toks/s, output: 159.08 toks/s][A
+Processed prompts:   8%|▊         | 3/40 [00:07<01:07,  1.83s/it, est. speed input: 64.27 toks/s, output: 219.95 toks/s][A
+Processed prompts:  10%|█         | 4/40 [00:07<00:42,  1.19s/it, est. speed input: 77.29 toks/s, output: 296.30 toks/s][A
+Processed prompts:  12%|█▎        | 5/40 [00:10<01:03,  1.80s/it, est. speed input: 67.11 toks/s, output: 296.38 toks/s][A
+Processed prompts:  15%|█▌        | 6/40 [00:10<00:45,  1.33s/it, est. speed input: 78.83 toks/s, output: 368.86 toks/s][A
+Processed prompts:  18%|█▊        | 7/40 [00:11<00:40,  1.24s/it, est. speed input: 87.10 toks/s, output: 420.32 toks/s][A
+Processed prompts:  20%|██        | 8/40 [00:13<00:43,  1.36s/it, est. speed input: 84.27 toks/s, output: 454.32 toks/s][A
+Processed prompts:  22%|██▎       | 9/40 [00:15<00:47,  1.53s/it, est. speed input: 86.63 toks/s, output: 481.56 toks/s][A
+Processed prompts:  25%|██▌       | 10/40 [00:15<00:34,  1.16s/it, est. speed input: 96.21 toks/s, output: 555.45 toks/s][A
+Processed prompts:  28%|██▊       | 11/40 [00:18<00:48,  1.67s/it, est. speed input: 92.87 toks/s, output: 554.12 toks/s][A
+Processed prompts:  30%|███       | 12/40 [00:21<00:55,  1.97s/it, est. speed input: 91.28 toks/s, output: 567.45 toks/s][A
+Processed prompts:  32%|███▎      | 13/40 [00:21<00:39,  1.46s/it, est. speed input: 97.72 toks/s, output: 643.77 toks/s][A
+Processed prompts:  35%|███▌      | 14/40 [00:25<00:56,  2.15s/it, est. speed input: 87.58 toks/s, output: 630.05 toks/s][A
+Processed prompts:  38%|███▊      | 15/40 [00:30<01:22,  3.29s/it, est. speed input: 77.52 toks/s, output: 591.52 toks/s][A
+Processed prompts:  40%|████      | 16/40 [00:34<01:21,  3.38s/it, est. speed input: 78.03 toks/s, output: 611.63 toks/s][A
+Processed prompts:  42%|████▎     | 17/40 [00:35<00:58,  2.55s/it, est. speed input: 80.45 toks/s, output: 682.15 toks/s][A
+Processed prompts:  45%|████▌     | 18/40 [00:36<00:47,  2.14s/it, est. speed input: 82.41 toks/s, output: 741.39 toks/s][A
+Processed prompts:  48%|████▊     | 19/40 [00:37<00:39,  1.90s/it, est. speed input: 83.64 toks/s, output: 796.40 toks/s][A
+Processed prompts:  50%|█████     | 20/40 [00:48<01:30,  4.53s/it, est. speed input: 68.42 toks/s, output: 701.00 toks/s][A
+Processed prompts:  52%|█████▎    | 21/40 [00:54<01:33,  4.94s/it, est. speed input: 63.21 toks/s, output: 704.71 toks/s][A
+Processed prompts:  55%|█████▌    | 22/40 [01:21<03:29, 11.65s/it, est. speed input: 43.69 toks/s, output: 545.52 toks/s][A
+Processed prompts:  57%|█████▊    | 23/40 [01:49<04:42, 16.62s/it, est. speed input: 33.97 toks/s, output: 478.83 toks/s][A
+Processed prompts:  60%|██████    | 24/40 [01:55<03:31, 13.20s/it, est. speed input: 34.77 toks/s, output: 530.02 toks/s][A
+Processed prompts:  62%|██████▎   | 25/40 [01:59<02:40, 10.72s/it, est. speed input: 34.35 toks/s, output: 580.78 toks/s][A
+Processed prompts:  65%|██████▌   | 26/40 [07:28<24:34, 105.35s/it, est. speed input: 9.56 toks/s, output: 210.75 toks/s][A
+Processed prompts:  68%|██████▊   | 27/40 [11:25<31:25, 145.02s/it, est. speed input: 6.53 toks/s, output: 185.44 toks/s][A
+Processed prompts:  70%|███████   | 28/40 [11:25<20:24, 102.07s/it, est. speed input: 6.94 toks/s, output: 232.73 toks/s][A
+Processed prompts: 100%|██████████| 40/40 [11:25<00:00, 102.07s/it, est. speed input: 9.72 toks/s, output: 806.34 toks/s][AProcessed prompts: 100%|██████████| 40/40 [11:25<00:00, 17.14s/it, est. speed input: 9.72 toks/s, output: 806.34 toks/s] 
+Splits: 100%|██████████| 1/1 [11:25<00:00, 685.76s/it]Splits: 100%|██████████| 1/1 [11:25<00:00, 685.76s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 66.84ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|amc23 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/40 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 40/40 [00:00<00:00, 6315.30it/s]
+
+Processed prompts:   0%|          | 0/40 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   2%|▎         | 1/40 [00:05<03:20,  5.13s/it, est. speed input: 31.17 toks/s, output: 93.90 toks/s][A
+Processed prompts:   5%|▌         | 2/40 [00:05<01:24,  2.22s/it, est. speed input: 54.61 toks/s, output: 184.54 toks/s][A
+Processed prompts:   8%|▊         | 3/40 [00:06<01:00,  1.64s/it, est. speed input: 72.84 toks/s, output: 249.30 toks/s][A
+Processed prompts:  10%|█         | 4/40 [00:06<00:38,  1.07s/it, est. speed input: 87.29 toks/s, output: 334.62 toks/s][A
+Processed prompts:  12%|█▎        | 5/40 [00:09<01:00,  1.73s/it, est. speed input: 73.11 toks/s, output: 322.85 toks/s][A
+Processed prompts:  15%|█▌        | 6/40 [00:09<00:43,  1.29s/it, est. speed input: 85.58 toks/s, output: 400.41 toks/s][A
+Processed prompts:  18%|█▊        | 7/40 [00:10<00:39,  1.21s/it, est. speed input: 93.83 toks/s, output: 452.80 toks/s][A
+Processed prompts:  20%|██        | 8/40 [00:12<00:42,  1.33s/it, est. speed input: 89.97 toks/s, output: 485.09 toks/s][A
+Processed prompts:  22%|██▎       | 9/40 [00:14<00:50,  1.62s/it, est. speed input: 88.30 toks/s, output: 499.91 toks/s][A
+Processed prompts:  25%|██▌       | 10/40 [00:17<00:59,  2.00s/it, est. speed input: 85.96 toks/s, output: 506.82 toks/s][A
+Processed prompts:  28%|██▊       | 11/40 [00:20<01:03,  2.18s/it, est. speed input: 85.17 toks/s, output: 528.20 toks/s][A
+Processed prompts:  32%|███▎      | 13/40 [00:20<00:33,  1.25s/it, est. speed input: 102.00 toks/s, output: 691.33 toks/s][A
+Processed prompts:  35%|███▌      | 14/40 [00:24<00:48,  1.87s/it, est. speed input: 90.92 toks/s, output: 670.19 toks/s] [A
+Processed prompts:  38%|███▊      | 15/40 [00:34<01:41,  4.07s/it, est. speed input: 67.89 toks/s, output: 554.95 toks/s][A
+Processed prompts:  40%|████      | 16/40 [00:35<01:18,  3.29s/it, est. speed input: 70.20 toks/s, output: 618.73 toks/s][A
+Processed prompts:  42%|████▎     | 17/40 [00:37<01:03,  2.75s/it, est. speed input: 71.84 toks/s, output: 678.73 toks/s][A
+Processed prompts:  45%|████▌     | 18/40 [00:43<01:20,  3.67s/it, est. speed input: 65.51 toks/s, output: 666.12 toks/s][A
+Processed prompts:  48%|████▊     | 19/40 [00:57<02:21,  6.73s/it, est. speed input: 52.03 toks/s, output: 579.94 toks/s][A
+Processed prompts:  50%|█████     | 20/40 [00:58<01:42,  5.11s/it, est. speed input: 53.24 toks/s, output: 647.23 toks/s][A
+Processed prompts:  52%|█████▎    | 21/40 [00:59<01:16,  4.02s/it, est. speed input: 56.92 toks/s, output: 710.76 toks/s][A
+Processed prompts:  55%|█████▌    | 22/40 [01:34<03:53, 12.97s/it, est. speed input: 37.97 toks/s, output: 527.37 toks/s][A
+Processed prompts:  57%|█████▊    | 23/40 [01:49<03:55, 13.85s/it, est. speed input: 34.92 toks/s, output: 524.11 toks/s][A
+Processed prompts:  60%|██████    | 24/40 [06:06<23:00, 86.25s/it, est. speed input: 11.02 toks/s, output: 212.65 toks/s][A
+Processed prompts:  62%|██████▎   | 25/40 [12:14<42:27, 169.84s/it, est. speed input: 5.78 toks/s, output: 151.14 toks/s][A
+Processed prompts:  65%|██████▌   | 26/40 [12:14<27:56, 119.75s/it, est. speed input: 6.17 toks/s, output: 195.23 toks/s][A
+Processed prompts: 100%|██████████| 40/40 [12:14<00:00, 119.75s/it, est. speed input: 9.07 toks/s, output: 819.44 toks/s][AProcessed prompts: 100%|██████████| 40/40 [12:14<00:00, 18.37s/it, est. speed input: 9.07 toks/s, output: 819.44 toks/s] 
+Splits: 100%|██████████| 1/1 [12:15<00:00, 735.17s/it]Splits: 100%|██████████| 1/1 [12:15<00:00, 735.17s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 63.58ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|amc23 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/40 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 40/40 [00:00<00:00, 6337.00it/s]
+
+Processed prompts:   0%|          | 0/40 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   2%|▎         | 1/40 [00:05<03:21,  5.16s/it, est. speed input: 30.99 toks/s, output: 93.37 toks/s][A
+Processed prompts:   5%|▌         | 2/40 [00:05<01:24,  2.23s/it, est. speed input: 54.32 toks/s, output: 183.55 toks/s][A
+Processed prompts:   8%|▊         | 3/40 [00:06<01:00,  1.65s/it, est. speed input: 72.67 toks/s, output: 248.70 toks/s][A
+Processed prompts:  10%|█         | 4/40 [00:06<00:38,  1.07s/it, est. speed input: 87.09 toks/s, output: 333.85 toks/s][A
+Processed prompts:  12%|█▎        | 5/40 [00:09<01:00,  1.73s/it, est. speed input: 73.03 toks/s, output: 322.50 toks/s][A
+Processed prompts:  15%|█▌        | 6/40 [00:09<00:43,  1.29s/it, est. speed input: 85.49 toks/s, output: 400.00 toks/s][A
+Processed prompts:  18%|█▊        | 7/40 [00:10<00:39,  1.21s/it, est. speed input: 93.74 toks/s, output: 452.40 toks/s][A
+Processed prompts:  20%|██        | 8/40 [00:12<00:42,  1.33s/it, est. speed input: 89.89 toks/s, output: 484.66 toks/s][A
+Processed prompts:  22%|██▎       | 9/40 [00:14<00:50,  1.62s/it, est. speed input: 88.25 toks/s, output: 499.60 toks/s][A
+Processed prompts:  25%|██▌       | 10/40 [00:20<01:24,  2.81s/it, est. speed input: 74.64 toks/s, output: 451.03 toks/s][A
+Processed prompts:  30%|███       | 12/40 [00:20<00:44,  1.58s/it, est. speed input: 91.64 toks/s, output: 615.30 toks/s][A
+Processed prompts:  32%|███▎      | 13/40 [00:27<01:21,  3.02s/it, est. speed input: 72.36 toks/s, output: 538.08 toks/s][A
+Processed prompts:  35%|███▌      | 14/40 [00:35<01:53,  4.37s/it, est. speed input: 60.62 toks/s, output: 498.69 toks/s][A
+Processed prompts:  38%|███▊      | 15/40 [00:36<01:23,  3.36s/it, est. speed input: 63.75 toks/s, output: 571.53 toks/s][A
+Processed prompts:  40%|████      | 16/40 [00:40<01:22,  3.44s/it, est. speed input: 60.82 toks/s, output: 601.23 toks/s][A
+Processed prompts:  42%|████▎     | 17/40 [00:48<01:51,  4.83s/it, est. speed input: 53.67 toks/s, output: 578.60 toks/s][A
+Processed prompts:  45%|████▌     | 18/40 [00:49<01:18,  3.56s/it, est. speed input: 59.21 toks/s, output: 653.12 toks/s][A
+Processed prompts:  50%|█████     | 20/40 [01:08<02:09,  6.45s/it, est. speed input: 47.15 toks/s, output: 598.94 toks/s][A
+Processed prompts:  52%|█████▎    | 21/40 [01:14<02:00,  6.33s/it, est. speed input: 45.61 toks/s, output: 627.93 toks/s][A
+Processed prompts:  57%|█████▊    | 23/40 [01:43<02:43,  9.62s/it, est. speed input: 35.64 toks/s, output: 583.33 toks/s][A
+Processed prompts:  60%|██████    | 24/40 [06:04<17:48, 66.79s/it, est. speed input: 10.66 toks/s, output: 220.92 toks/s][A
+Processed prompts:  62%|██████▎   | 25/40 [12:22<35:43, 142.90s/it, est. speed input: 5.50 toks/s, output: 152.73 toks/s][A
+Processed prompts:  65%|██████▌   | 26/40 [12:22<24:43, 105.99s/it, est. speed input: 5.78 toks/s, output: 196.73 toks/s][A
+Processed prompts:  68%|██████▊   | 27/40 [12:22<16:45, 77.38s/it, est. speed input: 6.14 toks/s, output: 240.80 toks/s] [A
+Processed prompts: 100%|██████████| 40/40 [12:22<00:00, 77.38s/it, est. speed input: 8.97 toks/s, output: 814.16 toks/s][AProcessed prompts: 100%|██████████| 40/40 [12:22<00:00, 18.57s/it, est. speed input: 8.97 toks/s, output: 814.16 toks/s]
+Splits: 100%|██████████| 1/1 [12:23<00:00, 743.37s/it]Splits: 100%|██████████| 1/1 [12:23<00:00, 743.37s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 11.62ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|amc23 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/40 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 40/40 [00:00<00:00, 5912.47it/s]
+
+Processed prompts:   0%|          | 0/40 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   2%|▎         | 1/40 [00:07<04:43,  7.26s/it, est. speed input: 22.04 toks/s, output: 66.41 toks/s][A
+Processed prompts:  12%|█▎        | 5/40 [00:09<00:54,  1.55s/it, est. speed input: 72.24 toks/s, output: 319.00 toks/s][A
+Processed prompts:  15%|█▌        | 6/40 [00:09<00:43,  1.29s/it, est. speed input: 84.59 toks/s, output: 395.81 toks/s][A
+Processed prompts:  18%|█▊        | 7/40 [00:10<00:40,  1.23s/it, est. speed input: 92.85 toks/s, output: 448.11 toks/s][A
+Processed prompts:  20%|██        | 8/40 [00:12<00:42,  1.33s/it, est. speed input: 89.17 toks/s, output: 480.74 toks/s][A
+Processed prompts:  22%|██▎       | 9/40 [00:14<00:46,  1.49s/it, est. speed input: 91.02 toks/s, output: 505.91 toks/s][A
+Processed prompts:  25%|██▌       | 10/40 [00:14<00:34,  1.16s/it, est. speed input: 100.97 toks/s, output: 582.91 toks/s][A
+Processed prompts:  28%|██▊       | 11/40 [00:17<00:47,  1.64s/it, est. speed input: 96.71 toks/s, output: 577.02 toks/s] [A
+Processed prompts:  30%|███       | 12/40 [00:20<00:54,  1.95s/it, est. speed input: 94.40 toks/s, output: 586.90 toks/s][A
+Processed prompts:  32%|███▎      | 13/40 [00:20<00:39,  1.46s/it, est. speed input: 101.03 toks/s, output: 665.55 toks/s][A
+Processed prompts:  35%|███▌      | 14/40 [00:24<00:55,  2.14s/it, est. speed input: 90.10 toks/s, output: 648.22 toks/s] [A
+Processed prompts:  38%|███▊      | 15/40 [00:30<01:21,  3.26s/it, est. speed input: 79.31 toks/s, output: 605.21 toks/s][A
+Processed prompts:  40%|████      | 16/40 [00:33<01:20,  3.36s/it, est. speed input: 79.61 toks/s, output: 624.02 toks/s][A
+Processed prompts:  42%|████▎     | 17/40 [00:34<00:58,  2.55s/it, est. speed input: 82.05 toks/s, output: 695.71 toks/s][A
+Processed prompts:  45%|████▌     | 18/40 [00:35<00:47,  2.14s/it, est. speed input: 83.99 toks/s, output: 755.60 toks/s][A
+Processed prompts:  48%|████▊     | 19/40 [00:37<00:39,  1.90s/it, est. speed input: 85.19 toks/s, output: 811.19 toks/s][A
+Processed prompts:  50%|█████     | 20/40 [00:47<01:30,  4.53s/it, est. speed input: 69.37 toks/s, output: 710.76 toks/s][A
+Processed prompts:  52%|█████▎    | 21/40 [00:53<01:33,  4.94s/it, est. speed input: 64.00 toks/s, output: 713.58 toks/s][A
+Processed prompts:  55%|█████▌    | 22/40 [01:20<03:29, 11.66s/it, est. speed input: 44.01 toks/s, output: 549.53 toks/s][A
+Processed prompts:  57%|█████▊    | 23/40 [01:49<04:42, 16.63s/it, est. speed input: 34.14 toks/s, output: 481.33 toks/s][A
+Processed prompts:  60%|██████    | 24/40 [01:54<03:31, 13.20s/it, est. speed input: 34.95 toks/s, output: 532.73 toks/s][A
+Processed prompts:  62%|██████▎   | 25/40 [01:59<02:40, 10.73s/it, est. speed input: 34.51 toks/s, output: 583.52 toks/s][A
+Processed prompts:  65%|██████▌   | 26/40 [07:25<24:32, 105.20s/it, est. speed input: 9.58 toks/s, output: 211.21 toks/s][A
+Processed prompts:  68%|██████▊   | 27/40 [11:22<31:21, 144.76s/it, est. speed input: 6.54 toks/s, output: 185.83 toks/s][A
+Processed prompts:  70%|███████   | 28/40 [11:22<20:18, 101.52s/it, est. speed input: 6.97 toks/s, output: 233.66 toks/s][A
+Processed prompts: 100%|██████████| 40/40 [11:22<00:00, 101.52s/it, est. speed input: 9.76 toks/s, output: 809.55 toks/s][AProcessed prompts: 100%|██████████| 40/40 [11:22<00:00, 17.07s/it, est. speed input: 9.76 toks/s, output: 809.55 toks/s] 
+Splits: 100%|██████████| 1/1 [11:23<00:00, 683.12s/it]Splits: 100%|██████████| 1/1 [11:23<00:00, 683.12s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 62.71ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|amc23 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/40 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 40/40 [00:00<00:00, 6183.55it/s]
+
+Processed prompts:   0%|          | 0/40 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   2%|▎         | 1/40 [00:05<03:20,  5.14s/it, est. speed input: 31.14 toks/s, output: 93.82 toks/s][A
+Processed prompts:   5%|▌         | 2/40 [00:05<01:24,  2.22s/it, est. speed input: 54.56 toks/s, output: 184.38 toks/s][A
+Processed prompts:   8%|▊         | 3/40 [00:06<01:00,  1.64s/it, est. speed input: 72.94 toks/s, output: 249.64 toks/s][A
+Processed prompts:  10%|█         | 4/40 [00:06<00:38,  1.07s/it, est. speed input: 87.40 toks/s, output: 335.06 toks/s][A
+Processed prompts:  12%|█▎        | 5/40 [00:09<01:00,  1.73s/it, est. speed input: 73.22 toks/s, output: 323.34 toks/s][A
+Processed prompts:  15%|█▌        | 6/40 [00:09<00:43,  1.28s/it, est. speed input: 85.70 toks/s, output: 400.99 toks/s][A
+Processed prompts:  18%|█▊        | 7/40 [00:10<00:39,  1.21s/it, est. speed input: 93.93 toks/s, output: 453.32 toks/s][A
+Processed prompts:  20%|██        | 8/40 [00:12<00:42,  1.33s/it, est. speed input: 90.04 toks/s, output: 485.43 toks/s][A
+Processed prompts:  22%|██▎       | 9/40 [00:14<00:46,  1.51s/it, est. speed input: 91.80 toks/s, output: 510.25 toks/s][A
+Processed prompts:  25%|██▌       | 10/40 [00:14<00:34,  1.15s/it, est. speed input: 101.82 toks/s, output: 587.80 toks/s][A
+Processed prompts:  28%|██▊       | 11/40 [00:17<00:48,  1.66s/it, est. speed input: 97.42 toks/s, output: 581.27 toks/s] [A
+Processed prompts:  30%|███       | 12/40 [00:20<00:55,  1.98s/it, est. speed input: 94.87 toks/s, output: 589.81 toks/s][A
+Processed prompts:  32%|███▎      | 13/40 [00:20<00:39,  1.47s/it, est. speed input: 101.52 toks/s, output: 668.82 toks/s][A
+Processed prompts:  35%|███▌      | 14/40 [00:24<00:56,  2.16s/it, est. speed input: 90.50 toks/s, output: 651.08 toks/s] [A
+Processed prompts:  38%|███▊      | 15/40 [00:30<01:22,  3.29s/it, est. speed input: 79.63 toks/s, output: 607.62 toks/s][A
+Processed prompts:  40%|████      | 16/40 [00:33<01:21,  3.38s/it, est. speed input: 79.97 toks/s, output: 626.80 toks/s][A
+Processed prompts:  42%|████▎     | 17/40 [00:34<00:58,  2.55s/it, est. speed input: 82.41 toks/s, output: 698.79 toks/s][A
+Processed prompts:  45%|████▌     | 18/40 [00:35<00:46,  2.14s/it, est. speed input: 84.36 toks/s, output: 758.92 toks/s][A
+Processed prompts:  48%|████▊     | 19/40 [00:36<00:39,  1.89s/it, est. speed input: 85.56 toks/s, output: 814.70 toks/s][A
+Processed prompts:  50%|█████     | 20/40 [00:47<01:32,  4.62s/it, est. speed input: 69.22 toks/s, output: 709.21 toks/s][A
+Processed prompts:  52%|█████▎    | 21/40 [00:53<01:34,  4.99s/it, est. speed input: 63.89 toks/s, output: 712.35 toks/s][A
+Processed prompts:  55%|█████▌    | 22/40 [01:21<03:33, 11.88s/it, est. speed input: 43.65 toks/s, output: 545.07 toks/s][A
+Processed prompts:  57%|█████▊    | 23/40 [01:50<04:46, 16.85s/it, est. speed input: 33.88 toks/s, output: 477.57 toks/s][A
+Processed prompts:  60%|██████    | 24/40 [01:55<03:34, 13.43s/it, est. speed input: 34.61 toks/s, output: 527.63 toks/s][A
+Processed prompts:  62%|██████▎   | 25/40 [02:00<02:43, 10.88s/it, est. speed input: 34.20 toks/s, output: 578.30 toks/s][A
+Processed prompts:  65%|██████▌   | 26/40 [07:29<24:40, 105.74s/it, est. speed input: 9.53 toks/s, output: 210.06 toks/s][A
+Processed prompts:  68%|██████▊   | 27/40 [11:26<31:26, 145.15s/it, est. speed input: 6.52 toks/s, output: 185.17 toks/s][A
+Processed prompts:  70%|███████   | 28/40 [11:26<20:26, 102.23s/it, est. speed input: 6.93 toks/s, output: 232.33 toks/s][A
+Processed prompts: 100%|██████████| 40/40 [11:26<00:00, 102.23s/it, est. speed input: 9.70 toks/s, output: 804.94 toks/s][AProcessed prompts: 100%|██████████| 40/40 [11:26<00:00, 17.17s/it, est. speed input: 9.70 toks/s, output: 804.94 toks/s] 
+Splits: 100%|██████████| 1/1 [11:26<00:00, 686.93s/it]Splits: 100%|██████████| 1/1 [11:26<00:00, 686.93s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 33.62ba/s]

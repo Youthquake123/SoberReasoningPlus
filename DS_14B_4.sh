@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=DS_14B_4_3
+#SBATCH --job-name=DS_14B_temp0_1
 #SBATCH -A m4899
 #SBATCH -C gpu&hbm80g
 #SBATCH -q regular

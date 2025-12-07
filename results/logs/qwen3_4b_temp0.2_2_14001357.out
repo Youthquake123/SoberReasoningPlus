@@ -1,0 +1,5 @@
+HF_HOME is set to /projects/bdrx/azhang14/huggingface_cache
+Starting temperature 0.2 on GPU 0
+INFO 12-07 02:53:13 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-07 02:54:22 [__init__.py:244] Automatically detected platform cuda.

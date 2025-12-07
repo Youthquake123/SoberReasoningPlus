@@ -1,0 +1,1765 @@
+HF_HOME is set to /projects/bdrx/azhang14/huggingface_cache
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0, Top_P=0.7
+======================================
+INFO 12-02 10:50:10 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-02 10:52:30 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.0] [0.7]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.7-aime24-1-128-131072-32768
+Running evaluation for task: custom|aime25|0|0, temperature: 0.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.7-aime25-1-128-131072-32768
+Running evaluation for task: custom|amc23|0|0, temperature: 0.0, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.7-amc23-1-128-131072-32768
+Total execution time: 0:09:35.455655
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0, Top_P=0.8
+======================================
+INFO 12-02 11:02:51 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-02 11:04:46 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.0] [0.8]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.8-aime24-1-128-131072-32768
+Running evaluation for task: custom|aime25|0|0, temperature: 0.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.8-aime25-1-128-131072-32768
+Running evaluation for task: custom|amc23|0|0, temperature: 0.0, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.8-amc23-1-128-131072-32768
+Total execution time: 0:06:39.113398
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0, Top_P=0.9
+======================================
+INFO 12-02 11:12:11 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-02 11:14:06 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.0] [0.9]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.9-aime24-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.9-aime24-1-128-131072-32768
+Running evaluation for task: custom|aime25|0|0, temperature: 0.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.9-aime25-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.9-aime25-1-128-131072-32768
+Running evaluation for task: custom|amc23|0|0, temperature: 0.0, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.9-amc23-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.9-amc23-1-128-131072-32768
+Total execution time: 0:07:11.062020
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0, Top_P=0.95
+======================================
+INFO 12-02 11:22:23 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-02 11:24:08 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.0] [0.95]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.0, top_p: 0.95, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.95-aime24-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.95-aime24-1-128-131072-32768
+Running evaluation for task: custom|aime25|0|0, temperature: 0.0, top_p: 0.95, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.95-aime25-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.95-aime25-1-128-131072-32768
+Running evaluation for task: custom|amc23|0|0, temperature: 0.0, top_p: 0.95, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-0.95-amc23-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-0.95-amc23-1-128-131072-32768
+Total execution time: 0:07:40.423111
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0, Top_P=1.0
+======================================
+INFO 12-02 11:33:51 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-02 11:35:47 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.0] [1.0]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.0, top_p: 1.0, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-1.0-aime24-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-1.0-aime24-1-128-131072-32768
+Running evaluation for task: custom|aime25|0|0, temperature: 0.0, top_p: 1.0, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-1.0-aime25-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-1.0-aime25-1-128-131072-32768
+Running evaluation for task: custom|amc23|0|0, temperature: 0.0, top_p: 1.0, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.0-1.0-amc23-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.0-1.0-amc23-1-128-131072-32768
+Total execution time: 0:07:19.755045
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0.2, Top_P=0.7
+======================================
+INFO 12-02 11:44:04 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-02 11:46:15 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.2] [0.7]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.2, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.2-0.7-aime24-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.2-0.7-aime24-1-128-131072-32768
+Running evaluation for task: custom|aime25|0|0, temperature: 0.2, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.2-0.7-aime25-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.2-0.7-aime25-1-128-131072-32768
+Running evaluation for task: custom|amc23|0|0, temperature: 0.2, top_p: 0.7, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.2-0.7-amc23-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.2-0.7-amc23-1-128-131072-32768
+Total execution time: 0:07:19.942513
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0.2, Top_P=0.8
+======================================
+INFO 12-02 11:54:34 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-02 11:56:23 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.2] [0.8]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.2, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.2-0.8-aime24-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.2-0.8-aime24-1-128-131072-32768
+Running evaluation for task: custom|aime25|0|0, temperature: 0.2, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.2-0.8-aime25-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.2-0.8-aime25-1-128-131072-32768
+Running evaluation for task: custom|amc23|0|0, temperature: 0.2, top_p: 0.8, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/0-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=1 (2/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/1-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=2 (3/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/2-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=3 (4/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/3-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=4 (5/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/4-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=5 (6/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/5-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=6 (7/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/6-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=7 (8/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/7-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=8 (9/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/8-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=9 (10/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/9-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=10 (11/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/10-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=11 (12/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/11-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=12 (13/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/12-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=13 (14/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/13-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=14 (15/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/14-0.2-0.8-amc23-1-128-131072-32768
+
+---> Starting run: seed=15 (16/16)
+Skipping run, results found in /projects/bdrx/azhang14/SoberReasoningPlus/results/temp_0.2/deepseek-ai-DeepSeek-R1-0528-Qwen3-8B-bfloat16-34816/15-0.2-0.8-amc23-1-128-131072-32768
+Total execution time: 0:06:32.756582
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0.2, Top_P=0.9
+======================================
+INFO 12-02 12:04:31 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-02 12:06:41 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.2] [0.9]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.2, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.8333|±  |0.0692|
+|custom:aime24:0|      1|extractive_match|0.8333|±  |0.0692|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.8|±  |0.0743|
+|custom:aime24:0|      1|extractive_match|  0.8|±  |0.0743|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.8333|±  |0.0692|
+|custom:aime24:0|      1|extractive_match|0.8333|±  |0.0692|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7667|±  |0.0785|
+|custom:aime24:0|      1|extractive_match|0.7667|±  |0.0785|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7667|±  |0.0785|
+|custom:aime24:0|      1|extractive_match|0.7667|±  |0.0785|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.8|±  |0.0743|
+|custom:aime24:0|      1|extractive_match|  0.8|±  |0.0743|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.8|±  |0.0743|
+|custom:aime24:0|      1|extractive_match|  0.8|±  |0.0743|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime24:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime24:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.8|±  |0.0743|
+|custom:aime24:0|      1|extractive_match|  0.8|±  |0.0743|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7667|±  |0.0785|
+|custom:aime24:0|      1|extractive_match|0.7667|±  |0.0785|
+
+Finished run for all seeds
+Running evaluation for task: custom|aime25|0|0, temperature: 0.2, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.4667|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.4667|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime25:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5667|±  | 0.092|
+|custom:aime25:0|      1|extractive_match|0.5667|±  | 0.092|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime25:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime25:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime25:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime25:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.6|±  | 0.091|
+|custom:aime25:0|      1|extractive_match|  0.6|±  | 0.091|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.5333|±  |0.0926|
+|custom:aime25:0|      1|extractive_match|0.5333|±  |0.0926|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime25:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6667|±  |0.0875|
+|custom:aime25:0|      1|extractive_match|0.6667|±  |0.0875|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime25:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7333|±  |0.0821|
+|custom:aime25:0|      1|extractive_match|0.7333|±  |0.0821|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.6333|±  |0.0895|
+|custom:aime25:0|      1|extractive_match|0.6333|±  |0.0895|
+
+Finished run for all seeds
+Running evaluation for task: custom|amc23|0|0, temperature: 0.2, top_p: 0.9, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.95|±  |0.0349|
+|custom:amc23:0|      1|extractive_match| 0.95|±  |0.0349|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.875|±  | 0.053|
+|custom:amc23:0|      1|extractive_match|0.875|±  | 0.053|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.775|±  |0.0669|
+|custom:amc23:0|      1|extractive_match|0.775|±  |0.0669|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.8|±  |0.0641|
+|custom:amc23:0|      1|extractive_match|  0.8|±  |0.0641|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.775|±  |0.0669|
+|custom:amc23:0|      1|extractive_match|0.775|±  |0.0669|
+
+Finished run for all seeds
+
+---> Starting run: seed=6 (7/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.825|±  |0.0608|
+|custom:amc23:0|      1|extractive_match|0.825|±  |0.0608|
+
+Finished run for all seeds
+
+---> Starting run: seed=7 (8/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.8|±  |0.0641|
+|custom:amc23:0|      1|extractive_match|  0.8|±  |0.0641|
+
+Finished run for all seeds
+
+---> Starting run: seed=8 (9/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.825|±  |0.0608|
+|custom:amc23:0|      1|extractive_match|0.825|±  |0.0608|
+
+Finished run for all seeds
+
+---> Starting run: seed=9 (10/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.875|±  | 0.053|
+|custom:amc23:0|      1|extractive_match|0.875|±  | 0.053|
+
+Finished run for all seeds
+
+---> Starting run: seed=10 (11/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+
+---> Starting run: seed=11 (12/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.85|±  |0.0572|
+|custom:amc23:0|      1|extractive_match| 0.85|±  |0.0572|
+
+Finished run for all seeds
+
+---> Starting run: seed=12 (13/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.8|±  |0.0641|
+|custom:amc23:0|      1|extractive_match|  0.8|±  |0.0641|
+
+Finished run for all seeds
+
+---> Starting run: seed=13 (14/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|0.825|±  |0.0608|
+|custom:amc23:0|      1|extractive_match|0.825|±  |0.0608|
+
+Finished run for all seeds
+
+---> Starting run: seed=14 (15/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match| 0.85|±  |0.0572|
+|custom:amc23:0|      1|extractive_match| 0.85|±  |0.0572|
+
+Finished run for all seeds
+
+---> Starting run: seed=15 (16/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task     |Version|     Metric     |Value|   |Stderr|
+|--------------|------:|----------------|----:|---|-----:|
+|all           |       |extractive_match|  0.9|±  | 0.048|
+|custom:amc23:0|      1|extractive_match|  0.9|±  | 0.048|
+
+Finished run for all seeds
+Total execution time: 1 day, 16:57:01.097690
+======================================
+Running: Model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B, Temp=0.2, Top_P=0.95
+======================================
+INFO 12-04 05:05:32 [__init__.py:244] Automatically detected platform cuda.
+Loading model...
+INFO 12-04 05:08:38 [__init__.py:244] Automatically detected platform cuda.
+Model loaded successfully.
+[0.2] [0.95]
+<class 'list'> <class 'list'>
+Running evaluation for task: custom|aime24|0|0, temperature: 0.2, top_p: 0.95, num_seeds: 16
+
+---> Starting run: seed=0 (1/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.8333|±  |0.0692|
+|custom:aime24:0|      1|extractive_match|0.8333|±  |0.0692|
+
+Finished run for all seeds
+
+---> Starting run: seed=1 (2/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value |   |Stderr|
+|---------------|------:|----------------|-----:|---|-----:|
+|all            |       |extractive_match|0.7667|±  |0.0785|
+|custom:aime24:0|      1|extractive_match|0.7667|±  |0.0785|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.7|±  |0.0851|
+|custom:aime24:0|      1|extractive_match|  0.7|±  |0.0851|
+
+Finished run for all seeds
+
+---> Starting run: seed=3 (4/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.8|±  |0.0743|
+|custom:aime24:0|      1|extractive_match|  0.8|±  |0.0743|
+
+Finished run for all seeds
+
+---> Starting run: seed=4 (5/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
+|     Task      |Version|     Metric     |Value|   |Stderr|
+|---------------|------:|----------------|----:|---|-----:|
+|all            |       |extractive_match|  0.8|±  |0.0743|
+|custom:aime24:0|      1|extractive_match|  0.8|±  |0.0743|
+
+Finished run for all seeds
+
+---> Starting run: seed=5 (6/16)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized

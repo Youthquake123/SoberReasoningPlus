@@ -1,0 +1,632 @@
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:15<00:15, 15.97s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:35<00:00, 17.91s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:35<00:00, 17.62s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:30,  2.17it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:28,  2.32it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:26,  2.39it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:25,  2.43it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:25,  2.45it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:24,  2.45it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:24,  2.46it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.46it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:23,  2.47it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:23,  2.47it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.46it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:22,  2.47it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:21,  2.47it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.47it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:21,  2.46it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.45it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:20,  2.47it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.50it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:19,  2.51it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:08<00:18,  2.52it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:18,  2.52it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.51it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.51it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:17,  2.40it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:10<00:17,  2.43it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:16,  2.45it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:16,  2.47it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:15,  2.49it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:15,  2.44it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:12<00:15,  2.41it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:14,  2.41it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:13<00:14,  2.44it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.48it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:13,  2.51it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:14<00:12,  2.52it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:12,  2.54it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.56it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:15<00:11,  2.57it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.58it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:16<00:10,  2.58it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:10,  2.58it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.60it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:17<00:09,  2.61it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.63it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:18<00:08,  2.64it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:18<00:07,  2.63it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.64it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:19<00:07,  2.63it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.63it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.62it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:20<00:06,  2.51it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.55it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:21<00:05,  2.59it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:04,  2.62it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.61it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:22<00:04,  2.54it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.58it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:23<00:03,  2.57it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:23<00:03,  2.60it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.63it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:24<00:02,  2.64it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.65it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.67it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:25<00:01,  2.68it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.68it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:26<00:00,  2.68it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:26<00:00,  2.68it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:26<00:00,  2.54it/s]
+[rank0]:[W1207 03:08:24.699163264 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:08<00:08,  8.04s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:27<00:00, 14.54s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:27<00:00, 13.56s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:30,  2.17it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:27,  2.36it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:26,  2.41it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:26,  2.40it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:25,  2.40it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:25,  2.44it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:24,  2.46it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.48it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:23,  2.49it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:22,  2.50it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.50it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:22,  2.48it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:22,  2.44it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.43it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:21,  2.45it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.47it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.50it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.53it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:18,  2.56it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:08<00:18,  2.57it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:17,  2.58it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.58it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.57it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:16,  2.57it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:10<00:16,  2.58it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:15,  2.58it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:15,  2.56it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:15,  2.45it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:15,  2.49it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:12<00:14,  2.53it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:14,  2.55it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:13,  2.56it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.57it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:12,  2.58it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:13<00:12,  2.59it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:11,  2.61it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.62it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:15<00:11,  2.64it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.65it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:10,  2.65it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:09,  2.67it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.69it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:16<00:08,  2.68it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.69it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:08,  2.67it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:18<00:07,  2.68it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.69it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.68it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.68it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.69it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:19<00:05,  2.69it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.70it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.66it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:04,  2.66it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.51it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:21<00:04,  2.56it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.62it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.65it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:22<00:02,  2.68it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.70it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.71it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.72it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.74it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:24<00:01,  2.73it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.75it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.75it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.75it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.59it/s]
+[rank0]:[W1207 03:11:42.552903371 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:17<00:17, 17.35s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:35<00:00, 17.78s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:35<00:00, 17.72s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:32,  2.01it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:28,  2.28it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:26,  2.38it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:25,  2.43it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:25,  2.45it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:24,  2.47it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:24,  2.49it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.50it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:23,  2.50it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:22,  2.51it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.50it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:22,  2.49it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:21,  2.49it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.49it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:20,  2.50it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.51it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.53it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.55it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:18,  2.56it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:08<00:18,  2.56it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:17,  2.56it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.55it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.56it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:17,  2.52it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:10<00:16,  2.53it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:16,  2.53it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:16,  2.44it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:15,  2.46it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:15,  2.49it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:12<00:14,  2.49it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:14,  2.51it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:13,  2.52it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.54it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:12,  2.57it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:13<00:12,  2.58it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:11,  2.60it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.60it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:15<00:11,  2.61it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.62it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:10,  2.61it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:09,  2.61it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.62it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:17<00:09,  2.63it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.63it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:08,  2.65it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:18<00:07,  2.67it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.68it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.67it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.67it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.67it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:20<00:05,  2.68it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.68it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.58it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:04,  2.62it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.56it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:21<00:04,  2.59it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.62it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.64it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:23<00:03,  2.66it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.67it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.68it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.71it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.72it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:24<00:01,  2.73it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.74it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.73it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.75it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.58it/s]
+[rank0]:[W1207 03:15:16.065434488 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:19<00:19, 19.47s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:34<00:00, 16.64s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:34<00:00, 17.07s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:30,  2.17it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:27,  2.38it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:26,  2.43it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:25,  2.47it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:24,  2.49it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:24,  2.50it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:23,  2.51it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.51it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:23,  2.52it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:22,  2.53it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.51it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:21,  2.52it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:21,  2.51it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.51it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:20,  2.49it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.49it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.51it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.52it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:19,  2.52it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:07<00:18,  2.54it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:17,  2.56it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.58it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.57it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:16,  2.57it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:09<00:16,  2.50it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:16,  2.52it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:15,  2.54it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:15,  2.56it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:14,  2.58it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:11<00:14,  2.58it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:13,  2.59it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:13,  2.58it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.60it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:12,  2.62it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:13<00:12,  2.64it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:11,  2.65it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.66it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:14<00:10,  2.67it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.67it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:10,  2.67it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:09,  2.68it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.69it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:16<00:08,  2.68it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.68it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:08,  2.68it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:17<00:07,  2.69it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.70it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.71it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:18<00:06,  2.71it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.72it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:19<00:05,  2.73it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.63it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.64it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:20<00:04,  2.65it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.59it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:21<00:04,  2.61it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.66it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.69it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:22<00:02,  2.71it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.73it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.73it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:23<00:01,  2.73it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.73it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:24<00:01,  2.74it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:24<00:00,  2.74it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.74it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.75it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.61it/s]
+[rank0]:[W1207 03:18:41.007463121 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:13<00:13, 13.47s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:27<00:00, 14.00s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:27<00:00, 13.92s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:30,  2.18it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:27,  2.35it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:26,  2.42it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:25,  2.46it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:25,  2.45it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:25,  2.38it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:25,  2.37it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:24,  2.42it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:24,  2.38it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:23,  2.42it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.45it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:22,  2.47it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:21,  2.49it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.51it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:20,  2.52it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.53it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.54it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.55it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:18,  2.56it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:08<00:18,  2.56it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:18,  2.49it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.50it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.53it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:16,  2.54it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:10<00:16,  2.54it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:16,  2.54it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:15,  2.54it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:15,  2.54it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:14,  2.55it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:12<00:14,  2.55it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:14,  2.54it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:13,  2.54it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.58it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:12,  2.60it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:13<00:12,  2.61it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:11,  2.61it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.61it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:15<00:11,  2.52it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:11,  2.53it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:10,  2.56it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:10,  2.58it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.60it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:17<00:09,  2.62it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.63it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:08,  2.65it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:18<00:07,  2.66it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.67it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.67it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.68it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.69it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:20<00:05,  2.71it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.72it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.68it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:04,  2.68it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.65it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:21<00:04,  2.68it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.66it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.67it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:23<00:02,  2.68it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.67it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.68it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.70it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.70it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:24<00:01,  2.72it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.74it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.74it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.72it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.58it/s]
+[rank0]:[W1207 03:21:58.723936311 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:12<00:12, 12.85s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:27<00:00, 14.05s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:27<00:00, 13.87s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:31,  2.08it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:28,  2.28it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:27,  2.36it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:26,  2.39it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:25,  2.41it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:25,  2.42it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:24,  2.44it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.46it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:23,  2.48it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:23,  2.48it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.47it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:22,  2.47it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:21,  2.48it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.49it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:20,  2.49it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.50it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.52it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.54it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:18,  2.55it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:08<00:18,  2.55it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:18,  2.47it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:18,  2.49it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.50it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:17,  2.53it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:10<00:16,  2.53it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:16,  2.52it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:16,  2.43it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:15,  2.47it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:15,  2.50it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:12<00:14,  2.49it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:14,  2.51it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:13,  2.52it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.56it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:12,  2.58it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:14<00:12,  2.59it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:11,  2.60it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.61it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:15<00:11,  2.62it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.62it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:10,  2.61it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:09,  2.60it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.61it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:17<00:09,  2.63it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.64it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:08,  2.64it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:18<00:07,  2.65it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.66it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.66it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.67it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.67it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:20<00:05,  2.68it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.69it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.60it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:04,  2.63it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.53it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:22<00:04,  2.56it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.61it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.63it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:23<00:03,  2.66it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.65it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.65it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.68it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.70it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:25<00:01,  2.71it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.73it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.74it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:26<00:00,  2.74it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:26<00:00,  2.57it/s]
+[rank0]:[W1207 03:25:18.918305932 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:13<00:13, 13.21s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:21<00:00, 10.17s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:21<00:00, 10.63s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:30,  2.14it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:27,  2.35it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:26,  2.42it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:25,  2.46it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:25,  2.48it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:24,  2.49it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:24,  2.48it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.49it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:23,  2.50it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:23,  2.48it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.48it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:22,  2.47it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:21,  2.47it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.48it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:20,  2.49it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.50it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.52it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.54it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:18,  2.55it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:08<00:18,  2.52it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:18,  2.53it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.53it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.53it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:16,  2.54it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:10<00:16,  2.56it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:16,  2.55it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:16,  2.48it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:16,  2.41it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:15,  2.44it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:12<00:14,  2.47it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:14,  2.50it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:13,  2.52it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.55it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:12,  2.57it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:13<00:12,  2.59it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:11,  2.61it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.62it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:15<00:11,  2.62it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.62it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:10,  2.62it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:09,  2.64it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.63it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:17<00:09,  2.66it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.68it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:08,  2.69it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:18<00:07,  2.70it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.71it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.69it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.71it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.70it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:19<00:05,  2.71it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.72it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.72it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:04,  2.72it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.67it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:21<00:04,  2.68it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.69it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.58it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:22<00:03,  2.62it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.64it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.66it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.63it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.67it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:24<00:01,  2.70it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.72it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.72it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.73it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.58it/s]
+[rank0]:[W1207 03:28:33.808801504 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:16<00:16, 16.94s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:29<00:00, 14.61s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:29<00:00, 14.96s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:31,  2.09it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:28,  2.31it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:26,  2.38it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:26,  2.41it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:25,  2.45it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:24,  2.47it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:24,  2.49it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.51it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:23,  2.50it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:22,  2.48it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.48it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:22,  2.49it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:21,  2.49it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.50it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:20,  2.49it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.49it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.52it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.54it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:18,  2.55it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:08<00:18,  2.55it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:18,  2.55it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.55it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.55it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:16,  2.56it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:09<00:16,  2.57it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:15,  2.58it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:15,  2.57it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:15,  2.56it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:15,  2.48it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:12<00:15,  2.34it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:14,  2.40it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:14,  2.45it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.49it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:13,  2.54it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:14<00:12,  2.56it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:12,  2.58it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.59it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:15<00:11,  2.60it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.60it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:10,  2.60it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:09,  2.62it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.64it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:17<00:09,  2.66it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.63it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:08,  2.65it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:18<00:07,  2.64it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.65it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.65it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.66it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.65it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:20<00:06,  2.65it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.65it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.67it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:04,  2.69it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.66it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:21<00:04,  2.59it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.58it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.62it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:23<00:03,  2.65it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.66it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.67it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.69it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.72it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:24<00:01,  2.74it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.74it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.76it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:26<00:00,  2.76it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:26<00:00,  2.58it/s]
+[rank0]:[W1207 03:31:57.162251974 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='yarn': {'attn_factor'}
+FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:19<00:19, 19.47s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:29<00:00, 13.63s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:29<00:00, 14.51s/it]
+
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:29,  2.20it/s]Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:00<00:27,  2.38it/s]Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:26,  2.39it/s]Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:01<00:25,  2.43it/s]Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:25,  2.46it/s]Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:02<00:24,  2.49it/s]Capturing CUDA graph shapes:  10%|█         | 7/67 [00:02<00:24,  2.49it/s]Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:03<00:23,  2.50it/s]Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:03<00:23,  2.51it/s]Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:04<00:22,  2.52it/s]Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:04<00:22,  2.52it/s]Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:04<00:21,  2.52it/s]Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:05<00:21,  2.52it/s]Capturing CUDA graph shapes:  21%|██        | 14/67 [00:05<00:21,  2.50it/s]Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:06<00:20,  2.49it/s]Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:06<00:20,  2.48it/s]Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:06<00:19,  2.50it/s]Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:07<00:19,  2.52it/s]Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:07<00:18,  2.54it/s]Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:08<00:18,  2.56it/s]Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:08<00:17,  2.57it/s]Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:08<00:17,  2.57it/s]Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:09<00:17,  2.58it/s]Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:09<00:16,  2.55it/s]Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:10<00:17,  2.45it/s]Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:10<00:16,  2.49it/s]Capturing CUDA graph shapes:  40%|████      | 27/67 [00:10<00:15,  2.52it/s]Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:11<00:15,  2.54it/s]Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:11<00:14,  2.55it/s]Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:11<00:14,  2.55it/s]Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:12<00:14,  2.56it/s]Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:12<00:13,  2.56it/s]Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:13<00:13,  2.57it/s]Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:13<00:12,  2.59it/s]Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:13<00:12,  2.61it/s]Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:14<00:11,  2.62it/s]Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:14<00:11,  2.63it/s]Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:14<00:11,  2.63it/s]Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:15<00:10,  2.64it/s]Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:15<00:10,  2.65it/s]Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:16<00:09,  2.67it/s]Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:16<00:09,  2.68it/s]Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:16<00:08,  2.69it/s]Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:17<00:08,  2.69it/s]Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:17<00:08,  2.69it/s]Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:17<00:07,  2.70it/s]Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:18<00:07,  2.70it/s]Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:18<00:07,  2.65it/s]Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:19<00:06,  2.66it/s]Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:19<00:06,  2.68it/s]Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:19<00:05,  2.69it/s]Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:20<00:05,  2.59it/s]Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:20<00:05,  2.63it/s]Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:21<00:05,  2.47it/s]Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:21<00:04,  2.48it/s]Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:21<00:04,  2.54it/s]Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:22<00:03,  2.60it/s]Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:22<00:03,  2.63it/s]Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:22<00:03,  2.66it/s]Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:23<00:02,  2.69it/s]Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:23<00:02,  2.71it/s]Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:24<00:01,  2.73it/s]Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:24<00:01,  2.73it/s]Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:24<00:01,  2.63it/s]Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:25<00:00,  2.66it/s]Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:25<00:00,  2.68it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.70it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:25<00:00,  2.59it/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 7316.92it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:55<1:24:56, 175.73s/it, est. speed input: 1.21 toks/s, output: 19.59 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [04:29<59:37, 127.78s/it, est. speed input: 1.61 toks/s, output: 31.05 toks/s]  [A
+Processed prompts:  10%|█         | 3/30 [04:42<33:54, 75.35s/it, est. speed input: 2.21 toks/s, output: 47.82 toks/s] [A
+Processed prompts:  13%|█▎        | 4/30 [06:17<35:58, 83.03s/it, est. speed input: 2.12 toks/s, output: 53.57 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [06:32<24:24, 58.57s/it, est. speed input: 2.56 toks/s, output: 69.20 toks/s][A
+Processed prompts:  20%|██        | 6/30 [11:35<56:38, 141.62s/it, est. speed input: 1.78 toks/s, output: 56.53 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [13:22<49:58, 130.37s/it, est. speed input: 1.88 toks/s, output: 66.43 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [17:32<1:01:45, 168.43s/it, est. speed input: 1.61 toks/s, output: 68.16 toks/s][A
+Processed prompts:  30%|███       | 9/30 [23:13<1:17:45, 222.18s/it, est. speed input: 1.55 toks/s, output: 69.10 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [25:54<1:07:48, 203.42s/it, est. speed input: 1.53 toks/s, output: 79.53 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [27:25<53:30, 168.96s/it, est. speed input: 1.60 toks/s, output: 92.70 toks/s]  [A
+Processed prompts:  40%|████      | 12/30 [27:49<37:28, 124.93s/it, est. speed input: 1.67 toks/s, output: 96.49 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [28:38<28:50, 101.78s/it, est. speed input: 1.76 toks/s, output: 111.27 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [29:11<21:38, 81.17s/it, est. speed input: 1.80 toks/s, output: 112.52 toks/s] [A
+Processed prompts:  50%|█████     | 15/30 [31:04<22:41, 90.76s/it, est. speed input: 1.77 toks/s, output: 111.48 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [31:12<15:19, 65.70s/it, est. speed input: 1.84 toks/s, output: 115.80 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [31:32<11:15, 51.98s/it, est. speed input: 1.91 toks/s, output: 128.37 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [32:36<11:07, 55.61s/it, est. speed input: 1.94 toks/s, output: 131.36 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [35:21<16:13, 88.51s/it, est. speed input: 1.87 toks/s, output: 131.25 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [35:56<12:05, 72.52s/it, est. speed input: 1.92 toks/s, output: 135.17 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [38:51<15:29, 103.24s/it, est. speed input: 1.84 toks/s, output: 130.83 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [47:14<29:45, 223.13s/it, est. speed input: 1.57 toks/s, output: 114.88 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [48:57<21:49, 187.07s/it, est. speed input: 1.57 toks/s, output: 122.01 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [50:45<16:20, 163.37s/it, est. speed input: 1.55 toks/s, output: 121.66 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [56:05<17:32, 210.41s/it, est. speed input: 1.45 toks/s, output: 119.82 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [56:47<10:39, 159.94s/it, est. speed input: 1.47 toks/s, output: 121.06 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [57:16<06:01, 120.44s/it, est. speed input: 1.49 toks/s, output: 121.95 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [57:21<02:51, 85.93s/it, est. speed input: 1.54 toks/s, output: 129.82 toks/s] [A
+Processed prompts:  97%|█████████▋| 29/30 [58:01<01:12, 72.10s/it, est. speed input: 1.57 toks/s, output: 137.74 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [58:52<00:00, 65.79s/it, est. speed input: 1.58 toks/s, output: 142.02 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [58:52<00:00, 65.79s/it, est. speed input: 1.58 toks/s, output: 142.02 toks/s][AProcessed prompts: 100%|██████████| 30/30 [58:52<00:00, 117.74s/it, est. speed input: 1.58 toks/s, output: 142.02 toks/s]
+Splits: 100%|██████████| 1/1 [58:52<00:00, 3532.49s/it]Splits: 100%|██████████| 1/1 [58:52<00:00, 3532.49s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 10.04ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 6968.83it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [03:40<1:46:20, 220.01s/it, est. speed input: 0.96 toks/s, output: 18.91 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [03:51<45:33, 97.63s/it, est. speed input: 1.87 toks/s, output: 36.65 toks/s]   [A
+Processed prompts:  10%|█         | 3/30 [04:41<34:05, 75.75s/it, est. speed input: 2.17 toks/s, output: 48.45 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [05:34<28:55, 66.77s/it, est. speed input: 2.40 toks/s, output: 58.75 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [06:06<22:34, 54.16s/it, est. speed input: 2.74 toks/s, output: 71.50 toks/s][A
+Processed prompts:  20%|██        | 6/30 [06:11<15:01, 37.58s/it, est. speed input: 3.10 toks/s, output: 88.27 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [07:07<16:37, 43.37s/it, est. speed input: 3.03 toks/s, output: 94.53 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [11:46<43:24, 118.38s/it, est. speed input: 2.16 toks/s, output: 74.68 toks/s][A
+Processed prompts:  30%|███       | 9/30 [18:07<1:10:13, 200.66s/it, est. speed input: 1.64 toks/s, output: 65.98 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [20:28<1:00:44, 182.21s/it, est. speed input: 1.60 toks/s, output: 75.92 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [22:09<49:49, 157.32s/it, est. speed input: 1.83 toks/s, output: 87.62 toks/s]  [A
+Processed prompts:  40%|████      | 12/30 [24:15<44:18, 147.71s/it, est. speed input: 1.82 toks/s, output: 95.07 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [25:44<36:49, 129.98s/it, est. speed input: 1.86 toks/s, output: 106.97 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [28:17<36:30, 136.92s/it, est. speed input: 1.86 toks/s, output: 114.71 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [29:25<29:02, 116.14s/it, est. speed input: 1.87 toks/s, output: 116.70 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [29:39<19:57, 85.55s/it, est. speed input: 1.96 toks/s, output: 123.08 toks/s] [A
+Processed prompts:  57%|█████▋    | 17/30 [30:18<15:26, 71.30s/it, est. speed input: 2.00 toks/s, output: 124.62 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [32:58<19:37, 98.09s/it, est. speed input: 1.92 toks/s, output: 120.61 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [36:40<24:47, 135.21s/it, est. speed input: 1.80 toks/s, output: 120.09 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [37:17<17:37, 105.76s/it, est. speed input: 1.84 toks/s, output: 123.64 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [39:37<17:23, 115.95s/it, est. speed input: 1.80 toks/s, output: 130.16 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [41:20<14:58, 112.33s/it, est. speed input: 1.79 toks/s, output: 128.29 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [43:33<13:49, 118.45s/it, est. speed input: 1.75 toks/s, output: 125.21 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [45:47<12:17, 122.96s/it, est. speed input: 1.72 toks/s, output: 130.78 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [46:35<08:22, 100.45s/it, est. speed input: 1.73 toks/s, output: 130.95 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [47:37<05:56, 89.03s/it, est. speed input: 1.75 toks/s, output: 134.23 toks/s] [A
+Processed prompts:  90%|█████████ | 27/30 [49:03<04:24, 88.12s/it, est. speed input: 1.75 toks/s, output: 139.36 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [52:49<04:19, 129.61s/it, est. speed input: 1.67 toks/s, output: 135.41 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [53:25<01:41, 101.39s/it, est. speed input: 1.69 toks/s, output: 139.42 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [56:45<00:00, 130.93s/it, est. speed input: 1.64 toks/s, output: 140.86 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [56:45<00:00, 130.93s/it, est. speed input: 1.64 toks/s, output: 140.86 toks/s][AProcessed prompts: 100%|██████████| 30/30 [56:45<00:00, 113.51s/it, est. speed input: 1.64 toks/s, output: 140.86 toks/s]
+Splits: 100%|██████████| 1/1 [56:45<00:00, 3405.95s/it]Splits: 100%|██████████| 1/1 [56:45<00:00, 3405.95s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 31.09ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 1088.24it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:36<1:15:26, 156.08s/it, est. speed input: 1.36 toks/s, output: 20.06 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [02:57<35:52, 76.89s/it, est. speed input: 2.34 toks/s, output: 37.24 toks/s]   [A
+Processed prompts:  10%|█         | 3/30 [05:29<50:04, 111.27s/it, est. speed input: 1.93 toks/s, output: 38.10 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [05:52<33:02, 76.26s/it, est. speed input: 2.31 toks/s, output: 53.62 toks/s] [A
+Processed prompts:  17%|█▋        | 5/30 [06:00<21:32, 51.69s/it, est. speed input: 2.79 toks/s, output: 70.33 toks/s][A
+Processed prompts:  20%|██        | 6/30 [06:26<17:10, 42.93s/it, est. speed input: 3.17 toks/s, output: 83.44 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [06:51<14:11, 37.03s/it, est. speed input: 3.34 toks/s, output: 96.17 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [06:59<10:13, 27.89s/it, est. speed input: 3.64 toks/s, output: 111.98 toks/s][A
+Processed prompts:  30%|███       | 9/30 [07:27<09:48, 28.03s/it, est. speed input: 3.72 toks/s, output: 121.79 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [08:05<10:22, 31.11s/it, est. speed input: 3.90 toks/s, output: 129.84 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [09:19<14:00, 44.21s/it, est. speed input: 3.71 toks/s, output: 130.21 toks/s][A
+Processed prompts:  40%|████      | 12/30 [09:49<11:53, 39.66s/it, est. speed input: 3.75 toks/s, output: 136.61 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [19:59<1:00:12, 212.52s/it, est. speed input: 2.06 toks/s, output: 84.83 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [23:18<55:34, 208.39s/it, est. speed input: 1.89 toks/s, output: 89.64 toks/s]  [A
+Processed prompts:  50%|█████     | 15/30 [30:36<1:09:26, 277.79s/it, est. speed input: 1.69 toks/s, output: 86.07 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [30:43<45:45, 196.14s/it, est. speed input: 1.84 toks/s, output: 103.54 toks/s] [A
+Processed prompts:  60%|██████    | 18/30 [33:51<29:47, 149.00s/it, est. speed input: 1.87 toks/s, output: 117.71 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [37:38<30:50, 168.26s/it, est. speed input: 1.75 toks/s, output: 113.36 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [38:16<22:22, 134.25s/it, est. speed input: 1.79 toks/s, output: 121.00 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [41:53<23:29, 156.63s/it, est. speed input: 1.70 toks/s, output: 116.99 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [43:39<19:00, 142.58s/it, est. speed input: 1.69 toks/s, output: 124.46 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [46:41<17:57, 153.91s/it, est. speed input: 1.64 toks/s, output: 123.19 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [46:44<11:01, 110.22s/it, est. speed input: 1.69 toks/s, output: 124.97 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [49:08<09:59, 119.99s/it, est. speed input: 1.66 toks/s, output: 125.08 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [51:12<08:04, 121.14s/it, est. speed input: 1.63 toks/s, output: 124.50 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [52:20<05:16, 105.47s/it, est. speed input: 1.64 toks/s, output: 127.45 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [55:10<04:09, 124.65s/it, est. speed input: 1.60 toks/s, output: 130.44 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [55:40<01:36, 96.25s/it, est. speed input: 1.62 toks/s, output: 134.32 toks/s] [A
+Processed prompts: 100%|██████████| 30/30 [56:49<00:00, 88.27s/it, est. speed input: 1.64 toks/s, output: 141.20 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [56:49<00:00, 88.27s/it, est. speed input: 1.64 toks/s, output: 141.20 toks/s][AProcessed prompts: 100%|██████████| 30/30 [56:49<00:00, 113.65s/it, est. speed input: 1.64 toks/s, output: 141.20 toks/s]
+Splits: 100%|██████████| 1/1 [56:49<00:00, 3409.85s/it]Splits: 100%|██████████| 1/1 [56:49<00:00, 3409.85s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  2.09ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  2.09ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5777.01it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [03:47<1:49:42, 226.97s/it, est. speed input: 0.89 toks/s, output: 18.76 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [05:30<1:12:01, 154.34s/it, est. speed input: 1.26 toks/s, output: 30.90 toks/s][A
+Processed prompts:  10%|█         | 3/30 [05:50<41:53, 93.09s/it, est. speed input: 1.82 toks/s, output: 47.07 toks/s]   [A
+Processed prompts:  13%|█▎        | 4/30 [06:02<26:21, 60.82s/it, est. speed input: 2.25 toks/s, output: 63.49 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [07:32<29:50, 71.62s/it, est. speed input: 2.22 toks/s, output: 68.51 toks/s][A
+Processed prompts:  20%|██        | 6/30 [11:57<54:56, 137.37s/it, est. speed input: 2.06 toks/s, output: 60.86 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [12:46<41:35, 108.50s/it, est. speed input: 2.23 toks/s, output: 74.57 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [16:11<51:01, 139.16s/it, est. speed input: 1.98 toks/s, output: 76.52 toks/s][A
+Processed prompts:  30%|███       | 9/30 [17:09<39:48, 113.72s/it, est. speed input: 2.12 toks/s, output: 89.87 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [17:30<28:19, 84.98s/it, est. speed input: 2.25 toks/s, output: 105.71 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [25:09<1:03:10, 199.49s/it, est. speed input: 1.72 toks/s, output: 91.22 toks/s][A
+Processed prompts:  40%|████      | 12/30 [25:49<45:16, 150.94s/it, est. speed input: 1.78 toks/s, output: 102.87 toks/s] [A
+Processed prompts:  43%|████▎     | 13/30 [26:33<33:38, 118.73s/it, est. speed input: 1.83 toks/s, output: 105.83 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [26:38<22:28, 84.30s/it, est. speed input: 1.93 toks/s, output: 122.63 toks/s] [A
+Processed prompts:  50%|█████     | 15/30 [27:52<20:17, 81.13s/it, est. speed input: 1.93 toks/s, output: 121.32 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [29:09<18:38, 79.87s/it, est. speed input: 1.93 toks/s, output: 121.71 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [31:14<20:14, 93.39s/it, est. speed input: 1.95 toks/s, output: 131.09 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [34:50<26:04, 130.42s/it, est. speed input: 1.81 toks/s, output: 123.83 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [36:09<21:03, 114.83s/it, est. speed input: 1.82 toks/s, output: 126.18 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [38:18<19:51, 119.14s/it, est. speed input: 1.78 toks/s, output: 125.56 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [40:38<18:49, 125.54s/it, est. speed input: 1.76 toks/s, output: 129.15 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [43:01<17:26, 130.78s/it, est. speed input: 1.72 toks/s, output: 134.69 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [44:43<14:15, 122.20s/it, est. speed input: 1.71 toks/s, output: 133.62 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [45:54<10:40, 106.70s/it, est. speed input: 1.71 toks/s, output: 132.67 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [49:13<11:11, 134.24s/it, est. speed input: 1.65 toks/s, output: 130.38 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [49:24<06:29, 97.31s/it, est. speed input: 1.69 toks/s, output: 133.26 toks/s] [A
+Processed prompts:  90%|█████████ | 27/30 [50:37<04:29, 89.97s/it, est. speed input: 1.70 toks/s, output: 139.81 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [54:37<04:30, 135.06s/it, est. speed input: 1.61 toks/s, output: 135.31 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [55:18<01:46, 106.78s/it, est. speed input: 1.64 toks/s, output: 142.97 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [1:02:30<00:00, 204.47s/it, est. speed input: 1.49 toks/s, output: 135.23 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [1:02:30<00:00, 204.47s/it, est. speed input: 1.49 toks/s, output: 135.23 toks/s][AProcessed prompts: 100%|██████████| 30/30 [1:02:30<00:00, 125.02s/it, est. speed input: 1.49 toks/s, output: 135.23 toks/s]
+Splits: 100%|██████████| 1/1 [1:02:30<00:00, 3750.86s/it]Splits: 100%|██████████| 1/1 [1:02:30<00:00, 3750.86s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 13.45ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][A
+Adding requests:   3%|▎         | 1/30 [00:00<00:03,  9.31it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 268.92it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:40<1:17:40, 160.71s/it, est. speed input: 1.32 toks/s, output: 19.64 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [03:17<40:57, 87.78s/it, est. speed input: 2.10 toks/s, output: 34.99 toks/s]   [A
+Processed prompts:  10%|█         | 3/30 [03:52<28:36, 63.59s/it, est. speed input: 2.61 toks/s, output: 48.25 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [05:03<28:54, 66.72s/it, est. speed input: 2.73 toks/s, output: 54.87 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [05:17<19:49, 47.58s/it, est. speed input: 3.03 toks/s, output: 70.37 toks/s][A
+Processed prompts:  20%|██        | 6/30 [06:50<25:10, 62.93s/it, est. speed input: 2.77 toks/s, output: 72.13 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [08:20<27:32, 71.87s/it, est. speed input: 2.71 toks/s, output: 76.70 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [13:34<54:35, 148.90s/it, est. speed input: 2.00 toks/s, output: 64.75 toks/s][A
+Processed prompts:  30%|███       | 9/30 [18:27<1:07:53, 193.99s/it, est. speed input: 1.64 toks/s, output: 65.29 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [21:15<1:01:58, 185.94s/it, est. speed input: 1.62 toks/s, output: 74.41 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [21:26<41:55, 132.39s/it, est. speed input: 1.98 toks/s, output: 91.43 toks/s]  [A
+Processed prompts:  40%|████      | 12/30 [23:36<39:32, 131.81s/it, est. speed input: 1.95 toks/s, output: 100.62 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [25:22<35:05, 123.86s/it, est. speed input: 1.97 toks/s, output: 111.22 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [26:18<27:34, 103.40s/it, est. speed input: 2.00 toks/s, output: 114.08 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [26:43<19:55, 79.73s/it, est. speed input: 2.05 toks/s, output: 117.24 toks/s] [A
+Processed prompts:  53%|█████▎    | 16/30 [27:26<16:02, 68.77s/it, est. speed input: 2.11 toks/s, output: 122.87 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [28:23<14:07, 65.20s/it, est. speed input: 2.14 toks/s, output: 130.37 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [29:35<13:25, 67.13s/it, est. speed input: 2.14 toks/s, output: 131.70 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [32:12<17:15, 94.15s/it, est. speed input: 2.04 toks/s, output: 126.19 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [32:46<12:42, 76.20s/it, est. speed input: 2.09 toks/s, output: 130.70 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [36:21<17:40, 117.85s/it, est. speed input: 1.96 toks/s, output: 132.84 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [38:27<16:01, 120.24s/it, est. speed input: 1.92 toks/s, output: 137.87 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [41:05<15:22, 131.73s/it, est. speed input: 1.86 toks/s, output: 134.55 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [46:52<19:36, 196.12s/it, est. speed input: 1.69 toks/s, output: 126.34 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [47:49<12:51, 154.32s/it, est. speed input: 1.70 toks/s, output: 129.00 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [48:01<07:27, 111.84s/it, est. speed input: 1.74 toks/s, output: 134.81 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [48:39<04:28, 89.59s/it, est. speed input: 1.76 toks/s, output: 136.06 toks/s] [A
+Processed prompts:  93%|█████████▎| 28/30 [48:48<02:10, 65.49s/it, est. speed input: 1.80 toks/s, output: 145.43 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [52:01<01:43, 103.59s/it, est. speed input: 1.74 toks/s, output: 146.51 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [57:47<00:00, 176.30s/it, est. speed input: 1.61 toks/s, output: 139.51 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [57:47<00:00, 176.30s/it, est. speed input: 1.61 toks/s, output: 139.51 toks/s][AProcessed prompts: 100%|██████████| 30/30 [57:47<00:00, 115.57s/it, est. speed input: 1.61 toks/s, output: 139.51 toks/s]
+Splits: 100%|██████████| 1/1 [57:47<00:00, 3467.45s/it]Splits: 100%|██████████| 1/1 [57:47<00:00, 3467.45s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 26.36ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 4212.42it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [03:51<1:51:58, 231.67s/it, est. speed input: 0.92 toks/s, output: 18.75 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [03:53<44:53, 96.19s/it, est. speed input: 1.78 toks/s, output: 37.34 toks/s]   [A
+Processed prompts:  10%|█         | 3/30 [06:09<51:27, 114.36s/it, est. speed input: 1.73 toks/s, output: 41.49 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [06:11<30:28, 70.32s/it, est. speed input: 2.23 toks/s, output: 59.08 toks/s] [A
+Processed prompts:  17%|█▋        | 5/30 [06:49<24:28, 58.72s/it, est. speed input: 2.45 toks/s, output: 71.34 toks/s][A
+Processed prompts:  20%|██        | 6/30 [09:46<39:33, 98.89s/it, est. speed input: 2.10 toks/s, output: 67.45 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [11:21<37:25, 97.63s/it, est. speed input: 2.13 toks/s, output: 75.66 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [15:16<51:50, 141.39s/it, est. speed input: 1.87 toks/s, output: 73.92 toks/s][A
+Processed prompts:  30%|███       | 9/30 [16:52<44:29, 127.10s/it, est. speed input: 1.87 toks/s, output: 84.60 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [21:46<59:31, 178.59s/it, est. speed input: 1.81 toks/s, output: 83.29 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [22:16<42:09, 133.13s/it, est. speed input: 1.97 toks/s, output: 99.08 toks/s][A
+Processed prompts:  40%|████      | 12/30 [27:31<56:33, 188.51s/it, est. speed input: 1.73 toks/s, output: 97.81 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [30:39<53:20, 188.26s/it, est. speed input: 1.66 toks/s, output: 96.01 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [31:04<37:02, 138.89s/it, est. speed input: 1.73 toks/s, output: 112.31 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [31:57<28:15, 113.06s/it, est. speed input: 1.76 toks/s, output: 115.56 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [32:23<20:14, 86.79s/it, est. speed input: 1.81 toks/s, output: 117.64 toks/s] [A
+Processed prompts:  57%|█████▋    | 17/30 [32:25<13:18, 61.41s/it, est. speed input: 1.88 toks/s, output: 120.79 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [35:56<21:16, 106.34s/it, est. speed input: 1.76 toks/s, output: 114.82 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [36:33<15:40, 85.48s/it, est. speed input: 1.81 toks/s, output: 127.83 toks/s] [A
+Processed prompts:  67%|██████▋   | 20/30 [39:13<17:57, 107.77s/it, est. speed input: 1.75 toks/s, output: 131.58 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [40:30<14:46, 98.50s/it, est. speed input: 1.77 toks/s, output: 133.59 toks/s] [A
+Processed prompts:  73%|███████▎  | 22/30 [41:09<10:47, 80.90s/it, est. speed input: 1.79 toks/s, output: 133.90 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [41:56<08:14, 70.66s/it, est. speed input: 1.81 toks/s, output: 137.60 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [42:29<05:56, 59.46s/it, est. speed input: 1.84 toks/s, output: 138.97 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [45:22<07:46, 93.29s/it, est. speed input: 1.78 toks/s, output: 135.39 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [49:19<09:06, 136.64s/it, est. speed input: 1.69 toks/s, output: 132.73 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [50:11<05:33, 111.20s/it, est. speed input: 1.70 toks/s, output: 136.27 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [52:58<04:15, 127.83s/it, est. speed input: 1.66 toks/s, output: 136.73 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [55:39<02:17, 137.82s/it, est. speed input: 1.62 toks/s, output: 137.87 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [57:31<00:00, 129.94s/it, est. speed input: 1.62 toks/s, output: 142.91 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [57:31<00:00, 129.94s/it, est. speed input: 1.62 toks/s, output: 142.91 toks/s][AProcessed prompts: 100%|██████████| 30/30 [57:31<00:00, 115.04s/it, est. speed input: 1.62 toks/s, output: 142.91 toks/s]
+Splits: 100%|██████████| 1/1 [57:31<00:00, 3451.28s/it]Splits: 100%|██████████| 1/1 [57:31<00:00, 3451.28s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 47.53ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 1620.90it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:16<1:06:02, 136.65s/it, est. speed input: 1.55 toks/s, output: 20.52 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [02:40<32:56, 70.58s/it, est. speed input: 2.70 toks/s, output: 37.37 toks/s]   [A
+Processed prompts:  10%|█         | 3/30 [02:56<20:29, 45.54s/it, est. speed input: 3.60 toks/s, output: 53.67 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [05:52<42:02, 97.01s/it, est. speed input: 2.35 toks/s, output: 44.92 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [06:30<31:29, 75.57s/it, est. speed input: 2.68 toks/s, output: 58.52 toks/s][A
+Processed prompts:  20%|██        | 6/30 [06:43<21:48, 54.51s/it, est. speed input: 3.03 toks/s, output: 74.41 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [09:19<33:37, 87.71s/it, est. speed input: 2.60 toks/s, output: 71.37 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [10:08<27:34, 75.21s/it, est. speed input: 2.68 toks/s, output: 83.34 toks/s][A
+Processed prompts:  30%|███       | 9/30 [14:39<47:45, 136.45s/it, est. speed input: 2.39 toks/s, output: 75.35 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [18:21<54:18, 162.95s/it, est. speed input: 2.14 toks/s, output: 77.89 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [23:58<1:08:28, 216.25s/it, est. speed input: 1.83 toks/s, output: 77.45 toks/s][A
+Processed prompts:  40%|████      | 12/30 [24:47<49:37, 165.41s/it, est. speed input: 1.89 toks/s, output: 92.28 toks/s]  [A
+Processed prompts:  43%|████▎     | 13/30 [25:16<35:05, 123.87s/it, est. speed input: 1.95 toks/s, output: 97.16 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [25:25<23:49, 89.34s/it, est. speed input: 2.06 toks/s, output: 105.05 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [26:12<19:06, 76.41s/it, est. speed input: 2.10 toks/s, output: 107.76 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [29:47<27:36, 118.30s/it, est. speed input: 1.92 toks/s, output: 101.22 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [30:13<19:37, 90.56s/it, est. speed input: 2.02 toks/s, output: 117.41 toks/s] [A
+Processed prompts:  60%|██████    | 18/30 [30:49<14:45, 73.78s/it, est. speed input: 2.05 toks/s, output: 119.03 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [31:04<10:20, 56.45s/it, est. speed input: 2.13 toks/s, output: 135.58 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [32:50<11:53, 71.37s/it, est. speed input: 2.08 toks/s, output: 131.07 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [35:44<15:17, 101.94s/it, est. speed input: 1.99 toks/s, output: 125.08 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [36:56<12:24, 93.07s/it, est. speed input: 1.99 toks/s, output: 134.54 toks/s] [A
+Processed prompts:  77%|███████▋  | 23/30 [39:29<12:58, 111.23s/it, est. speed input: 1.93 toks/s, output: 133.77 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [39:35<07:57, 79.65s/it, est. speed input: 1.98 toks/s, output: 137.67 toks/s] [A
+Processed prompts:  83%|████████▎ | 25/30 [39:51<05:01, 60.37s/it, est. speed input: 2.03 toks/s, output: 142.99 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [41:02<04:14, 63.67s/it, est. speed input: 2.02 toks/s, output: 142.91 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [41:35<02:43, 54.38s/it, est. speed input: 2.05 toks/s, output: 146.99 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [42:51<02:01, 60.98s/it, est. speed input: 2.05 toks/s, output: 149.71 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [48:31<02:24, 144.58s/it, est. speed input: 1.86 toks/s, output: 141.51 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [52:38<00:00, 175.25s/it, est. speed input: 1.77 toks/s, output: 140.82 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [52:38<00:00, 175.25s/it, est. speed input: 1.77 toks/s, output: 140.82 toks/s][AProcessed prompts: 100%|██████████| 30/30 [52:38<00:00, 105.28s/it, est. speed input: 1.77 toks/s, output: 140.82 toks/s]
+Splits: 100%|██████████| 1/1 [52:38<00:00, 3158.51s/it]Splits: 100%|██████████| 1/1 [52:38<00:00, 3158.51s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 26.51ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 858.84it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:33<1:14:25, 153.97s/it, est. speed input: 1.38 toks/s, output: 20.08 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [05:00<1:09:47, 149.55s/it, est. speed input: 1.38 toks/s, output: 28.48 toks/s][A
+Processed prompts:  10%|█         | 3/30 [05:58<48:29, 107.74s/it, est. speed input: 1.78 toks/s, output: 41.81 toks/s]  [A
+Processed prompts:  13%|█▎        | 4/30 [06:33<34:16, 79.10s/it, est. speed input: 2.17 toks/s, output: 55.90 toks/s] [A
+Processed prompts:  17%|█▋        | 5/30 [06:42<22:25, 53.84s/it, est. speed input: 2.56 toks/s, output: 72.42 toks/s][A
+Processed prompts:  20%|██        | 6/30 [07:22<19:34, 48.93s/it, est. speed input: 2.85 toks/s, output: 83.66 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [08:15<19:22, 50.56s/it, est. speed input: 2.86 toks/s, output: 92.16 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [08:37<15:07, 41.23s/it, est. speed input: 3.03 toks/s, output: 103.31 toks/s][A
+Processed prompts:  30%|███       | 9/30 [09:15<14:03, 40.18s/it, est. speed input: 3.17 toks/s, output: 113.77 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [12:46<31:00, 93.04s/it, est. speed input: 2.63 toks/s, output: 99.85 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [14:42<31:42, 100.11s/it, est. speed input: 2.49 toks/s, output: 104.22 toks/s][A
+Processed prompts:  40%|████      | 12/30 [16:45<32:05, 106.96s/it, est. speed input: 2.46 toks/s, output: 109.04 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [20:08<38:36, 136.26s/it, est. speed input: 2.23 toks/s, output: 108.25 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [20:37<27:38, 103.65s/it, est. speed input: 2.32 toks/s, output: 123.29 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [23:16<30:07, 120.52s/it, est. speed input: 2.16 toks/s, output: 115.90 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [24:06<23:09, 99.26s/it, est. speed input: 2.41 toks/s, output: 129.35 toks/s] [A
+Processed prompts:  57%|█████▋    | 17/30 [24:23<16:08, 74.51s/it, est. speed input: 2.50 toks/s, output: 145.26 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [24:46<11:48, 59.05s/it, est. speed input: 2.55 toks/s, output: 147.78 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [26:07<12:00, 65.49s/it, est. speed input: 2.54 toks/s, output: 151.39 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [32:24<26:30, 159.02s/it, est. speed input: 2.13 toks/s, output: 128.48 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [34:48<23:10, 154.48s/it, est. speed input: 2.06 toks/s, output: 135.32 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [36:34<18:41, 140.15s/it, est. speed input: 2.03 toks/s, output: 134.62 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [36:58<12:17, 105.30s/it, est. speed input: 2.07 toks/s, output: 141.12 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [37:33<08:24, 84.08s/it, est. speed input: 2.09 toks/s, output: 141.84 toks/s] [A
+Processed prompts:  83%|████████▎ | 25/30 [39:48<08:16, 99.37s/it, est. speed input: 2.04 toks/s, output: 144.14 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [39:58<04:50, 72.56s/it, est. speed input: 2.09 toks/s, output: 149.60 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [41:02<03:29, 69.86s/it, est. speed input: 2.09 toks/s, output: 150.23 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [41:31<01:55, 57.73s/it, est. speed input: 2.12 toks/s, output: 157.93 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [45:48<01:57, 117.40s/it, est. speed input: 1.97 toks/s, output: 150.62 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [48:25<00:00, 129.42s/it, est. speed input: 1.92 toks/s, output: 153.73 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [48:25<00:00, 129.42s/it, est. speed input: 1.92 toks/s, output: 153.73 toks/s][AProcessed prompts: 100%|██████████| 30/30 [48:25<00:00, 96.85s/it, est. speed input: 1.92 toks/s, output: 153.73 toks/s] 
+Splits: 100%|██████████| 1/1 [48:25<00:00, 2905.93s/it]Splits: 100%|██████████| 1/1 [48:25<00:00, 2905.93s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 16.26ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5407.35it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:07<1:01:33, 127.36s/it, est. speed input: 1.59 toks/s, output: 20.78 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [04:15<59:35, 127.68s/it, est. speed input: 1.63 toks/s, output: 28.90 toks/s]  [A
+Processed prompts:  10%|█         | 3/30 [04:45<37:23, 83.09s/it, est. speed input: 2.12 toks/s, output: 44.15 toks/s] [A
+Processed prompts:  13%|█▎        | 4/30 [05:15<27:00, 62.33s/it, est. speed input: 2.48 toks/s, output: 58.00 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [05:20<17:21, 41.66s/it, est. speed input: 3.13 toks/s, output: 75.14 toks/s][A
+Processed prompts:  20%|██        | 6/30 [08:39<37:59, 94.98s/it, est. speed input: 2.36 toks/s, output: 64.12 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [08:42<24:53, 64.94s/it, est. speed input: 2.87 toks/s, output: 81.43 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [09:15<20:03, 54.70s/it, est. speed input: 3.11 toks/s, output: 94.21 toks/s][A
+Processed prompts:  30%|███       | 9/30 [09:45<16:29, 47.13s/it, est. speed input: 3.22 toks/s, output: 105.15 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [10:13<13:43, 41.17s/it, est. speed input: 3.31 toks/s, output: 114.37 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [10:46<12:13, 38.61s/it, est. speed input: 3.42 toks/s, output: 126.08 toks/s][A
+Processed prompts:  40%|████      | 12/30 [11:24<11:31, 38.42s/it, est. speed input: 3.43 toks/s, output: 131.41 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [16:00<31:16, 110.38s/it, est. speed input: 2.71 toks/s, output: 111.19 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [24:47<1:03:00, 236.30s/it, est. speed input: 1.87 toks/s, output: 89.53 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [25:39<45:09, 180.63s/it, est. speed input: 1.92 toks/s, output: 103.30 toks/s] [A
+Processed prompts:  53%|█████▎    | 16/30 [26:36<33:29, 143.50s/it, est. speed input: 1.97 toks/s, output: 109.16 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [30:57<38:45, 178.86s/it, est. speed input: 1.95 toks/s, output: 111.46 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [31:02<25:19, 126.58s/it, est. speed input: 2.06 toks/s, output: 128.76 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [32:03<19:37, 107.05s/it, est. speed input: 2.07 toks/s, output: 129.16 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [35:13<21:58, 131.89s/it, est. speed input: 1.96 toks/s, output: 125.37 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [37:40<20:27, 136.35s/it, est. speed input: 1.90 toks/s, output: 131.73 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [37:57<13:24, 100.60s/it, est. speed input: 1.95 toks/s, output: 135.81 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [38:34<09:31, 81.58s/it, est. speed input: 1.97 toks/s, output: 138.61 toks/s] [A
+Processed prompts:  80%|████████  | 24/30 [40:02<08:19, 83.28s/it, est. speed input: 1.95 toks/s, output: 137.05 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [41:56<07:42, 92.47s/it, est. speed input: 1.92 toks/s, output: 135.49 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [42:03<04:28, 67.10s/it, est. speed input: 1.98 toks/s, output: 141.29 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [46:51<06:39, 133.21s/it, est. speed input: 1.83 toks/s, output: 134.54 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [49:28<04:40, 140.29s/it, est. speed input: 1.78 toks/s, output: 135.03 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [54:32<03:09, 189.47s/it, est. speed input: 1.66 toks/s, output: 132.49 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [55:13<00:00, 144.92s/it, est. speed input: 1.68 toks/s, output: 140.75 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [55:13<00:00, 144.92s/it, est. speed input: 1.68 toks/s, output: 140.75 toks/s][AProcessed prompts: 100%|██████████| 30/30 [55:13<00:00, 110.45s/it, est. speed input: 1.68 toks/s, output: 140.75 toks/s]
+Splits: 100%|██████████| 1/1 [55:13<00:00, 3313.74s/it]Splits: 100%|██████████| 1/1 [55:13<00:00, 3313.74s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  4.59ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00,  4.58ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][A
+Adding requests:   3%|▎         | 1/30 [00:00<00:03,  9.49it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 274.09it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:19<1:07:24, 139.47s/it, est. speed input: 1.52 toks/s, output: 20.47 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [03:49<51:31, 110.40s/it, est. speed input: 1.89 toks/s, output: 31.25 toks/s]  [A
+Processed prompts:  10%|█         | 3/30 [04:37<36:53, 81.98s/it, est. speed input: 2.29 toks/s, output: 44.18 toks/s] [A
+Processed prompts:  13%|█▎        | 4/30 [05:14<27:51, 64.31s/it, est. speed input: 2.63 toks/s, output: 57.06 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [06:15<26:15, 63.02s/it, est. speed input: 2.68 toks/s, output: 65.73 toks/s][A
+Processed prompts:  20%|██        | 6/30 [08:36<35:49, 89.57s/it, est. speed input: 2.39 toks/s, output: 65.50 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [11:26<44:23, 115.80s/it, est. speed input: 2.17 toks/s, output: 66.99 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [12:06<33:33, 91.53s/it, est. speed input: 2.44 toks/s, output: 81.00 toks/s] [A
+Processed prompts:  30%|███       | 9/30 [13:52<33:37, 96.09s/it, est. speed input: 2.34 toks/s, output: 88.31 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [19:30<56:57, 170.86s/it, est. speed input: 2.07 toks/s, output: 80.52 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [19:43<38:50, 122.63s/it, est. speed input: 2.19 toks/s, output: 96.62 toks/s][A
+Processed prompts:  40%|████      | 12/30 [20:23<29:15, 97.53s/it, est. speed input: 2.27 toks/s, output: 102.47 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [21:18<23:56, 84.49s/it, est. speed input: 2.30 toks/s, output: 105.69 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [25:09<34:21, 128.84s/it, est. speed input: 2.06 toks/s, output: 107.11 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [28:45<38:44, 154.99s/it, est. speed input: 1.93 toks/s, output: 111.30 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [30:22<32:05, 137.53s/it, est. speed input: 1.95 toks/s, output: 122.92 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [30:46<22:23, 103.34s/it, est. speed input: 2.00 toks/s, output: 127.22 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [32:25<20:27, 102.27s/it, est. speed input: 1.97 toks/s, output: 125.41 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [35:03<21:47, 118.86s/it, est. speed input: 1.89 toks/s, output: 125.38 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [35:36<15:31, 93.12s/it, est. speed input: 1.94 toks/s, output: 129.78 toks/s] [A
+Processed prompts:  70%|███████   | 21/30 [36:50<13:05, 87.31s/it, est. speed input: 1.94 toks/s, output: 140.28 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [37:49<10:30, 78.79s/it, est. speed input: 1.96 toks/s, output: 141.66 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [38:01<06:51, 58.84s/it, est. speed input: 2.02 toks/s, output: 145.45 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [39:09<06:08, 61.45s/it, est. speed input: 2.02 toks/s, output: 144.95 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [39:15<03:44, 44.93s/it, est. speed input: 2.07 toks/s, output: 147.32 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [40:22<03:26, 51.70s/it, est. speed input: 2.07 toks/s, output: 149.59 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [41:30<02:49, 56.37s/it, est. speed input: 2.07 toks/s, output: 149.67 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [50:52<06:56, 208.19s/it, est. speed input: 1.73 toks/s, output: 131.80 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [54:20<03:28, 208.08s/it, est. speed input: 1.67 toks/s, output: 133.45 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [55:36<00:00, 168.41s/it, est. speed input: 1.67 toks/s, output: 139.92 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [55:36<00:00, 168.41s/it, est. speed input: 1.67 toks/s, output: 139.92 toks/s][AProcessed prompts: 100%|██████████| 30/30 [55:36<00:00, 111.21s/it, est. speed input: 1.67 toks/s, output: 139.92 toks/s]
+Splits: 100%|██████████| 1/1 [55:36<00:00, 3336.61s/it]Splits: 100%|██████████| 1/1 [55:36<00:00, 3336.61s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 11.19ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime24 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][A
+Adding requests:   3%|▎         | 1/30 [00:00<00:10,  2.87it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 85.10it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:50<1:22:23, 170.45s/it, est. speed input: 1.24 toks/s, output: 19.69 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [02:57<34:43, 74.41s/it, est. speed input: 2.34 toks/s, output: 38.39 toks/s]   [A
+Processed prompts:  10%|█         | 3/30 [04:42<39:49, 88.50s/it, est. speed input: 2.14 toks/s, output: 42.32 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [05:40<33:02, 76.26s/it, est. speed input: 2.30 toks/s, output: 53.08 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [06:03<23:47, 57.08s/it, est. speed input: 2.76 toks/s, output: 67.53 toks/s][A
+Processed prompts:  20%|██        | 6/30 [11:50<1:02:18, 155.76s/it, est. speed input: 1.74 toks/s, output: 52.08 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [13:46<54:42, 142.71s/it, est. speed input: 2.07 toks/s, output: 62.32 toks/s]  [A
+Processed prompts:  27%|██▋       | 8/30 [19:13<1:13:52, 201.50s/it, est. speed input: 1.72 toks/s, output: 62.29 toks/s][A
+Processed prompts:  30%|███       | 9/30 [20:18<55:30, 158.60s/it, est. speed input: 1.78 toks/s, output: 76.63 toks/s]  [A
+Processed prompts:  33%|███▎      | 10/30 [21:04<41:16, 123.82s/it, est. speed input: 1.88 toks/s, output: 91.15 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [24:24<46:39, 147.33s/it, est. speed input: 1.74 toks/s, output: 89.37 toks/s][A
+Processed prompts:  40%|████      | 12/30 [28:24<52:36, 175.37s/it, est. speed input: 1.65 toks/s, output: 94.39 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [31:07<48:38, 171.66s/it, est. speed input: 1.63 toks/s, output: 103.70 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [32:31<38:43, 145.23s/it, est. speed input: 1.63 toks/s, output: 103.55 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [32:54<27:07, 108.48s/it, est. speed input: 1.70 toks/s, output: 110.20 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [33:03<18:16, 78.30s/it, est. speed input: 1.76 toks/s, output: 112.77 toks/s] [A
+Processed prompts:  57%|█████▋    | 17/30 [35:38<21:58, 101.42s/it, est. speed input: 1.72 toks/s, output: 119.91 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [38:37<24:57, 124.75s/it, est. speed input: 1.65 toks/s, output: 117.30 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [38:44<16:24, 89.49s/it, est. speed input: 1.71 toks/s, output: 122.71 toks/s] [A
+Processed prompts:  67%|██████▋   | 20/30 [41:30<18:44, 112.47s/it, est. speed input: 1.66 toks/s, output: 126.61 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [42:16<13:52, 92.53s/it, est. speed input: 1.69 toks/s, output: 129.39 toks/s] [A
+Processed prompts:  73%|███████▎  | 22/30 [44:34<14:09, 106.19s/it, est. speed input: 1.66 toks/s, output: 126.76 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [44:37<08:44, 74.99s/it, est. speed input: 1.70 toks/s, output: 128.72 toks/s] [A
+Processed prompts:  80%|████████  | 24/30 [45:01<05:58, 59.77s/it, est. speed input: 1.75 toks/s, output: 136.53 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [45:29<04:10, 50.19s/it, est. speed input: 1.78 toks/s, output: 138.87 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [46:16<03:17, 49.39s/it, est. speed input: 1.81 toks/s, output: 141.67 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [47:07<02:29, 49.94s/it, est. speed input: 1.82 toks/s, output: 142.63 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [52:53<04:37, 138.65s/it, est. speed input: 1.66 toks/s, output: 132.92 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [56:49<02:47, 167.95s/it, est. speed input: 1.59 toks/s, output: 133.17 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [58:46<00:00, 152.60s/it, est. speed input: 1.58 toks/s, output: 138.06 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [58:46<00:00, 152.60s/it, est. speed input: 1.58 toks/s, output: 138.06 toks/s][AProcessed prompts: 100%|██████████| 30/30 [58:46<00:00, 117.56s/it, est. speed input: 1.58 toks/s, output: 138.06 toks/s]
+Splits: 100%|██████████| 1/1 [58:47<00:00, 3527.37s/it]Splits: 100%|██████████| 1/1 [58:47<00:00, 3527.37s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 12.32ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime25 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 5847.08it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [01:50<53:21, 110.40s/it, est. speed input: 1.48 toks/s, output: 21.01 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [03:02<40:55, 87.71s/it, est. speed input: 1.87 toks/s, output: 32.09 toks/s] [A
+Processed prompts:  10%|█         | 3/30 [03:19<24:56, 55.42s/it, est. speed input: 2.66 toks/s, output: 48.40 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [05:49<40:12, 92.79s/it, est. speed input: 3.94 toks/s, output: 45.50 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [08:15<46:43, 112.15s/it, est. speed input: 3.22 toks/s, output: 49.71 toks/s][A
+Processed prompts:  20%|██        | 6/30 [08:27<31:09, 77.91s/it, est. speed input: 3.70 toks/s, output: 66.19 toks/s] [A
+Processed prompts:  23%|██▎       | 7/30 [10:47<37:37, 98.14s/it, est. speed input: 3.20 toks/s, output: 69.46 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [13:31<43:41, 119.15s/it, est. speed input: 2.97 toks/s, output: 73.02 toks/s][A
+Processed prompts:  30%|███       | 9/30 [17:15<53:15, 152.17s/it, est. speed input: 2.99 toks/s, output: 74.85 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [20:20<54:02, 162.12s/it, est. speed input: 2.83 toks/s, output: 81.28 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [23:51<56:05, 177.14s/it, est. speed input: 2.60 toks/s, output: 87.02 toks/s][A
+Processed prompts:  40%|████      | 12/30 [23:57<37:33, 125.20s/it, est. speed input: 2.85 toks/s, output: 104.32 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [30:19<57:28, 202.83s/it, est. speed input: 2.34 toks/s, output: 93.31 toks/s] [A
+Processed prompts:  47%|████▋     | 14/30 [30:49<40:08, 150.53s/it, est. speed input: 2.40 toks/s, output: 107.65 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [31:02<27:17, 109.19s/it, est. speed input: 2.55 toks/s, output: 124.47 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [36:14<39:44, 170.32s/it, est. speed input: 2.26 toks/s, output: 112.62 toks/s][A
+Processed prompts:  57%|█████▋    | 17/30 [36:39<27:25, 126.60s/it, est. speed input: 2.32 toks/s, output: 116.47 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [39:54<29:25, 147.11s/it, est. speed input: 2.22 toks/s, output: 116.18 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [46:23<40:16, 219.67s/it, est. speed input: 1.98 toks/s, output: 111.72 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [46:43<26:38, 159.83s/it, est. speed input: 2.03 toks/s, output: 118.97 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [47:44<19:30, 130.02s/it, est. speed input: 2.04 toks/s, output: 120.08 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [50:43<19:19, 144.95s/it, est. speed input: 1.98 toks/s, output: 122.99 toks/s][A
+Processed prompts:  77%|███████▋  | 23/30 [51:33<13:33, 116.24s/it, est. speed input: 1.99 toks/s, output: 127.22 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [51:50<08:39, 86.65s/it, est. speed input: 2.02 toks/s, output: 128.07 toks/s] [A
+Processed prompts:  83%|████████▎ | 25/30 [52:02<05:20, 64.05s/it, est. speed input: 2.05 toks/s, output: 129.63 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [53:41<04:58, 74.55s/it, est. speed input: 2.03 toks/s, output: 128.78 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [54:11<03:03, 61.16s/it, est. speed input: 2.05 toks/s, output: 131.86 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [55:27<02:11, 65.83s/it, est. speed input: 2.05 toks/s, output: 133.80 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [56:59<01:13, 73.67s/it, est. speed input: 2.04 toks/s, output: 139.78 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [1:07:10<00:00, 234.84s/it, est. speed input: 1.77 toks/s, output: 126.72 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [1:07:10<00:00, 234.84s/it, est. speed input: 1.77 toks/s, output: 126.72 toks/s][AProcessed prompts: 100%|██████████| 30/30 [1:07:10<00:00, 134.36s/it, est. speed input: 1.77 toks/s, output: 126.72 toks/s]
+Splits: 100%|██████████| 1/1 [1:07:11<00:00, 4031.06s/it]Splits: 100%|██████████| 1/1 [1:07:11<00:00, 4031.06s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 10.10ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime25 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 403.36it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [03:29<1:41:18, 209.59s/it, est. speed input: 0.78 toks/s, output: 18.84 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [04:58<1:04:45, 138.76s/it, est. speed input: 1.18 toks/s, output: 31.24 toks/s][A
+Processed prompts:  10%|█         | 3/30 [09:43<1:32:29, 205.53s/it, est. speed input: 1.18 toks/s, output: 33.64 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [10:39<1:03:29, 146.52s/it, est. speed input: 2.40 toks/s, output: 48.32 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [12:26<55:05, 132.21s/it, est. speed input: 2.30 toks/s, output: 59.01 toks/s]  [A
+Processed prompts:  20%|██        | 6/30 [12:46<37:39, 94.14s/it, est. speed input: 2.73 toks/s, output: 75.04 toks/s] [A
+Processed prompts:  23%|██▎       | 7/30 [16:20<51:00, 133.08s/it, est. speed input: 2.84 toks/s, output: 76.32 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [18:16<46:49, 127.71s/it, est. speed input: 2.79 toks/s, output: 83.92 toks/s][A
+Processed prompts:  30%|███       | 9/30 [19:04<36:02, 102.96s/it, est. speed input: 2.98 toks/s, output: 97.92 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [19:16<24:52, 74.61s/it, est. speed input: 3.14 toks/s, output: 104.78 toks/s][A
+Processed prompts:  37%|███▋      | 11/30 [22:44<36:38, 115.70s/it, est. speed input: 2.80 toks/s, output: 106.28 toks/s][A
+Processed prompts:  40%|████      | 12/30 [25:08<37:17, 124.30s/it, est. speed input: 2.75 toks/s, output: 113.61 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [28:02<39:27, 139.28s/it, est. speed input: 2.57 toks/s, output: 108.81 toks/s][A
+Processed prompts:  47%|████▋     | 14/30 [28:37<28:46, 107.90s/it, est. speed input: 2.61 toks/s, output: 112.07 toks/s][A
+Processed prompts:  50%|█████     | 15/30 [31:16<30:45, 123.04s/it, est. speed input: 2.48 toks/s, output: 115.79 toks/s][A
+Processed prompts:  53%|█████▎    | 16/30 [31:21<20:26, 87.60s/it, est. speed input: 2.62 toks/s, output: 132.88 toks/s] [A
+Processed prompts:  57%|█████▋    | 17/30 [32:14<16:44, 77.29s/it, est. speed input: 2.64 toks/s, output: 131.93 toks/s][A
+Processed prompts:  60%|██████    | 18/30 [32:18<11:03, 55.28s/it, est. speed input: 2.69 toks/s, output: 133.60 toks/s][A
+Processed prompts:  63%|██████▎   | 19/30 [34:48<15:19, 83.60s/it, est. speed input: 2.58 toks/s, output: 128.60 toks/s][A
+Processed prompts:  67%|██████▋   | 20/30 [36:07<13:43, 82.32s/it, est. speed input: 2.56 toks/s, output: 128.07 toks/s][A
+Processed prompts:  70%|███████   | 21/30 [39:20<17:19, 115.51s/it, est. speed input: 2.42 toks/s, output: 124.93 toks/s][A
+Processed prompts:  73%|███████▎  | 22/30 [39:46<11:49, 88.69s/it, est. speed input: 2.46 toks/s, output: 129.21 toks/s] [A
+Processed prompts:  77%|███████▋  | 23/30 [40:40<09:07, 78.18s/it, est. speed input: 2.47 toks/s, output: 131.20 toks/s][A
+Processed prompts:  80%|████████  | 24/30 [41:08<06:18, 63.12s/it, est. speed input: 2.49 toks/s, output: 131.73 toks/s][A
+Processed prompts:  83%|████████▎ | 25/30 [41:19<03:58, 47.62s/it, est. speed input: 2.54 toks/s, output: 137.10 toks/s][A
+Processed prompts:  87%|████████▋ | 26/30 [43:30<04:50, 72.64s/it, est. speed input: 2.49 toks/s, output: 142.77 toks/s][A
+Processed prompts:  90%|█████████ | 27/30 [45:15<04:06, 82.33s/it, est. speed input: 2.47 toks/s, output: 149.32 toks/s][A
+Processed prompts:  93%|█████████▎| 28/30 [50:56<05:19, 159.94s/it, est. speed input: 2.24 toks/s, output: 139.80 toks/s][A
+Processed prompts:  97%|█████████▋| 29/30 [56:33<03:33, 213.02s/it, est. speed input: 2.06 toks/s, output: 133.70 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [59:50<00:00, 208.25s/it, est. speed input: 1.99 toks/s, output: 135.48 toks/s][A
+Processed prompts: 100%|██████████| 30/30 [59:50<00:00, 208.25s/it, est. speed input: 1.99 toks/s, output: 135.48 toks/s][AProcessed prompts: 100%|██████████| 30/30 [59:50<00:00, 119.69s/it, est. speed input: 1.99 toks/s, output: 135.48 toks/s]
+Splits: 100%|██████████| 1/1 [59:51<00:00, 3591.09s/it]Splits: 100%|██████████| 1/1 [59:51<00:00, 3591.09s/it]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 23.43ba/s]
+If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`.
+Careful, the task custom|aime25 is using evaluation data to build the few shot examples.
+You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring.
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Adding requests:   0%|          | 0/30 [00:00<?, ?it/s][A
+Adding requests:   3%|▎         | 1/30 [00:00<00:04,  7.20it/s][AAdding requests: 100%|██████████| 30/30 [00:00<00:00, 209.49it/s]
+
+Processed prompts:   0%|          | 0/30 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   3%|▎         | 1/30 [02:18<1:07:06, 138.86s/it, est. speed input: 1.17 toks/s, output: 20.19 toks/s][A
+Processed prompts:   7%|▋         | 2/30 [02:24<28:14, 60.51s/it, est. speed input: 2.36 toks/s, output: 39.45 toks/s]   [A
+Processed prompts:  10%|█         | 3/30 [02:48<19:46, 43.95s/it, est. speed input: 2.67 toks/s, output: 53.33 toks/s][A
+Processed prompts:  13%|█▎        | 4/30 [07:42<1:01:51, 142.74s/it, est. speed input: 2.80 toks/s, output: 37.07 toks/s][A
+Processed prompts:  17%|█▋        | 5/30 [07:46<38:30, 92.43s/it, est. speed input: 3.19 toks/s, output: 54.36 toks/s]   [A
+Processed prompts:  20%|██        | 6/30 [07:59<26:14, 65.60s/it, est. speed input: 3.56 toks/s, output: 68.88 toks/s][A
+Processed prompts:  23%|██▎       | 7/30 [17:47<1:30:38, 236.46s/it, est. speed input: 2.24 toks/s, output: 48.61 toks/s][A
+Processed prompts:  27%|██▋       | 8/30 [20:44<1:19:40, 217.31s/it, est. speed input: 2.20 toks/s, output: 59.44 toks/s][A
+Processed prompts:  30%|███       | 9/30 [22:46<1:05:36, 187.46s/it, est. speed input: 2.27 toks/s, output: 71.84 toks/s][A
+Processed prompts:  33%|███▎      | 10/30 [24:53<56:17, 168.87s/it, est. speed input: 2.29 toks/s, output: 83.39 toks/s] [A
+Processed prompts:  37%|███▋      | 11/30 [26:34<46:53, 148.06s/it, est. speed input: 2.27 toks/s, output: 89.59 toks/s][A
+Processed prompts:  40%|████      | 12/30 [28:31<41:38, 138.78s/it, est. speed input: 2.28 toks/s, output: 91.99 toks/s][A
+Processed prompts:  43%|████▎     | 13/30 [29:06<30:24, 107.32s/it, est. speed input: 2.39 toks/s, output: 105.39 toks/s][A
