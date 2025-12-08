@@ -1710,3 +1710,15 @@ Results will be saved
 EvaluationTracker initialized with output directory
 PipelineParameters set
 Pipeline initialized
+|         Task         |Version|     Metric     |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|---|-----:|
+|all                   |       |extractive_match|0.6444|±  |0.0184|
+|custom:olympiadbench:0|      1|extractive_match|0.6444|±  |0.0184|
+
+Finished run for all seeds
+
+---> Starting run: seed=2 (3/3)
+Results will be saved
+EvaluationTracker initialized with output directory
+PipelineParameters set
+Pipeline initialized
