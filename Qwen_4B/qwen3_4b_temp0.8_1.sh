@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=qwen3_4b_temp0.8_1
+#SBATCH --job-name=qwen3_4b_temp0.8_2
 #SBATCH --account=bftg-delta-gpu
 #SBATCH --partition=gpuA40x4
 #SBATCH -t 48:00:00
@@ -7,8 +7,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH -c 8
 #SBATCH --gpus-per-task=1
-#SBATCH -o /projects/bdrx/azhang14/SoberReasoningPlus/results/logs/qwen3_4b_temp0.8_1_%j.out  
-#SBATCH -e /projects/bdrx/azhang14/SoberReasoningPlus/results/logs/qwen3_4b_temp0.8_1_%j.err 
+#SBATCH -o /projects/bdrx/azhang14/SoberReasoningPlus/results/logs/qwen3_4b_temp0.8_2_%j.out  
+#SBATCH -e /projects/bdrx/azhang14/SoberReasoningPlus/results/logs/qwen3_4b_temp0.8_2_%j.err 
 
 export HF_HOME="/projects/bdrx/azhang14/huggingface_cache"
 echo "HF_HOME is set to $HF_HOME"
@@ -52,9 +52,9 @@ TASK_NUM_SEEDS_CONFIG=(
     "custom|aime24|0|0:16"
     "custom|aime25|0|0:16"
     "custom|amc23|0|0:16"
-    # "custom|math_500|0|0:3"
-    # "custom|minerva|0|0:3"
-    # "custom|olympiadbench|0|0:3"
+    "custom|math_500|0|0:3"
+    "custom|minerva|0|0:3"
+    "custom|olympiadbench|0|0:3"
 )
 
 # The outer loops for model configuration remain the same
