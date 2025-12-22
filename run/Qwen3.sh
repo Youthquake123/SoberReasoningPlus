@@ -10,7 +10,10 @@ export MATH_QUERY_TEMPLATE="Solve the following math problem efficiently and cle
 "
 
 MODELS=(
+    deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+    Qwen/Qwen3-1.7B
     Qwen/Qwen3-8B
+    Qwen/Qwen3-14B
 )
 
 MAX_NUM_SEQUENCES=(128)
@@ -19,7 +22,7 @@ DTYPES=("bfloat16")
 MAX_MODEL_LENGTHS=(34816)
 MAX_TOKENS_LIST=(32768)
 
-TEMPS=(0)
+TEMPS=(0 0.2 0.4 0.6 0.8 1.0)
 TOP_PS=(0.7 0.8 0.9 0.95 1.0)
 # Define how many seeds to run for each task
 # Format: "task_string:num_seeds"

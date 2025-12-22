@@ -34,7 +34,7 @@ def parse_args():
 
     # Model Configuration Parameters
     parser.add_argument("--max_model_length", type=int, default=None)
-    parser.add_argument("--gpu_memory_utilization", type=float, default=0.95)
+    parser.add_argument("--gpu_memory_utilization", type=float, default=0.5)
     parser.add_argument("--dtype", type=str, default="bfloat16")
     parser.add_argument("--cot_prompt", type=str, default=None)
     parser.add_argument("--system_prompt", type=str, default=None)
